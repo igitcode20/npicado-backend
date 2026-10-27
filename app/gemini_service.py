@@ -19,9 +19,9 @@ def query_gemini_with_context(prompt: str) -> str:
         f"Responde de manera clara, estructurada y detallada."
     )
     
-    # 3. Generar respuesta con la API (Modelo actualizado a gemini-2.0-flash / gemini-3.8-flash)
+    # 3. Generar respuesta con el modelo oficial requerido
     response = client.models.generate_content(
-        model="gemini-2.0-flash",
+        model="gemini-3.8-flash",
         contents=full_prompt,
     )
     return response.text
