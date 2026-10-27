@@ -1,0 +1,488 @@
+LOTE 14 — FÍSICA CLÁSICA, MECÁNICA, MOVIMIENTO, FUERZAS, ENERGÍA Y TERMODINÁMICA
+Versión: 1.0
+Idioma: Español
+Propósito: Base de conocimiento educativa para explicar conceptos, resolver ejercicios y aplicar principios fundamentales de la física clásica con unidades, supuestos y comprobaciones.
+
+======================================================================
+0. ALCANCE Y REGLAS GENERALES
+======================================================================
+
+Este lote cubre magnitudes físicas, unidades, vectores, cinemática, dinámica, trabajo y energía, cantidad de movimiento, movimiento circular, gravitación, fluidos, oscilaciones, ondas, temperatura, calor y termodinámica.
+
+Reglas:
+1. Identificar los datos conocidos, la incógnita y las condiciones del problema.
+2. Convertir todas las magnitudes a un sistema de unidades coherente, normalmente el Sistema Internacional (SI).
+3. Distinguir magnitudes escalares de vectoriales.
+4. Dibujar diagramas cuando ayuden, especialmente diagramas de cuerpo libre.
+5. Especificar supuestos como resistencia del aire despreciable, cuerda ideal o superficie sin fricción.
+6. Mostrar la fórmula, sustituir valores con unidades y comprobar el resultado.
+7. No confundir masa con peso, calor con temperatura ni energía con potencia.
+8. Redondear al final e indicar la precisión.
+9. Reconocer los límites de los modelos clásicos: a velocidades cercanas a la luz o escalas atómicas pueden requerirse teorías más avanzadas.
+10. En aplicaciones de ingeniería o seguridad, verificar el diseño con normas y especialistas.
+
+======================================================================
+1. MAGNITUDES, UNIDADES Y MEDICIÓN
+======================================================================
+
+1.1 Magnitudes físicas
+Una magnitud física es una propiedad que puede medirse y expresarse mediante un número y una unidad.
+- Escalares: masa, tiempo, temperatura, energía y distancia.
+- Vectoriales: desplazamiento, velocidad, aceleración y fuerza.
+
+1.2 Unidades básicas del SI
+- Longitud: metro (m).
+- Masa: kilogramo (kg).
+- Tiempo: segundo (s).
+- Corriente eléctrica: amperio (A).
+- Temperatura termodinámica: kelvin (K).
+- Cantidad de sustancia: mol (mol).
+- Intensidad luminosa: candela (cd).
+
+Unidades derivadas:
+- Velocidad: m/s.
+- Aceleración: m/s².
+- Fuerza: newton (N) = kg·m/s².
+- Energía y trabajo: joule (J) = N·m.
+- Potencia: watt (W) = J/s.
+- Presión: pascal (Pa) = N/m².
+- Frecuencia: hertz (Hz) = s⁻¹.
+
+1.3 Conversión de unidades
+Multiplicar por un factor de conversión equivalente a 1.
+Ejemplo: 72 km/h × (1000 m/1 km) × (1 h/3600 s) = 20 m/s.
+
+1.4 Análisis dimensional
+Los dos lados de una ecuación física deben tener las mismas dimensiones.
+Ejemplo: desplazamiento = velocidad × tiempo; m = (m/s)·s.
+El análisis dimensional ayuda a detectar errores, pero no demuestra por sí solo que una fórmula sea correcta.
+
+1.5 Notación científica y cifras significativas
+Expresar números muy grandes o pequeños como a × 10ⁿ, donde 1 ≤ |a| < 10.
+Evitar reportar precisión mayor que la permitida por las mediciones o el método.
+
+======================================================================
+2. VECTORES
+======================================================================
+
+2.1 Componentes
+En dos dimensiones, un vector A puede expresarse como A = (Aₓ, Aᵧ).
+Su magnitud es |A| = √(Aₓ² + Aᵧ²).
+Si el ángulo θ se mide desde el eje x positivo:
+Aₓ = A cos θ; Aᵧ = A sin θ.
+
+2.2 Suma de vectores
+Sumar componentes correspondientes:
+Rₓ = Aₓ + Bₓ; Rᵧ = Aᵧ + Bᵧ.
+Magnitud resultante: |R| = √(Rₓ² + Rᵧ²).
+El ángulo debe calcularse teniendo en cuenta el cuadrante correcto.
+
+2.3 Producto escalar
+A·B = |A||B|cos θ = AₓBₓ + AᵧBᵧ en dos dimensiones.
+Se utiliza, por ejemplo, en el trabajo realizado por una fuerza constante.
+
+2.4 Producto vectorial
+La magnitud es |A×B| = |A||B|sin θ; la dirección es perpendicular al plano de A y B según la regla de la mano derecha.
+Se utiliza en torque y momento angular.
+
+======================================================================
+3. CINEMÁTICA: DESCRIPCIÓN DEL MOVIMIENTO
+======================================================================
+
+3.1 Posición, distancia y desplazamiento
+La posición indica dónde está un objeto respecto de un sistema de referencia.
+La distancia recorrida es escalar y no negativa.
+El desplazamiento es vectorial: posición final menos posición inicial.
+
+3.2 Velocidad y rapidez
+Velocidad media: v_media = Δx/Δt.
+Rapidez media = distancia total/tiempo total.
+Velocidad instantánea es la derivada de la posición respecto del tiempo: v = dx/dt.
+
+3.3 Aceleración
+Aceleración media: a_media = Δv/Δt.
+Aceleración instantánea: a = dv/dt.
+Puede existir aceleración cuando cambia la magnitud de la velocidad, su dirección o ambas.
+
+3.4 Movimiento rectilíneo uniforme (MRU)
+Para velocidad constante:
+x = x₀ + vt.
+La aceleración es cero.
+
+Ejemplo: un objeto viaja a 5 m/s durante 8 s. Si parte de x₀ = 0, recorre x = 5 × 8 = 40 m.
+
+3.5 Movimiento con aceleración constante
+Ecuaciones para aceleración constante en una dimensión:
+- v = v₀ + at.
+- x = x₀ + v₀t + (1/2)at².
+- v² = v₀² + 2a(x − x₀).
+- Desplazamiento medio: Δx = [(v₀ + v)/2]t.
+
+Estas fórmulas no deben aplicarse directamente cuando la aceleración varía con el tiempo sin justificar una aproximación.
+
+Ejemplo: desde reposo, un objeto acelera a 2 m/s² durante 4 s.
+v = 0 + 2(4) = 8 m/s.
+Δx = (1/2)(2)(4²) = 16 m.
+
+3.6 Caída libre
+Cerca de la superficie terrestre, si se desprecia la resistencia del aire, la aceleración gravitatoria es aproximadamente g = 9.81 m/s² hacia abajo.
+Elegir un eje y mantener coherente el signo de g.
+La masa no cambia la aceleración de caída ideal, aunque la resistencia del aire puede producir diferencias reales.
+
+3.7 Movimiento de proyectiles
+Si se desprecia el aire, el movimiento horizontal tiene velocidad constante y el vertical tiene aceleración −g si arriba es positivo.
+- x = x₀ + v₀ cos(θ)t.
+- y = y₀ + v₀ sin(θ)t − (1/2)gt².
+El tiempo de vuelo y el alcance dependen de la altura inicial y final. Las fórmulas simplificadas para alcance igualan alturas inicial y final.
+
+3.8 Movimiento circular
+Velocidad angular: ω = Δθ/Δt para velocidad angular media.
+En movimiento circular uniforme:
+- v = ωr.
+- a_c = v²/r = ω²r, dirigida hacia el centro.
+- Periodo T = tiempo por vuelta.
+- Frecuencia f = 1/T.
+- ω = 2πf = 2π/T.
+
+======================================================================
+4. LEYES DE NEWTON Y FUERZAS
+======================================================================
+
+4.1 Primera ley
+Si la fuerza neta sobre un cuerpo es cero, permanece en reposo o en movimiento rectilíneo uniforme. Esto define un sistema de referencia inercial.
+
+4.2 Segunda ley
+La fuerza neta es igual a la masa por la aceleración:
+ΣF = ma.
+La fuerza neta, no una fuerza aislada, determina la aceleración.
+
+4.3 Tercera ley
+Cuando un cuerpo A ejerce una fuerza sobre B, B ejerce sobre A una fuerza igual en magnitud y opuesta en dirección. Las fuerzas actúan sobre cuerpos distintos y no se cancelan en el diagrama de un solo cuerpo.
+
+4.4 Peso y masa
+Masa: cantidad asociada a la inercia, medida en kg.
+Peso cerca de la Tierra: W = mg, en newtons.
+Ejemplo: para m = 10 kg, W ≈ 10 × 9.81 = 98.1 N.
+
+4.5 Diagrama de cuerpo libre
+Representar el cuerpo aislado y todas las fuerzas externas: peso, normal, tensión, fricción, fuerzas aplicadas y otras relevantes.
+Elegir ejes convenientes y aplicar ΣFₓ = maₓ y ΣFᵧ = maᵧ.
+
+4.6 Fuerza normal
+La normal es la fuerza de contacto perpendicular a una superficie. No siempre es igual al peso; depende de la aceleración y de otras fuerzas y geometrías.
+
+4.7 Tensión
+La tensión actúa a lo largo de una cuerda ideal. En una cuerda sin masa y poleas ideales, la tensión puede ser igual en los segmentos conectados apropiadamente; en sistemas reales puede variar.
+
+4.8 Fricción
+Fricción estática: 0 ≤ fₛ ≤ μₛN.
+Fricción cinética aproximada: fₖ = μₖN.
+N es la normal; μₛ y μₖ son coeficientes adimensionales.
+La fricción estática se ajusta hasta un máximo; no siempre vale μₛN.
+
+4.9 Plano inclinado
+Para un plano con ángulo θ, si no hay otras fuerzas perpendiculares:
+Componente del peso paralela al plano: mg sin θ.
+Componente perpendicular: mg cos θ.
+En el caso simple sin aceleración perpendicular, N = mg cos θ.
+
+4.10 Fuerza elástica
+Ley de Hooke para un resorte ideal dentro de su rango elástico:
+F = −kx.
+k es la constante del resorte y x su deformación respecto del equilibrio. El signo negativo indica que la fuerza apunta hacia el equilibrio.
+
+======================================================================
+5. TRABAJO, ENERGÍA Y POTENCIA
+======================================================================
+
+5.1 Trabajo
+Para una fuerza constante:
+W = Fd cos θ,
+donde d es el desplazamiento y θ el ángulo entre fuerza y desplazamiento.
+Unidad: joule (J).
+Si la fuerza cambia, el trabajo se calcula mediante una integral de línea.
+
+5.2 Energía cinética
+K = (1/2)mv².
+El teorema trabajo-energía establece que el trabajo neto es igual al cambio de energía cinética: W_neto = ΔK.
+
+5.3 Energía potencial gravitatoria
+Cerca de la superficie terrestre:
+U_g = mgh, con un nivel de referencia elegido.
+El cambio de energía potencial es ΔU_g = mgΔh.
+
+5.4 Energía potencial elástica
+Para un resorte ideal:
+U_e = (1/2)kx².
+
+5.5 Conservación de la energía mecánica
+E_m = K + U.
+Si solo actúan fuerzas conservativas y no hay disipación, E_m permanece constante.
+Con fricción u otras fuerzas no conservativas, la energía mecánica puede transformarse en energía térmica u otras formas. La energía total se conserva en un sistema aislado.
+
+5.6 Potencia
+Potencia media: P = W/Δt.
+Potencia instantánea: P = dW/dt; para fuerza y velocidad, P = F·v.
+Unidad: watt (W).
+
+Ejemplo: elevar una masa de 5 kg a 2 m, sin considerar pérdidas:
+ΔU = mgh ≈ 5 × 9.81 × 2 = 98.1 J.
+
+======================================================================
+6. CANTIDAD DE MOVIMIENTO E IMPULSO
+======================================================================
+
+6.1 Cantidad de movimiento
+p = mv. Es un vector.
+Unidad: kg·m/s.
+
+6.2 Impulso
+Para fuerza constante: J = FΔt.
+En general, el impulso es la integral de la fuerza respecto del tiempo.
+Teorema impulso-momento: J = Δp.
+
+6.3 Conservación del momento
+Si la fuerza externa neta impulsiva sobre un sistema es despreciable, la cantidad de movimiento total se conserva.
+
+6.4 Colisiones
+- Elástica: se conserva el momento total y la energía cinética total.
+- Inelástica: se conserva el momento total si el sistema está aislado, pero parte de la energía cinética se transforma en otras formas.
+- Perfectamente inelástica: los cuerpos quedan unidos tras la colisión.
+No afirmar que la energía cinética se conserva en todas las colisiones.
+
+======================================================================
+7. GRAVITACIÓN
+======================================================================
+
+7.1 Ley de gravitación universal
+F = Gm₁m₂/r², donde r es la distancia entre los centros de masa y G ≈ 6.674 × 10⁻¹¹ N·m²/kg².
+La fuerza es atractiva para masas positivas en el modelo newtoniano.
+
+7.2 Campo gravitatorio y peso
+Campo gravitatorio de una masa esféricamente simétrica fuera de ella: g = GM/r².
+Peso aproximado cerca de la superficie: W = mg.
+
+7.3 Energía potencial gravitatoria general
+U = −GMm/r, tomando cero en el infinito para el modelo newtoniano de masas puntuales o esféricamente simétricas.
+
+7.4 Órbitas circulares ideales
+Para una órbita circular de radio r alrededor de masa M:
+v = √(GM/r).
+Esta relación supone gravedad dominante y órbita circular; no es una fórmula universal para cualquier trayectoria.
+
+======================================================================
+8. FLUIDOS Y PRESIÓN
+======================================================================
+
+8.1 Densidad
+ρ = m/V. Unidad SI: kg/m³.
+
+8.2 Presión
+P = F_perpendicular/A. Unidad: pascal (Pa).
+La presión depende de la fuerza normal distribuida sobre un área.
+
+8.3 Presión hidrostática
+En un fluido de densidad aproximadamente constante:
+P = P₀ + ρgh, donde h es la profundidad medida hacia abajo desde el punto de referencia.
+La presión absoluta y la presión manométrica no son lo mismo.
+
+8.4 Principio de Pascal
+Un cambio de presión aplicado a un fluido confinado se transmite a todo el fluido en equilibrio, según las condiciones del modelo.
+En una prensa hidráulica ideal: F₁/A₁ = F₂/A₂.
+
+8.5 Principio de Arquímedes
+El empuje es igual al peso del fluido desplazado:
+E = ρ_fluido g V_desplazado.
+La flotación depende del empuje, el peso y las condiciones de equilibrio.
+
+8.6 Caudal
+Caudal volumétrico: Q = ΔV/Δt.
+Para flujo uniforme en una sección: Q = Av.
+En flujo incompresible estacionario ideal, A₁v₁ = A₂v₂.
+
+8.7 Bernoulli
+Para flujo estacionario, incompresible y no viscoso a lo largo de una línea de corriente:
+P + (1/2)ρv² + ρgh = constante.
+No aplicar sin revisar sus hipótesis ni ignorar pérdidas por viscosidad en sistemas reales.
+
+======================================================================
+9. OSCILACIONES Y ONDAS
+======================================================================
+
+9.1 Movimiento armónico simple
+x(t) = A cos(ωt + φ), para una elección de fase.
+Velocidad máxima: v_max = Aω.
+Aceleración: a = −ω²x.
+Periodo: T = 2π/ω.
+
+9.2 Masa-resorte ideal
+ω = √(k/m).
+T = 2π√(m/k).
+Estas fórmulas suponen un resorte ideal y oscilaciones dentro del régimen lineal.
+
+9.3 Péndulo simple
+Para oscilaciones pequeñas:
+T ≈ 2π√(L/g).
+Para ángulos grandes, esta aproximación pierde precisión.
+
+9.4 Ondas
+Una onda transporta energía y puede transportar momento sin que el medio se desplace globalmente con la onda.
+Relación básica: v = fλ, donde v es rapidez de propagación, f frecuencia y λ longitud de onda.
+
+9.5 Sonido
+El sonido es una onda mecánica que necesita un medio material. Su rapidez depende del medio y de las condiciones.
+Frecuencia se relaciona con el tono; amplitud e intensidad se relacionan con la energía transportada, aunque la percepción depende de varios factores.
+
+======================================================================
+10. TEMPERATURA, CALOR Y CAMBIOS DE ESTADO
+======================================================================
+
+10.1 Temperatura
+La temperatura caracteriza el estado térmico y se mide en kelvin (K) en el SI.
+Conversión:
+T(K) = T(°C) + 273.15.
+T(°F) = (9/5)T(°C) + 32.
+T(°C) = (5/9)[T(°F) − 32].
+
+10.2 Calor
+El calor es energía transferida debido a una diferencia de temperatura; no es una sustancia almacenada.
+Para una variación de temperatura sin cambio de fase:
+Q = mcΔT,
+donde c es el calor específico.
+
+10.3 Calor latente
+Durante un cambio de fase idealizado:
+Q = mL,
+donde L es el calor latente específico. La temperatura puede permanecer aproximadamente constante durante el cambio de fase de una sustancia pura a presión constante.
+
+10.4 Equilibrio térmico
+Si dos sistemas aislados entre sí del exterior intercambian calor, el calor perdido por uno puede igualar el ganado por el otro, siempre que no haya otros cambios de energía relevantes.
+
+10.5 Transferencia de calor
+- Conducción: transferencia por interacción microscópica en un material.
+- Convección: transferencia asociada al movimiento de un fluido.
+- Radiación: transferencia por ondas electromagnéticas; no necesita un medio material.
+
+======================================================================
+11. TERMODINÁMICA
+======================================================================
+
+11.1 Sistema y entorno
+Sistema: parte del universo que se estudia.
+Entorno: todo lo que interactúa con el sistema.
+Un sistema puede intercambiar energía y, según el tipo, materia con el entorno.
+
+11.2 Primera ley
+Una convención común es:
+ΔU = Q − W,
+donde Q es calor que entra al sistema y W es trabajo realizado por el sistema.
+Si se usa otra convención de signos, declarar la convención y mantenerla de forma coherente.
+La primera ley expresa conservación de la energía.
+
+11.3 Trabajo de un gas
+En un proceso cuasiestático:
+W = ∫ P dV.
+Si la presión es constante: W = PΔV, bajo la convención de trabajo realizado por el gas.
+
+11.4 Gas ideal
+PV = nRT.
+P: presión absoluta; V: volumen; n: moles; R: constante universal de los gases; T: temperatura absoluta.
+Usar unidades compatibles con el valor de R elegido.
+
+11.5 Procesos ideales
+- Isocórico: volumen constante; el trabajo de frontera P dV es cero.
+- Isobárico: presión constante.
+- Isotérmico: temperatura constante.
+- Adiabático: no hay transferencia de calor, Q = 0.
+Estas etiquetas describen condiciones del proceso y no deben confundirse entre sí.
+
+11.6 Segunda ley y entropía
+La segunda ley establece restricciones sobre la dirección de los procesos naturales. La entropía total de un sistema aislado no disminuye en procesos espontáneos.
+No todo el calor puede convertirse en trabajo en un ciclo térmico real.
+
+11.7 Máquinas térmicas
+Eficiencia térmica:
+η = W_salida/Q_entrada = 1 − Q_salida/Q_entrada,
+para una máquina cíclica bajo la convención habitual.
+La eficiencia real no supera la eficiencia de Carnot entre dos reservorios ideales:
+η_Carnot = 1 − T_fría/T_caliente,
+con temperaturas absolutas en kelvin.
+
+11.8 Refrigeradores y bombas de calor
+Coeficiente de desempeño del refrigerador:
+COP_R = Q_fría/W_entrada.
+Para una bomba de calor:
+COP_HP = Q_caliente/W_entrada.
+Definir claramente el calor útil y el trabajo de entrada.
+
+======================================================================
+12. MÉTODO GENERAL PARA RESOLVER EJERCICIOS DE FÍSICA
+======================================================================
+
+Paso 1: Leer el enunciado y precisar qué se busca.
+Paso 2: Anotar los datos con unidades y convertirlos al SI.
+Paso 3: Dibujar el sistema, trayectoria o diagrama de cuerpo libre.
+Paso 4: Definir ejes, sentidos positivos y convenciones de signos.
+Paso 5: Elegir las leyes físicas aplicables y declarar supuestos.
+Paso 6: Escribir primero las ecuaciones simbólicas.
+Paso 7: Despejar la incógnita antes de sustituir valores, cuando sea práctico.
+Paso 8: Sustituir valores con unidades y calcular.
+Paso 9: Verificar dimensiones, signo y orden de magnitud.
+Paso 10: Explicar qué significa el resultado en el contexto del problema.
+
+======================================================================
+13. ERRORES FRECUENTES
+======================================================================
+
+- Confundir distancia con desplazamiento.
+- Confundir rapidez con velocidad.
+- Usar ecuaciones de aceleración constante cuando la aceleración varía.
+- Confundir masa (kg) con peso (N).
+- Dibujar fuerzas de acción y reacción sobre el mismo cuerpo.
+- Suponer que la normal siempre es igual al peso.
+- Suponer que la fricción estática siempre vale μₛN.
+- Usar grados en una fórmula o calculadora configurada en radianes, o viceversa.
+- Aplicar conservación de energía mecánica cuando hay disipación sin contabilizarla.
+- Afirmar que la energía cinética se conserva en toda colisión.
+- Usar presión absoluta donde se requiere presión manométrica.
+- Aplicar Bernoulli a cualquier flujo sin revisar las hipótesis.
+- Confundir calor con temperatura.
+- Usar grados Celsius en ecuaciones que requieren temperatura absoluta.
+- Mezclar convenciones de signos en la primera ley de la termodinámica.
+- Redondear demasiado pronto u omitir unidades.
+
+======================================================================
+14. GLOSARIO
+======================================================================
+
+Aceleración: variación de la velocidad respecto del tiempo.
+Calor: energía transferida debido a una diferencia de temperatura.
+Cinemática: descripción del movimiento sin estudiar sus causas.
+Dinámica: estudio del movimiento y las fuerzas que lo producen.
+Energía cinética: energía asociada al movimiento.
+Energía potencial: energía asociada a posición o configuración.
+Fuerza: interacción capaz de cambiar el movimiento o deformar un cuerpo.
+Frecuencia: número de ciclos por unidad de tiempo.
+Masa: medida de la inercia de un cuerpo.
+Presión: fuerza perpendicular por unidad de área.
+Potencia: tasa de transferencia de energía o realización de trabajo.
+Temperatura: magnitud que caracteriza el estado térmico.
+Termodinámica: estudio del calor, trabajo, temperatura y energía interna.
+Trabajo: transferencia de energía asociada a una fuerza y un desplazamiento.
+Vector: magnitud con módulo, dirección y sentido.
+
+======================================================================
+15. RECOMENDACIONES PARA UNA IA QUE USE ESTE LOTE
+======================================================================
+
+- Adaptar la explicación al nivel de la persona y definir los símbolos.
+- Mostrar fórmulas, sustitución numérica, unidades y comprobación.
+- Separar datos dados de supuestos añadidos.
+- Si falta información, indicar qué dato se necesita en vez de inventarlo.
+- Aclarar la convención de signos usada.
+- Diferenciar un modelo ideal de una situación real.
+- No afirmar precisión experimental que los datos no permiten.
+- En contextos de construcción, transporte, electricidad, maquinaria o seguridad, no presentar una estimación educativa como certificación de diseño; recomendar revisión profesional y normas aplicables.
+- Cuando una respuesta dependa de valores locales, propiedades de materiales o datos actualizados, verificar fuentes fiables.
+
+FIN DEL LOTE 14

@@ -1,0 +1,444 @@
+LOTE 09 — ENERGÍAS RENOVABLES Y EFICIENCIA ENERGÉTICA
+Biblioteca técnica de conocimientos para IA
+Versión: 1.0
+Idioma: Español
+Enfoque: fundamentos, fórmulas introductorias, planificación, mantenimiento y fuentes de consulta.
+Advertencia: documento educativo. No sustituye el diseño profesional, códigos eléctricos vigentes, permisos, estudios del sitio ni instrucciones del fabricante.
+
+======================================================================
+0. CÓMO UTILIZAR ESTE LOTE
+======================================================================
+
+Este documento apoya el aprendizaje y la consulta sobre energía solar fotovoltaica, baterías, inversores, energía eólica, eficiencia energética y auditorías.
+
+Reglas para la IA:
+1. Aclarar el objetivo: conexión a red, sistema aislado, respaldo, bombeo, autoconsumo o evaluación académica.
+2. Solicitar ubicación, recurso energético, cargas, perfil horario, autonomía requerida y restricciones.
+3. Mostrar supuestos, unidades, márgenes y limitaciones de los cálculos.
+4. No inventar irradiación, horas solares pico, tarifas eléctricas, precios, incentivos o requisitos de interconexión.
+5. Usar datos meteorológicos, fichas de fabricantes y normativa vigente de la ubicación real.
+6. Distinguir estimaciones preliminares de diseños aptos para instalación.
+7. Recomendar revisión por personal calificado para sistemas eléctricos, conexión a red, baterías de alta energía, cubiertas y torres.
+
+======================================================================
+1. CONCEPTOS FUNDAMENTALES DE ENERGÍA
+======================================================================
+
+1.1 Potencia y energía
+- Potencia (W o kW): ritmo de producción o consumo de energía.
+- Energía (Wh o kWh): potencia acumulada durante un periodo.
+- Energía = potencia × tiempo cuando la potencia es constante.
+- Demanda máxima: mayor potencia media registrada durante el intervalo de medición establecido.
+- Factor de carga: energía utilizada durante un periodo dividida entre la energía que se habría utilizado funcionando a la demanda máxima durante todo ese periodo, según la definición adoptada.
+
+Ejemplo:
+Una carga de 500 W funcionando 4 horas consume:
+E = 0.5 kW × 4 h = 2 kWh.
+
+1.2 Eficiencia
+Eficiencia (%) = (energía útil de salida / energía de entrada) × 100
+
+La eficiencia depende del punto de operación, la temperatura, el mantenimiento y las condiciones de prueba. La energía perdida suele transformarse en calor u otras formas no aprovechadas.
+
+1.3 Factores de conversión
+- 1 kW = 1,000 W.
+- 1 MW = 1,000 kW.
+- 1 kWh = 1,000 Wh.
+- 1 MWh = 1,000 kWh.
+- 1 kWh = 3.6 MJ.
+
+Verificar siempre las unidades antes de realizar cálculos.
+
+======================================================================
+2. ENERGÍA SOLAR FOTOVOLTAICA
+======================================================================
+
+2.1 Principio de funcionamiento
+Un módulo fotovoltaico convierte parte de la radiación solar en electricidad de corriente continua. Un sistema puede incluir módulos, estructura, cableado, protecciones, inversor, medición, baterías y equipos de monitoreo.
+
+2.2 Tipos de sistema
+- Conectado a red: trabaja en coordinación con la red eléctrica según las reglas de interconexión. Un sistema convencional suele desconectarse de la red durante un apagón por protección anti-isla, salvo que tenga una función de respaldo diseñada para ello.
+- Aislado: funciona sin red pública y necesita dimensionar generación, almacenamiento y respaldo de acuerdo con la demanda y el recurso disponible.
+- Híbrido: combina generación solar, almacenamiento y una o más fuentes o redes, con controles de operación específicos.
+
+2.3 Variables de diseño
+- Consumo diario en kWh.
+- Potencia pico y perfil horario de las cargas.
+- Irradiación del lugar y variación estacional.
+- Orientación, inclinación y sombras.
+- Temperatura y ventilación de los módulos.
+- Pérdidas por cableado, conversión, suciedad y desajustes.
+- Disponibilidad de espacio y capacidad estructural.
+- Normas, permisos y condiciones de interconexión.
+
+2.4 Estimación preliminar de energía
+Una estimación simplificada es:
+E_día ≈ P_array × HSP × PR
+
+Donde:
+- E_día: energía diaria estimada, en kWh/día.
+- P_array: potencia pico total del arreglo, en kWp.
+- HSP: horas solares pico equivalentes por día, en horas.
+- PR: factor global de rendimiento, adimensional.
+
+La HSP debe proceder de una fuente de recurso solar representativa del sitio y periodo. El PR no debe elegirse como garantía universal: debe justificarse según diseño, clima, equipo y pérdidas.
+
+Ejemplo didáctico:
+Arreglo de 2 kWp, HSP supuestas de 4.5 h/día y PR supuesto de 0.75:
+E_día ≈ 2 × 4.5 × 0.75 = 6.75 kWh/día.
+Es solo una estimación ilustrativa. No es un pronóstico para una ubicación específica.
+
+2.5 Orientación y sombras
+Las sombras parciales pueden reducir la producción y afectar de manera desigual módulos o cadenas. Evaluar sombras a lo largo del año, obstáculos, suciedad, ventilación y acceso seguro para limpieza. No asumir que todos los módulos producirán la potencia nominal en condiciones reales.
+
+2.6 Degradación y vida útil
+La producción puede disminuir con el tiempo por degradación, suciedad, fallas, corrosión o cambios en el entorno. Utilizar la garantía y la ficha técnica del fabricante, distinguiendo garantía de producto y garantía de potencia.
+
+======================================================================
+3. INVERSORES Y EQUIPOS DE CONVERSIÓN
+======================================================================
+
+3.1 Función
+Un inversor convierte corriente continua en corriente alterna con características definidas. Puede incorporar seguimiento del punto de máxima potencia (MPPT), protecciones, monitoreo y funciones de conexión a red.
+
+3.2 Selección
+Verificar:
+- Potencia continua y capacidad de sobrecarga.
+- Tensión y corriente máximas de entrada.
+- Rango de tensión MPPT.
+- Corriente de cortocircuito admisible.
+- Compatibilidad entre módulos, cadenas e inversor.
+- Tensión y frecuencia de salida.
+- Eficiencia y comportamiento a carga parcial.
+- Grado de protección ambiental y temperatura.
+- Certificaciones y requisitos de interconexión.
+- Compatibilidad con baterías y sistema de respaldo.
+
+No diseñar cadenas fotovoltaicas solo dividiendo potencias. Se deben verificar las tensiones en frío y en caliente, corrientes, límites del equipo y requisitos normativos.
+
+3.3 Pérdidas
+Las pérdidas pueden originarse en módulos, cableado, conexiones, suciedad, sombreado, conversión, temperatura, indisponibilidad y almacenamiento. Un análisis serio documenta cada supuesto y evita contar dos veces la misma pérdida.
+
+======================================================================
+4. BATERÍAS Y ALMACENAMIENTO
+======================================================================
+
+4.1 Conceptos
+- Capacidad energética: energía que puede almacenar, normalmente Wh o kWh.
+- Capacidad eléctrica: cantidad de carga, normalmente Ah.
+- Estado de carga (SOC): estimación de la carga disponible respecto de la capacidad de referencia.
+- Profundidad de descarga (DoD): proporción de la capacidad extraída respecto de la referencia adoptada.
+- Eficiencia de ciclo: energía entregada dividida entre energía previamente absorbida, bajo condiciones definidas.
+- BMS: sistema de gestión que supervisa y protege una batería según el diseño.
+
+Los valores nominales no equivalen necesariamente a energía útil disponible. La temperatura, tasa de descarga, envejecimiento, límites del BMS y eficiencia afectan el desempeño.
+
+4.2 Estimación preliminar de capacidad
+Una aproximación para estimar la capacidad nominal de batería es:
+Capacidad nominal (kWh) ≈ energía requerida (kWh) / (DoD utilizable × eficiencia global)
+
+Ejemplo didáctico:
+Energía requerida = 3 kWh; DoD utilizable supuesto = 0.80; eficiencia global supuesta = 0.90.
+Capacidad nominal ≈ 3 / (0.80 × 0.90) ≈ 4.17 kWh.
+
+El cálculo no incluye por sí solo márgenes por temperatura, envejecimiento, corriente pico, autonomía adicional ni recomendaciones del fabricante. Debe validarse con datos reales.
+
+4.3 Seguridad y mantenimiento
+- Usar únicamente baterías, cargadores y sistemas de gestión compatibles.
+- Respetar tensión, corriente y temperatura de operación.
+- Proteger contra cortocircuitos y daños mecánicos.
+- Instalar según ventilación, separación y condiciones indicadas por fabricante.
+- No abrir ni reparar celdas dañadas sin capacitación y procedimientos especializados.
+- No mezclar baterías incompatibles o de estados de salud distintos sin autorización de diseño.
+- Preparar procedimientos de emergencia para el tipo de química instalado.
+
+Las baterías pueden almacenar energía peligrosa incluso cuando el resto del sistema está desconectado.
+
+======================================================================
+5. CONTROLADORES DE CARGA Y SISTEMAS DE RESPALDO
+======================================================================
+
+5.1 Controlador de carga
+Regula la carga de baterías desde una fuente, como módulos fotovoltaicos. Puede usar PWM o MPPT. La elección depende de compatibilidad eléctrica, condiciones de operación y rendimiento esperado.
+
+5.2 Sistemas de respaldo
+Dimensionar para:
+- Cargas críticas y no críticas.
+- Potencia continua y potencia de arranque.
+- Duración prevista del apagón.
+- Energía útil disponible.
+- Eficiencia del inversor y otros equipos.
+- Tiempo de recarga y disponibilidad de generación.
+- Estrategia de desconexión de cargas no esenciales.
+
+5.3 Arranque de cargas
+Motores, bombas, refrigeradores y compresores pueden demandar una potencia de arranque superior a su potencia nominal. Verificar la curva de sobrecarga del inversor y los datos reales de la carga.
+
+======================================================================
+6. ENERGÍA EÓLICA
+======================================================================
+
+6.1 Principio
+Un aerogenerador transforma parte de la energía cinética del viento en energía mecánica y luego eléctrica. La producción depende fuertemente de la velocidad del viento, las características de la turbina, la densidad del aire, la turbulencia y las pérdidas del sistema.
+
+6.2 Recurso eólico
+Antes de elegir un equipo, evaluar:
+- Mediciones o datos representativos del sitio.
+- Altura del buje y perfil de viento.
+- Obstáculos, rugosidad y turbulencia.
+- Variación estacional y distribución de velocidades.
+- Acceso, ruido, permisos y distancia a viviendas.
+- Cimentación, torre, corrosión y cargas extremas.
+- Mantenimiento y disponibilidad de repuestos.
+
+Un dato promedio anual de viento no basta para estimar con precisión la energía de una turbina.
+
+6.3 Seguridad
+Las torres y rotores implican riesgos de altura, caída de objetos, movimiento mecánico y energía eléctrica. La instalación y el mantenimiento requieren diseño, equipos apropiados, procedimientos de bloqueo y personal competente.
+
+======================================================================
+7. OTRAS FUENTES RENOVABLES
+======================================================================
+
+7.1 Hidroeléctrica
+La energía potencial del agua puede convertirse en electricidad. La potencia hidráulica teórica se relaciona con:
+P = ρ × g × Q × H × η
+
+Donde:
+- ρ: densidad del agua (kg/m³).
+- g: aceleración de la gravedad (m/s²).
+- Q: caudal (m³/s).
+- H: salto neto (m).
+- η: eficiencia global.
+
+El resultado se obtiene en vatios si las unidades son coherentes. El caudal ecológico, estacionalidad, sedimentos, impactos ambientales, permisos y seguridad hidráulica deben evaluarse antes de cualquier proyecto.
+
+7.2 Biomasa y biogás
+La energía puede obtenerse mediante combustión controlada, digestión anaerobia u otros procesos. Evaluar disponibilidad y calidad del recurso, humedad, almacenamiento, emisiones, seguridad del gas, tratamiento de residuos y viabilidad económica.
+
+7.3 Geotermia
+Aprovecha calor del subsuelo para usos térmicos o generación eléctrica según el recurso. Requiere caracterización del sitio, análisis técnico-económico, evaluación ambiental y medidas de seguridad.
+
+La disponibilidad de cada recurso es específica de la ubicación; no asumir que una tecnología es viable solo por ser renovable.
+
+======================================================================
+8. EFICIENCIA ENERGÉTICA EN EDIFICIOS E INDUSTRIA
+======================================================================
+
+8.1 Medidas generales
+- Sustituir iluminación ineficiente por equipos adecuados y bien controlados.
+- Mejorar aislamiento, sellado y control solar cuando corresponda.
+- Mantener sistemas de refrigeración y climatización.
+- Optimizar motores, bombas, ventiladores y sistemas de aire comprimido.
+- Corregir fugas y operación fuera de horario.
+- Utilizar controles, temporizadores y sensores con criterios de confort y seguridad.
+- Evitar sobredimensionamiento de equipos.
+- Medir consumos antes y después de aplicar medidas.
+
+8.2 Iluminación
+La iluminancia se mide en lux. El diseño debe considerar tarea visual, uniformidad, deslumbramiento, reproducción cromática, mantenimiento y normativa aplicable. Los vatios por sí solos no indican la calidad de la iluminación.
+
+8.3 Motores y variadores
+Los variadores pueden ahorrar energía en cargas cuyo caudal o velocidad puede reducirse, especialmente ciertos sistemas de bombeo y ventilación. El ahorro no es universal: depende de la curva de carga, horas de operación, eficiencia y estrategia de control.
+
+8.4 Refrigeración y climatización
+Revisar sellos, filtros, intercambiadores, refrigerante, temperaturas, aislamiento y controles conforme al fabricante. La manipulación de refrigerantes puede requerir certificación y herramientas especializadas.
+
+======================================================================
+9. AUDITORÍA ENERGÉTICA
+======================================================================
+
+9.1 Etapas
+1. Definir alcance, objetivos y límites del sistema.
+2. Recopilar facturas, horarios, planos e inventario de equipos.
+3. Medir consumos y variables operativas relevantes.
+4. Construir una línea base.
+5. Identificar usos significativos y oportunidades.
+6. Estimar ahorro, inversión, mantenimiento y riesgos.
+7. Priorizar medidas.
+8. Implementar con aprobación y controles.
+9. Verificar resultados y ajustar la operación.
+
+9.2 Línea base
+Comparar periodos equivalentes y considerar cambios en producción, clima, horarios, ocupación y otros factores relevantes. Evitar atribuir todo cambio de consumo a una medida si también cambió la actividad.
+
+9.3 Ahorro energético
+Ahorro (%) = [(consumo base ajustado − consumo posterior ajustado) / consumo base ajustado] × 100
+
+La línea base debe ajustarse cuando corresponda y los límites de medición deben ser consistentes.
+
+9.4 Periodo simple de recuperación
+Periodo de recuperación (años) = inversión inicial / ahorro económico anual neto
+
+Es una medida simplificada; no refleja por sí sola inflación, financiación, vida útil, degradación, mantenimiento, impuestos ni valor del dinero en el tiempo.
+
+9.5 Indicadores útiles
+- kWh por unidad producida.
+- kWh por metro cuadrado y periodo.
+- Demanda máxima en kW.
+- Factor de potencia, cuando aplique.
+- Horas de funcionamiento.
+- Disponibilidad del sistema.
+- Ahorro verificado y coste por kWh ahorrado.
+
+======================================================================
+10. COSTOS Y EVALUACIÓN ECONÓMICA
+======================================================================
+
+10.1 Componentes de costo
+- Equipos principales.
+- Estructuras, cableado y protecciones.
+- Ingeniería, instalación y puesta en servicio.
+- Permisos, inspecciones y medición.
+- Transporte e impuestos.
+- Mantenimiento, limpieza y repuestos.
+- Reemplazo de inversores o baterías durante la vida del proyecto.
+- Costos de conexión y cargos tarifarios aplicables.
+
+No usar precios universales. Los costos cambian según país, proveedor, fecha, transporte, escala, garantía y alcance.
+
+10.2 Comparación de alternativas
+Comparar con el mismo horizonte y supuestos:
+- Inversión inicial.
+- Energía producida o ahorrada.
+- Costos de operación y mantenimiento.
+- Vida útil y degradación.
+- Reemplazos.
+- Tarifas y reglas de compensación vigentes.
+- Riesgos, garantías y disponibilidad de servicio.
+- Impactos ambientales y sociales.
+
+La recuperación económica no está garantizada y depende de las condiciones reales.
+
+======================================================================
+11. EJEMPLOS DIDÁCTICOS
+======================================================================
+
+Ejemplo 1: consumo diario
+Una carga de 250 W funciona 6 horas:
+E = 0.25 kW × 6 h = 1.5 kWh/día.
+
+Ejemplo 2: producción fotovoltaica preliminar
+Arreglo supuesto: 3 kWp; HSP hipotéticas: 4 h/día; PR hipotético: 0.78.
+E ≈ 3 × 4 × 0.78 = 9.36 kWh/día.
+El resultado es ilustrativo, no un pronóstico para un sitio real.
+
+Ejemplo 3: capacidad nominal de batería
+Energía requerida: 2 kWh; DoD supuesto: 0.80; eficiencia global supuesta: 0.90.
+Capacidad ≈ 2 / (0.80 × 0.90) ≈ 2.78 kWh.
+Debe revisarse por temperatura, envejecimiento, picos de potencia, autonomía y recomendaciones del fabricante.
+
+Ejemplo 4: potencia hidráulica teórica
+Datos hipotéticos: ρ = 1,000 kg/m³; g = 9.81 m/s²; Q = 0.02 m³/s; H = 10 m; η = 0.70.
+P = 1,000 × 9.81 × 0.02 × 10 × 0.70 = 1,373.4 W aproximadamente.
+El ejemplo no evalúa viabilidad, caudal ecológico, pérdidas reales ni permisos.
+
+======================================================================
+12. LISTAS DE VERIFICACIÓN
+======================================================================
+
+12.1 Antes de instalar un sistema solar
+[ ] Consumo y perfil horario medidos o documentados.
+[ ] Recurso solar evaluado para el sitio.
+[ ] Sombras, orientación y estructura revisadas.
+[ ] Módulos, inversor y baterías compatibles.
+[ ] Tensiones y corrientes verificadas en condiciones extremas.
+[ ] Protecciones, puesta a tierra y desconexión diseñadas.
+[ ] Permisos y reglas de interconexión comprobados.
+[ ] Acceso seguro para operación y mantenimiento.
+[ ] Plan de puesta en servicio y documentación.
+
+12.2 Antes de una auditoría energética
+[ ] Alcance y objetivos definidos.
+[ ] Facturas y datos operativos recopilados.
+[ ] Medidores adecuados y calibración verificada.
+[ ] Línea base y factores de ajuste definidos.
+[ ] Oportunidades evaluadas con supuestos transparentes.
+[ ] Costos y ahorros documentados.
+[ ] Riesgos y efectos secundarios considerados.
+[ ] Plan de medición y verificación preparado.
+
+12.3 Mantenimiento
+[ ] Inspección visual y estructural según fabricante.
+[ ] Limpieza con métodos permitidos.
+[ ] Revisión de alarmas y datos de producción.
+[ ] Inspección de cableado, conectores y protecciones por personal calificado.
+[ ] Revisión de baterías y ventilación conforme al fabricante.
+[ ] Registro de fallas, repuestos y acciones.
+[ ] Seguimiento de degradación y disponibilidad.
+
+======================================================================
+13. FUENTES TÉCNICAS Y OFICIALES
+======================================================================
+
+Verificar actualidad, cobertura geográfica, método y licencia antes de usar los datos.
+
+1. International Renewable Energy Agency (IRENA)
+   https://www.irena.org/
+   Informes y análisis sobre tecnologías renovables, costos y transición energética.
+
+2. International Energy Agency (IEA)
+   https://www.iea.org/
+   Estadísticas, informes y análisis de energía y eficiencia.
+
+3. National Renewable Energy Laboratory (NREL)
+   https://www.nrel.gov/
+   Investigación y recursos técnicos sobre fotovoltaica, viento, almacenamiento y sistemas energéticos.
+
+4. PVGIS — Comisión Europea, Centro Común de Investigación
+   https://re.jrc.ec.europa.eu/pvg_tools/en/
+   Herramientas de estimación de producción fotovoltaica y recurso solar para zonas cubiertas por sus datos. Revisar cobertura y supuestos para el sitio de interés.
+
+5. Global Solar Atlas
+   https://globalsolaratlas.info/
+   Recurso de consulta de potencial solar. Verificar metodología, resolución y limitaciones de la estimación.
+
+6. Global Wind Atlas
+   https://globalwindatlas.info/
+   Herramienta de referencia para recurso eólico; una evaluación de proyecto puede requerir mediciones específicas.
+
+7. International Electrotechnical Commission (IEC)
+   https://www.iec.ch/
+   Normas relacionadas con equipos, seguridad y sistemas eléctricos; algunas requieren compra o licencia.
+
+8. International Organization for Standardization (ISO)
+   https://www.iso.org/standards.html
+   Catálogo de normas, incluidas las relacionadas con sistemas de gestión de energía.
+
+9. U.S. Department of Energy — Energy Saver
+   https://www.energy.gov/energysaver/energy-saver
+   Guías educativas sobre eficiencia energética y tecnologías de energía en edificios.
+
+10. Ministerio de Energía y Minas de Nicaragua (MEM)
+    https://www.mem.gob.ni/
+    Consultar información oficial, políticas, programas y disposiciones nacionales del sector energético cuando estén disponibles.
+
+11. La Gaceta, Diario Oficial de Nicaragua
+    https://www.lagaceta.gob.ni/
+    Consultar publicaciones oficiales y normativa nacional.
+
+Las fuentes internacionales aportan referencias técnicas, pero no sustituyen permisos, tarifas, requisitos de conexión o legislación nicaragüense vigente. Confirmar esos aspectos con las autoridades y empresas competentes.
+
+======================================================================
+14. METADATOS PARA INGESTIÓN EN LA IA
+======================================================================
+
+lote: 09
+tema: energías renovables y eficiencia energética
+idioma: español
+país_prioritario: Nicaragua
+nivel: básico a intermedio
+tipo_contenido: guía educativa, fórmulas introductorias y referencias
+fecha_de_revision: completar al incorporar a la biblioteca
+advertencia: validar datos locales, normativa y diseño con personal calificado
+
+Reglas de respuesta:
+- Citar fuentes primarias, fecha y cobertura geográfica.
+- No inventar irradiación, velocidad del viento, tarifas, precios ni incentivos.
+- Separar estimaciones de diseños finales.
+- Pedir datos faltantes antes de dimensionar equipos.
+- Documentar supuestos y unidades.
+- No garantizar producción, ahorro o periodo de recuperación.
+- Recomendar revisión profesional para sistemas eléctricos, baterías y conexión a red.
+
+FIN DEL LOTE 09

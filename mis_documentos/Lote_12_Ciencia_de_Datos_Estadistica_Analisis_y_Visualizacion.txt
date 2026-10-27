@@ -1,0 +1,497 @@
+LOTE 12 — CIENCIA DE DATOS, ESTADÍSTICA, ANÁLISIS DE DATOS Y VISUALIZACIÓN
+Versión: 1.0 | Idioma: Español
+
+PROPÓSITO
+Base de conocimiento para una IA que necesita organizar, analizar, interpretar, visualizar y comunicar datos de forma rigurosa, reproducible y responsable.
+
+0. REGLAS PARA LA IA QUE UTILICE ESTE LOTE
+1. No inventes valores, filas, estadísticas, fuentes ni resultados de cálculos.
+2. Distingue entre datos observados, estimaciones, supuestos e interpretaciones.
+3. Indica unidades, periodo, población, tamaño de muestra y método cuando sean relevantes.
+4. Comprueba valores faltantes, duplicados, unidades incompatibles y errores de captura.
+5. No confundas correlación con causalidad.
+6. No generalices una muestra a toda una población sin justificar el diseño muestral.
+7. Explica limitaciones y evita presentar estimaciones como certezas.
+8. Protege datos personales; elimina o enmascara identificadores cuando no sean necesarios.
+9. Usa gráficos que representen fielmente los datos y etiqueten ejes, unidades y periodo.
+10. Para decisiones importantes, verifica cálculos mediante un segundo método o herramienta.
+11. Conserva una copia de los datos originales y documenta transformaciones.
+12. Cuando recibas una hoja de cálculo o archivo, analiza el contenido real y no supongas columnas que no has visto.
+
+1. QUÉ ES LA CIENCIA DE DATOS
+La ciencia de datos combina estadística, programación, conocimiento del dominio y comunicación para extraer información útil de los datos.
+
+Áreas relacionadas:
+- Estadística: métodos para describir datos e inferir sobre poblaciones.
+- Análisis de datos: inspección, transformación y resumen de información.
+- Ingeniería de datos: sistemas para recolectar, almacenar, transformar y mover datos.
+- Aprendizaje automático: modelos que aprenden patrones para predecir o clasificar.
+- Visualización: representación gráfica para explorar y comunicar.
+- Inteligencia de negocios (BI): informes, indicadores y análisis que apoyan decisiones organizacionales.
+
+Ciclo típico:
+1. Definir la pregunta.
+2. Identificar fuentes y permisos.
+3. Recolectar datos.
+4. Evaluar calidad.
+5. Limpiar y transformar.
+6. Explorar y analizar.
+7. Construir visualizaciones o modelos.
+8. Comunicar resultados y limitaciones.
+9. Tomar decisiones y medir resultados.
+10. Documentar y actualizar.
+
+2. TIPOS Y ESTRUCTURA DE DATOS
+- Cuantitativos: expresan cantidades numéricas.
+- Cualitativos: describen categorías.
+- Nominales: categorías sin orden natural, como tipo de producto.
+- Ordinales: categorías con orden, como bajo, medio y alto.
+- Discretos: conteos, normalmente enteros.
+- Continuos: medidas que pueden tomar valores en un intervalo.
+- Estructurados: tablas con esquema definido.
+- Semiestructurados: JSON, XML o registros con estructura flexible.
+- No estructurados: texto libre, imágenes, audio y video.
+
+Unidad de análisis: elemento sobre el que se mide algo, por ejemplo una venta, una persona, un producto o un día. No mezcles unidades de análisis sin documentar cómo se relacionan.
+
+Una fila suele representar una observación y una columna una variable, aunque depende del formato. Cada columna debe tener un significado claro, un tipo de dato y, cuando corresponda, una unidad.
+
+3. CALIDAD DE LOS DATOS
+Dimensiones comunes:
+- Exactitud: los valores reflejan correctamente el fenómeno.
+- Completitud: están presentes los datos necesarios.
+- Consistencia: no existen contradicciones entre campos o fuentes.
+- Validez: los valores cumplen reglas de formato y dominio.
+- Unicidad: no hay registros duplicados cuando deberían ser únicos.
+- Oportunidad: los datos están disponibles con la frecuencia necesaria.
+- Trazabilidad: puede conocerse su origen y transformación.
+
+Lista de revisión:
+1. ¿Cuál es la fuente y quién la mantiene?
+2. ¿Qué representa cada fila?
+3. ¿Hay identificadores únicos?
+4. ¿Existen duplicados?
+5. ¿Qué porcentaje de valores está ausente?
+6. ¿Hay fechas imposibles o fuera del periodo?
+7. ¿Las unidades son uniformes?
+8. ¿Existen valores extremos que deban investigarse?
+9. ¿Los totales coinciden con controles independientes?
+10. ¿Los datos se pueden usar para la finalidad propuesta?
+
+No elimines automáticamente los valores extremos: pueden ser errores, eventos reales o señales importantes.
+
+4. LIMPIEZA Y TRANSFORMACIÓN
+Operaciones frecuentes:
+- Corregir tipos de datos.
+- Normalizar formatos de fecha, moneda y texto.
+- Eliminar duplicados confirmados.
+- Tratar valores faltantes con una regla documentada.
+- Corregir errores de captura usando evidencia.
+- Unificar unidades.
+- Crear variables derivadas con fórmulas explícitas.
+- Validar rangos y reglas de negocio.
+- Registrar cada transformación.
+
+Valores faltantes:
+- Investiga por qué faltan.
+- Distingue “desconocido”, “no aplica” y cero.
+- No sustituyas automáticamente por cero: puede cambiar el significado.
+- La imputación mediante media, mediana u otros métodos debe justificarse y puede alterar la distribución.
+- Informa qué porcentaje fue imputado o excluido.
+
+Duplicados:
+Un duplicado exacto no siempre es un registro erróneo. Dos compras del mismo cliente pueden ser transacciones distintas. Define primero qué campos deberían hacer único un registro.
+
+Normalización:
+Convierte formatos y unidades de manera consistente. Ejemplo: no sumes litros y mililitros sin convertirlos a una unidad común. En fechas, aclara zona horaria si afecta el análisis.
+
+5. ESTADÍSTICA DESCRIPTIVA
+Media aritmética:
+Media = suma de los valores / cantidad de valores.
+Es sensible a valores extremos.
+
+Mediana:
+Valor central tras ordenar los datos. Con cantidad par de observaciones, es el promedio de los dos valores centrales.
+
+Moda:
+Valor o categoría más frecuente. Puede haber varias modas o ninguna frecuencia dominante.
+
+Rango:
+Máximo menos mínimo.
+
+Varianza:
+Mide dispersión cuadrática respecto a la media. La fórmula depende de si se describe una población completa o se estima a partir de una muestra.
+
+Desviación estándar:
+Raíz cuadrada de la varianza; se expresa en las mismas unidades de la variable.
+
+Cuartiles:
+Dividen datos ordenados en cuatro partes según una convención de cálculo. Los métodos pueden variar entre herramientas.
+
+Rango intercuartílico (IQR):
+Q3 menos Q1. Resume la amplitud de la mitad central de los datos.
+
+Percentil:
+Valor por debajo del cual se encuentra una proporción de observaciones, según la convención utilizada.
+
+Ejemplo:
+Datos: 2, 3, 3, 4, 8.
+Media = 20 / 5 = 4.
+Mediana = 3.
+Moda = 3.
+Rango = 8 - 2 = 6.
+La media supera a la mediana porque el valor 8 eleva el promedio. Es una ilustración de cómo la distribución afecta a las medidas de centro.
+
+6. PROBABILIDAD BÁSICA
+La probabilidad cuantifica incertidumbre dentro de un modelo o marco de supuestos. Su valor está entre 0 y 1, equivalentes a 0 % y 100 %.
+
+- Evento: resultado o conjunto de resultados.
+- Probabilidad complementaria: P(no A) = 1 - P(A).
+- Regla de adición para eventos mutuamente excluyentes: P(A o B) = P(A) + P(B).
+- Regla general de adición: P(A o B) = P(A) + P(B) - P(A y B).
+- Probabilidad condicional: P(A dado B) = P(A y B) / P(B), si P(B) > 0.
+- Independencia: conocer un evento no cambia la probabilidad del otro, bajo la definición matemática correspondiente.
+
+No confundas probabilidad con certeza ni frecuencia observada con una probabilidad universal. Explica los supuestos y la población de referencia.
+
+7. MUESTREO E INFERENCIA
+Población: conjunto sobre el que se desea aprender.
+Muestra: subconjunto observado.
+Parámetro: cantidad que describe una población.
+Estadístico: cantidad calculada en una muestra.
+Sesgo muestral: la forma de seleccionar datos produce una representación sistemáticamente inadecuada.
+Error de muestreo: variación que surge al observar una muestra en vez de toda la población.
+
+Métodos:
+- Aleatorio simple: cada unidad tiene una probabilidad conocida de selección, bajo el diseño definido.
+- Estratificado: se seleccionan unidades dentro de estratos.
+- Por conglomerados: se seleccionan grupos o conglomerados.
+- Sistemático: se selecciona según un intervalo después de un inicio definido.
+- Conveniencia: se usan unidades accesibles; puede producir sesgo importante.
+
+Intervalo de confianza:
+Método para construir un intervalo que, bajo sus supuestos y procedimiento, tiene una cobertura de largo plazo determinada. No significa que, tras calcular un intervalo frecuentista concreto, el parámetro fijo tenga esa probabilidad de estar dentro de él.
+
+Significación estadística:
+Un valor p cuantifica cuán incompatibles serían los datos observados con una hipótesis nula y un modelo estadístico determinados. No es la probabilidad de que la hipótesis nula sea verdadera ni mide directamente la importancia práctica.
+
+Tamaño de efecto:
+Describe magnitud de una diferencia o asociación. Acompaña la significación estadística con contexto, incertidumbre y relevancia práctica.
+
+8. CORRELACIÓN Y CAUSALIDAD
+Correlación describe una asociación entre variables. No demuestra que una variable cause la otra.
+
+Causas de asociaciones engañosas:
+- Variable de confusión.
+- Causalidad inversa.
+- Sesgo de selección.
+- Coincidencia.
+- Tendencias temporales compartidas.
+- Errores de medición.
+
+Para evaluar causalidad se requiere diseño y supuestos adecuados. Experimentos aleatorizados pueden aportar evidencia causal, pero deben ejecutarse de forma ética y válida. Estudios observacionales pueden usar métodos causales, aunque sus conclusiones dependen de supuestos y datos.
+
+Correlación de Pearson:
+Mide asociación lineal y toma valores entre -1 y 1. Es sensible a valores extremos y no detecta toda relación no lineal.
+
+Correlación de Spearman:
+Mide asociación basada en rangos y puede captar relaciones monótonas no necesariamente lineales.
+
+No interpretes un coeficiente sin revisar el diagrama de dispersión, el tamaño de muestra, la calidad de medición y los posibles valores extremos.
+
+9. SERIES TEMPORALES Y PRONÓSTICOS
+Una serie temporal contiene observaciones ordenadas en el tiempo.
+- Tendencia: movimiento general a largo plazo.
+- Estacionalidad: patrón que se repite en intervalos regulares.
+- Ciclo: fluctuación de duración variable.
+- Ruido: variación no explicada por el modelo.
+- Rezago (lag): valor de un periodo anterior.
+- Pronóstico: estimación de valores futuros.
+- Intervalo de predicción: rango que refleja incertidumbre de un valor futuro según el modelo.
+
+Buenas prácticas:
+- Ordena correctamente por fecha.
+- Detecta huecos, cambios de frecuencia y valores atípicos.
+- No mezcles datos futuros con entrenamiento.
+- Evalúa con periodos posteriores al entrenamiento.
+- Compara con líneas base sencillas, como el último valor observado o un promedio estacional.
+- Informa el horizonte y la incertidumbre.
+- Reevalúa cuando cambien las condiciones del proceso.
+
+Métricas comunes:
+- MAE: error absoluto medio.
+- RMSE: raíz del error cuadrático medio.
+- MAPE: error porcentual absoluto medio; puede fallar cuando los valores reales son cero o cercanos a cero.
+Elige la métrica según el costo real de los errores.
+
+10. VISUALIZACIÓN DE DATOS
+Gráfico de barras:
+Compara cantidades entre categorías. Empieza normalmente el eje de cantidad en cero para evitar exagerar diferencias.
+
+Gráfico de líneas:
+Muestra evolución temporal u ordenada.
+
+Histograma:
+Representa la distribución de una variable numérica por intervalos.
+
+Diagrama de caja:
+Resume mediana, cuartiles y posibles valores extremos según una regla definida.
+
+Dispersión:
+Explora relación entre dos variables numéricas.
+
+Barras apiladas:
+Compara composición entre categorías; pueden dificultar comparar segmentos que no comparten una base común.
+
+Gráfico circular:
+Puede servir para pocas categorías que suman un total; es difícil comparar porciones similares y no conviene para muchas categorías.
+
+Mapa:
+Úsalo cuando la ubicación geográfica sea relevante y los datos tengan precisión adecuada. Evita mostrar ubicaciones sensibles.
+
+Buenas prácticas:
+- Título descriptivo.
+- Ejes y unidades identificados.
+- Periodo y fuente visibles.
+- Escala honesta y legible.
+- Colores con contraste suficiente y accesibles.
+- Leyenda clara.
+- No uses efectos tridimensionales que distorsionen comparaciones.
+- No escondas categorías importantes ni cortes ejes sin advertencia.
+- Explica incertidumbre cuando corresponda.
+
+11. SQL PARA ANÁLISIS DE DATOS
+SQL permite consultar datos en bases relacionales. La sintaxis exacta puede variar según el motor.
+
+Ejemplo de lectura:
+SELECT categoria, COUNT(*) AS cantidad
+FROM ventas
+GROUP BY categoria
+ORDER BY cantidad DESC;
+
+Este ejemplo cuenta filas por categoría; no calcula ventas monetarias.
+
+Ejemplo de suma:
+SELECT categoria, SUM(total) AS total_ventas
+FROM ventas
+GROUP BY categoria;
+
+Supone que la tabla tiene columnas `categoria` y `total`, y que `total` contiene valores numéricos comparables.
+
+Conceptos:
+- SELECT: elige columnas o expresiones.
+- FROM: indica la fuente.
+- WHERE: filtra filas.
+- GROUP BY: agrupa valores.
+- HAVING: filtra grupos agregados.
+- ORDER BY: ordena resultados.
+- JOIN: combina tablas relacionadas.
+- COUNT: cuenta filas o valores no nulos, según la expresión.
+- SUM: suma valores.
+- AVG: calcula promedio.
+- MIN/MAX: mínimo y máximo.
+- NULL: ausencia o valor desconocido; no equivale a cero o cadena vacía.
+
+Precauciones:
+- Define las claves de unión y revisa si el JOIN multiplica filas.
+- Filtra por fechas y zona horaria de forma explícita.
+- Usa consultas parametrizadas para valores externos en aplicaciones.
+- No ejecutes UPDATE o DELETE sin verificar el filtro, respaldo y autorización.
+
+12. PYTHON PARA ANÁLISIS
+Bibliotecas comunes:
+- pandas: tablas, limpieza, agregación y lectura de archivos.
+- NumPy: operaciones numéricas y arreglos.
+- Matplotlib: gráficos.
+- seaborn: gráficos estadísticos de alto nivel.
+- SciPy: herramientas científicas y estadísticas.
+- statsmodels: modelos estadísticos.
+- scikit-learn: aprendizaje automático y evaluación.
+La disponibilidad depende del entorno y las versiones instaladas.
+
+Ejemplo educativo con pandas:
+import pandas as pd
+
+datos = pd.DataFrame({
+    "categoria": ["A", "B", "A", "C", "B"],
+    "importe": [100, 150, 80, 200, 120]
+})
+
+resumen = (
+    datos.groupby("categoria", as_index=False)
+         .agg(
+             cantidad=("importe", "count"),
+             total=("importe", "sum"),
+             promedio=("importe", "mean")
+         )
+)
+
+print(resumen)
+
+Interpretación:
+- `groupby` agrupa registros por categoría.
+- `count` cuenta importes no ausentes.
+- `sum` suma importes.
+- `mean` calcula el promedio.
+- Los valores son ficticios y no representan ventas reales.
+- Para analizar un archivo propio, comprueba primero nombres de columnas, tipos, moneda y significado de cada fila.
+
+13. EJEMPLO DE LIMPIEZA CON PANDAS
+Código ilustrativo:
+import pandas as pd
+
+df = pd.read_csv("datos.csv")
+
+print(df.shape)
+print(df.dtypes)
+print(df.isna().sum())
+print(df.duplicated().sum())
+
+# No borres filas automáticamente sin entender qué significan.
+# Revisa las filas duplicadas:
+duplicados = df[df.duplicated(keep=False)]
+print(duplicados.head(20))
+
+# Convertir una columna a fecha; los valores inválidos quedan como NaT.
+# Ajusta el nombre de columna y el formato a los datos reales.
+# df["fecha"] = pd.to_datetime(df["fecha"], errors="coerce")
+
+Este código requiere un archivo `datos.csv` en la ruta indicada y pandas instalado. No crea resultados conocidos de antemano. Revisa la salida y conserva una copia original antes de modificar datos.
+
+14. INDICADORES DE NEGOCIO (KPI)
+Un KPI es un indicador clave relacionado con un objetivo. Un indicador útil define:
+- Nombre.
+- Propósito.
+- Fórmula.
+- Unidad.
+- Fuente de datos.
+- Periodicidad.
+- Responsable.
+- Meta o umbral.
+- Segmentación permitida.
+- Limitaciones.
+
+Ejemplos:
+- Ingresos del periodo = suma de ventas válidas del periodo.
+- Ticket promedio = ingresos / número de transacciones, si el denominador es mayor que cero y la definición de ingreso es consistente.
+- Tasa de conversión = conversiones / oportunidades definidas × 100 %.
+- Tasa de devolución = unidades devueltas / unidades vendidas × 100 %, si ambas cantidades tienen definiciones y periodos compatibles.
+- Rotación de inventario: requiere definir costo de ventas e inventario promedio para el periodo.
+No compares indicadores entre organizaciones sin comprobar que sus definiciones, periodos, monedas y poblaciones sean equivalentes.
+
+15. ENCUESTAS Y DATOS CUALITATIVOS
+En encuestas:
+- Define la población objetivo y el marco muestral.
+- Redacta preguntas claras y neutrales.
+- Evita preguntas dobles o que sugieran una respuesta.
+- Prueba el cuestionario antes de aplicarlo.
+- Informa método de selección, fechas, tamaño de muestra y limitaciones.
+- Protege anonimato y consentimiento según corresponda.
+- Considera no respuesta y sesgo de selección.
+
+En datos cualitativos:
+- Documenta cómo se recolectaron entrevistas o comentarios.
+- Define un esquema de codificación.
+- Separa citas literales de interpretaciones.
+- Revisa si los temas reflejan el material completo.
+- Evita atribuir opiniones a personas identificables sin autorización.
+- No generalices la frecuencia de temas a toda la población sin un diseño que lo permita.
+
+16. ÉTICA, PRIVACIDAD Y GOBERNANZA
+- Recopila solo datos necesarios para una finalidad legítima.
+- Limita acceso por roles y necesidad.
+- Elimina o enmascara identificadores al compartir ejemplos.
+- Define retención y eliminación.
+- Protege transferencias, almacenamiento y respaldos.
+- Documenta origen, permisos y transformaciones.
+- Evita reidentificar registros anonimizados.
+- Evalúa sesgos y posibles daños.
+- Explica limitaciones de los análisis a las personas que toman decisiones.
+- Verifica requisitos legales aplicables en la jurisdicción correspondiente.
+
+17. PLANTILLA PARA UN INFORME ANALÍTICO
+Título:
+Pregunta de análisis:
+Contexto y decisión que se quiere apoyar:
+Fuente y fecha de los datos:
+Unidad de análisis:
+Periodo:
+Población y muestra:
+Definiciones de variables:
+Limpieza y transformaciones:
+Método:
+Resultados principales:
+Tablas y gráficos:
+Incertidumbre y limitaciones:
+Posibles sesgos:
+Interpretación:
+Recomendaciones:
+Datos o pruebas pendientes:
+Fecha de actualización:
+Responsable:
+
+18. EJERCICIOS PRÁCTICOS
+Ejercicio 1 — Descripción:
+Con una tabla pequeña, calcula media, mediana, moda, rango y desviación estándar. Explica cómo cambia la media al añadir un valor extremo.
+
+Ejercicio 2 — Calidad:
+Identifica duplicados, valores faltantes, fechas inválidas y unidades incompatibles. Documenta cada regla de corrección.
+
+Ejercicio 3 — Visualización:
+Elige un gráfico para comparar categorías y otro para mostrar una tendencia temporal. Explica por qué son adecuados y qué podrían ocultar.
+
+Ejercicio 4 — Correlación:
+Crea un diagrama de dispersión, calcula una correlación y plantea al menos dos explicaciones alternativas a una relación causal.
+
+Ejercicio 5 — Pronóstico:
+Divide una serie temporal cronológicamente, compara un método simple con uno más complejo y mide errores en un periodo futuro no utilizado para entrenar.
+
+Ejercicio 6 — KPI:
+Define un indicador de negocio con fórmula, unidad, periodo, fuente, responsable y limitaciones.
+
+Ejercicio 7 — Informe:
+Escribe un resumen que distinga hechos medidos, hipótesis y recomendaciones; añade una limitación importante.
+
+19. GLOSARIO
+- Agregación: resumen de varias observaciones.
+- Análisis exploratorio: inspección inicial para comprender estructura y patrones.
+- Correlación: medida de asociación entre variables.
+- Dato faltante: valor no observado o no disponible.
+- Desviación estándar: medida de dispersión en unidades de la variable.
+- Distribución: patrón de valores y sus frecuencias o probabilidades.
+- ETL: extracción, transformación y carga de datos.
+- KPI: indicador clave de desempeño.
+- Media: promedio aritmético.
+- Mediana: valor central ordenado.
+- Muestra: subconjunto observado de una población.
+- Outlier/valor atípico: observación alejada de otras según un criterio.
+- Población: conjunto de interés del estudio.
+- Percentil: valor asociado a una posición porcentual en una distribución.
+- Sesgo: desviación sistemática en datos, medición, selección o análisis.
+- SQL: lenguaje para consultar y gestionar bases relacionales.
+- Varianza: medida de dispersión cuadrática.
+- Serie temporal: observaciones ordenadas por tiempo.
+- Intervalo de confianza: intervalo producido por un procedimiento inferencial con cobertura definida.
+- Intervalo de predicción: rango de incertidumbre para una observación futura.
+
+20. FUENTES PARA AMPLIAR
+Consulta las versiones vigentes y verifica la metodología:
+- NIST: https://www.nist.gov/
+- OpenIntro Statistics: https://www.openintro.org/book/os/
+- Penn State Online Statistics: https://online.stat.psu.edu/statprogram/
+- pandas User Guide: https://pandas.pydata.org/docs/user_guide/
+- NumPy Documentation: https://numpy.org/doc/
+- Matplotlib Documentation: https://matplotlib.org/stable/
+- SciPy Documentation: https://docs.scipy.org/doc/scipy/
+- statsmodels Documentation: https://www.statsmodels.org/
+- scikit-learn User Guide: https://scikit-learn.org/stable/user_guide.html
+- PostgreSQL Documentation: https://www.postgresql.org/docs/
+- SQLBolt, tutorial interactivo: https://sqlbolt.com/
+- Data Visualization Catalogue: https://datavizcatalogue.com/
+- Our World in Data: https://ourworldindata.org/
+- United Nations Data: https://data.un.org/
+- World Bank Open Data: https://data.worldbank.org/
+
+La disponibilidad y contenido de estos recursos pueden cambiar. Verifica fecha, fuente, definiciones y metodología antes de usarlos para respaldar conclusiones.
+
+FIN DEL LOTE 12

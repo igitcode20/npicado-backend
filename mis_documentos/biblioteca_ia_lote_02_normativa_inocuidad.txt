@@ -1,0 +1,259 @@
+BIBLIOTECA TÉCNICA PARA IA — LOTE 02 Tema: Normativa técnica de BPM,
+criterios microbiológicos, transporte, almacenamiento y alimentos no
+procesados Enfoque principal: Nicaragua y Centroamérica Versión: 1.0
+Fecha de elaboración: 22 de octubre de 2026
+
+PROPÓSITO Este lote amplía el catálogo de fuentes del Lote 01. Incluye
+enlaces a documentos técnicos y oficiales, una descripción de su
+utilidad y reglas para incorporarlos a una biblioteca de IA. Los enlaces
+se deben revisar al descargar los archivos y antes de utilizar una norma
+para tomar decisiones. La inclusión en este catálogo no equivale a una
+auditoría jurídica completa de vigencia.
+
+============================================================ 1. RTCA
+67.01.33:06 — BUENAS PRÁCTICAS DE MANUFACTURA
+============================================================
+
+Título: Industrias de Alimentos y Bebidas Procesados. Buenas Prácticas
+de Manufactura. Principios Generales.
+
+Identificadores usados en Nicaragua: NTON 03 069-06 / RTCA 67.01.33:06.
+
+Fuente oficial MINSA:
+https://www.minsa.gob.ni/publicaciones/direccion-general-de-regulacion-sanitaria/rtca-67013306-industrias-de-alimentos-y
+
+PDF oficial:
+https://www.minsa.gob.ni/sites/default/files/2022-10/RTCA%2067.01.33.06%20Industrias%20de%20Alimentos%20y%20Bebidas%20Procesados.%20Buena%20Pr%C3%A1ctica%20de%20Manufactura.%20Principios%20Generales.pdf
+
+Fuente complementaria IPSA:
+https://www.ipsa.gob.ni/Portals/0/1%20Inocuidad%20Alimentaria/Normativas%20Generales/ACTUALIZACION%20051217/176_RTCA_BPM.pdf
+
+Resumen temático: El reglamento establece disposiciones generales sobre
+higiene y operación durante la industrialización de alimentos para
+apoyar la producción de alimentos inocuos y de calidad. Entre los temas
+que cubre están instalaciones, equipos y utensilios, control de
+operaciones, agua, manejo de residuos, limpieza y desinfección, control
+de plagas, higiene del personal, capacitación, almacenamiento y
+documentación.
+
+Aplicación para la IA: - Crear listas de verificación para auditorías
+internas de BPM. - Elaborar borradores de programas de capacitación. -
+Diseñar formularios de inspección y registros. - Relacionar cada
+requisito con su apartado exacto del documento. - Diferenciar los
+requisitos del reglamento de recomendaciones adicionales.
+
+Advertencia: El documento identificado como RTCA 67.01.33:06 es una
+edición de 2006. Antes de presentarlo como vigente para una actividad
+específica, comprobar si existe una reforma, sustitución o disposición
+nacional posterior aplicable.
+
+============================================================ 2. RTCA
+67.04.50:17 — CRITERIOS MICROBIOLÓGICOS PARA LA INOCUIDAD
+============================================================
+
+Título: RTCA 67.04.50:17, Alimentos. Criterios microbiológicos para la
+inocuidad de los alimentos. Primera revisión.
+
+Fuente oficial MINSA:
+https://www.minsa.gob.ni/publicaciones/direccion-general-de-regulacion-sanitaria/rtca-67045017-alimento-criterio
+
+PDF oficial:
+https://www.minsa.gob.ni/sites/default/files/2022-10/RTCA%2067.04.50.17%20Alimento%20Criterio%20Microbiol%C3%B3gicos%20para%20la%20Inocuidad%20de%20Alimentos.pdf
+
+Fuente regional SIECA:
+https://www.sieca.int/producto/resolucion-402-2018-comieco/
+
+Resumen temático: El documento establece criterios microbiológicos para
+categorías de alimentos. Explica conceptos como categoría de riesgo,
+parámetro microbiológico, plan de muestreo, número de unidades de
+muestra (n), número de aceptación (c) y límites (m y M), según las
+disposiciones específicas del reglamento.
+
+Aplicación para la IA: - Ayudar a localizar la categoría de alimento
+pertinente. - Resumir los criterios y planes de muestreo que aparecen en
+el texto. - Preparar tablas de consulta que mantengan el nombre de la
+categoría y la referencia exacta. - Apoyar trabajos académicos sobre
+control microbiológico.
+
+Regla de seguridad técnica: Nunca asignar límites microbiológicos
+genéricos a un alimento sin verificar su categoría, proceso, destino y
+norma aplicable. La IA debe citar la tabla y apartado exactos, conservar
+las unidades y aclarar que el análisis debe realizarse con métodos
+apropiados por un laboratorio competente.
+
+============================================================ 3. NTON 03
+093-10 / RTCA 67.06.55:09 — ALIMENTOS NO PROCESADOS Y SEMIPROCESADOS
+============================================================
+
+Título de referencia: Buenas Prácticas de Higiene para Alimentos No
+Procesados y Semiprocesados.
+
+Fuente de catálogo oficial IPSA:
+https://www.ipsa.gob.ni/INOCUIDAD-ALIMENTARIA
+
+Catálogo oficial MINSA de reglamentos técnicos:
+https://www.minsa.gob.ni/index.php/taxonomy/term/622
+
+Resumen temático: Buscar la versión oficial completa del reglamento, sus
+anexos y las disposiciones nacionales correspondientes. Esta referencia
+es relevante para prácticas de higiene en operaciones que no son
+equivalentes a la industrialización de alimentos procesados, como
+ciertas etapas de manejo de productos agrícolas.
+
+Aplicación para la IA: - Separar los requisitos aplicables a alimentos
+no procesados y semiprocesados de los requisitos destinados a fábricas
+de alimentos procesados. - Preparar listas de control para recepción,
+manipulación, higiene, almacenamiento y prevención de contaminación,
+siempre respaldadas por el texto oficial.
+
+Advertencia: Confirmar código, versión y aplicabilidad antes de generar
+recomendaciones de cumplimiento. No asumir que el alcance de una norma
+cubre todas las operaciones o todos los productos.
+
+============================================================ 4. NTON 03
+079-08 — REQUISITOS PARA EL TRANSPORTE DE PRODUCTOS ALIMENTICIOS
+============================================================
+
+Fuente oficial IPSA: https://www.ipsa.gob.ni/INOCUIDAD-ALIMENTARIA
+
+Catálogo oficial MINSA:
+https://www.minsa.gob.ni/index.php/taxonomy/term/622
+
+Resumen temático: La normativa de transporte alimentario aparece en el
+catálogo de inocuidad de IPSA. Descargar la versión oficial completa
+para registrar el alcance, las condiciones exigidas, los tipos de
+transporte y los requisitos específicos que establece.
+
+Aplicación para la IA: - Crear formularios de inspección de vehículos. -
+Diseñar registros de limpieza y mantenimiento. - Preparar listas de
+verificación para prevenir contaminación durante el transporte. -
+Identificar las condiciones concretas exigidas por la norma para cada
+tipo de producto.
+
+Advertencia: No inferir temperaturas, frecuencias de limpieza u otros
+límites si no aparecen en la fuente aplicable. Registrar la página o
+sección de cada requisito.
+
+============================================================ 5. NTON 03
+041-03 — ALMACENAMIENTO DE PRODUCTOS ALIMENTICIOS
+============================================================
+
+Fuente oficial IPSA: https://www.ipsa.gob.ni/INOCUIDAD-ALIMENTARIA
+
+Resumen temático: El catálogo oficial de IPSA incluye la referencia NTON
+03 041-03, relacionada con almacenamiento de productos alimenticios.
+Debe recuperarse y verificarse el texto completo, su versión y el estado
+de vigencia antes de incorporarlo como requisito legal confirmado.
+
+Aplicación para la IA: - Listas de verificación de almacenes y
+bodegas. - Registros de recepción, identificación y rotación de
+inventario. - Procedimientos de separación de productos y prevención de
+contaminación cruzada, cuando estén respaldados por la norma o por una
+guía técnica citada. - Planes de inspección y documentación.
+
+============================================================ 6. NTON 03
+026-10 — MANIPULACIÓN DE ALIMENTOS
+============================================================
+
+Referencia: Manipulación de alimentos. Requisitos sanitarios para
+manipuladores.
+
+Referencia de identificación en documentación oficial: NTON 03 026-10.
+
+Un documento oficial publicado en La Gaceta que cita esta norma:
+https://www.pgr.gob.ni/PDF/2024/GACETA/GACETA_25_04_2024.pdf
+
+Catálogo oficial de reglamentos MINSA:
+https://www.minsa.gob.ni/index.php/taxonomy/term/622
+
+Resumen temático: Utilizar la referencia para localizar el texto oficial
+completo y registrar los requisitos sanitarios aplicables a las personas
+que manipulan alimentos. La IA debe comprobar los requisitos específicos
+sobre higiene personal, capacitación, salud y prácticas de manipulación
+directamente en la norma y sus disposiciones relacionadas.
+
+Aplicación para la IA: - Material de capacitación para manipuladores. -
+Listas de verificación de prácticas higiénicas. - Registros de formación
+y evaluación. - Cuestionarios educativos basados en el contenido
+oficial.
+
+============================================================ 7. CATÁLOGO
+OFICIAL IPSA: OTRAS NORMAS QUE CONVIENE INCORPORAR
+============================================================
+
+Página principal: https://www.ipsa.gob.ni/INOCUIDAD-ALIMENTARIA
+
+En el catálogo se encuentran referencias a temas como: - Transporte de
+productos alimenticios. - Aditivos alimentarios. - Productos lácteos y
+leche cruda. - Leche pasteurizada. - Quesos frescos, procesados y otros
+productos lácteos. - Almacenamiento de productos alimenticios. -
+Criterios microbiológicos para inocuidad. - Buenas prácticas de higiene
+para alimentos no procesados. - Normas y códigos del Codex Alimentarius.
+
+Procedimiento recomendado: Abrir el catálogo, descargar cada documento
+desde la fuente oficial disponible, conservar el archivo original y
+registrar sus metadatos. Si el enlace no permite descargarlo, guardar la
+ficha y marcar el documento como pendiente, en vez de tratarlo como ya
+incorporado.
+
+============================================================ 8. REGISTRO
+DE METADATOS PARA CADA DOCUMENTO
+============================================================
+
+Guardar los siguientes campos en la base documental: - document_id -
+título oficial - código o número de norma - organismo emisor -
+jurisdicción - categoría y subcategoría - fecha de publicación - edición
+o revisión - estado de vigencia (verificado / por verificar /
+sustituido) - URL de origen - fecha de consulta - nombre y hash del
+archivo original - licencia o condiciones de uso - idioma - texto
+extraído - estado OCR - páginas, apartados y tablas - notas de
+verificación - fecha de última revisión
+
+============================================================ 9. REGLAS
+DE RESPUESTA PARA LA IA
+============================================================
+
+1.  Priorizar los documentos oficiales de MINSA, IPSA y organismos
+    regionales competentes.
+2.  Citar el título, código, versión, apartado y página cuando estén
+    disponibles.
+3.  Distinguir normas obligatorias, guías voluntarias, artículos
+    científicos y recomendaciones.
+4.  No afirmar vigencia jurídica sin verificarla.
+5.  No combinar criterios de distintas categorías de alimentos como si
+    fueran intercambiables.
+6.  No inventar valores límite, temperaturas, tiempos, concentraciones
+    ni frecuencias.
+7.  Si no hay información suficiente, informar qué documento falta.
+8.  Si dos fuentes difieren, mostrar ambas con sus fechas y señalar que
+    se requiere comprobar cuál aplica.
+9.  Respetar derechos de autor y licencias; no almacenar ni redistribuir
+    materiales protegidos sin autorización.
+10. Mantener siempre un vínculo entre cada fragmento indexado y el
+    archivo original para que se pueda comprobar la cita.
+
+============================================================ 10.
+SIGUIENTE LOTE SUGERIDO
+============================================================
+
+LOTE 03 — MICROBIOLOGÍA DE ALIMENTOS Y CONTROL SANITARIO - Bacterias
+patógenas y microorganismos indicadores. - Muestreo y análisis
+microbiológico. - Evaluación de riesgos microbiológicos. - Agua
+utilizada en procesos alimentarios. - Limpieza, desinfección y control
+de plagas. - Trazabilidad, retiro de productos y contaminación
+cruzada. - Manuales y artículos de acceso abierto con licencia
+verificada.
+
+FUENTES DE PARTIDA: IPSA: https://www.ipsa.gob.ni/INOCUIDAD-ALIMENTARIA
+MINSA: https://www.minsa.gob.ni/index.php/taxonomy/term/622 Codex
+Alimentarius:
+https://www.fao.org/fao-who-codexalimentarius/codex-texts/es/ OMS,
+evaluación de riesgos microbiológicos:
+https://www.who.int/publications/i/item/9789240024892
+
+FIN DEL LOTE 02
+
+Nota final: Este archivo es un catálogo técnico y una guía de
+incorporación. No implica que todos los PDF hayan sido descargados, que
+se haya verificado exhaustivamente su vigencia jurídica o que estén ya
+cargados en la base de datos de la IA.

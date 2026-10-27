@@ -1,0 +1,223 @@
+BIBLIOTECA TÉCNICA PARA IA — LOTE 01 Tema: Inocuidad alimentaria, BPM,
+POES, HACCP, microbiología y legislación inicial Versión: 1.0 Fecha de
+elaboración: 22 de octubre de 2026
+
+PROPÓSITO Este archivo es el primer índice de fuentes para construir una
+biblioteca documental consultable por una IA. No sustituye los
+documentos oficiales completos ni constituye asesoría legal o sanitaria.
+Los enlaces llevan a fuentes oficiales o repositorios de organismos
+reconocidos. Al incorporar cada archivo, guardar también su fecha,
+versión, organismo emisor, licencia y estado de vigencia.
+
+============================================================ 1. FUENTES
+OFICIALES DE NICARAGUA: IPSA
+============================================================
+
+Institución: Instituto de Protección y Sanidad Agropecuaria (IPSA),
+Dirección de Inocuidad Agroalimentaria. Enlace principal:
+https://www.ipsa.gob.ni/INOCUIDAD-ALIMENTARIA
+
+Qué contiene / qué buscar: - Guías de Buenas Prácticas de Manufactura
+(BPM). - Guías del sistema HACCP/APPCC. - Guías de Procedimientos
+Operativos Estandarizados de Saneamiento (POES). - Normativa técnica
+nicaragüense y reglamentos técnicos centroamericanos relacionados con
+alimentos. - Criterios microbiológicos, almacenamiento, transporte,
+manipulación y trazabilidad de alimentos. - Material específico para
+carne, lácteos, frutas, vegetales y otros rubros.
+
+Uso para la IA: Priorizar esta fuente cuando la pregunta trate de
+inspección sanitaria, requisitos de establecimientos alimentarios o
+normativa aplicable en Nicaragua. No asumir que cada archivo listado
+sigue vigente: verificar su publicación, reformas, sustituciones y
+ámbito de aplicación.
+
+Palabras clave de catalogación: IPSA; Nicaragua; inocuidad; BPM; POES;
+HACCP; APPCC; RTCA; NTON; criterios microbiológicos; trazabilidad;
+inspección sanitaria.
+
+============================================================ 2. CODEX
+ALIMENTARIUS: PRINCIPIOS GENERALES DE HIGIENE
+============================================================
+
+Documento: Principios Generales de Higiene de los Alimentos, CXC 1-1969.
+Página oficial de publicaciones:
+https://www.fao.org/fao-who-codexalimentarius/publications/es/
+
+PDF oficial disponible en Codex/FAO (versión en inglés publicada en
+2023):
+https://www.fao.org/fao-who-codexalimentarius/sh-proxy/es/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXC%2B1-1969%252FCXC_001e.pdf
+
+Temas relevantes: - Principios generales de higiene de los alimentos. -
+Buenas prácticas de higiene y programas prerrequisito. - Identificación
+y control de peligros. - Sistema de análisis de peligros y puntos
+críticos de control (HACCP). - Seguimiento, acciones correctivas,
+verificación y documentación.
+
+Nota: La página de Codex explica que el texto se actualizó para integrar
+el sistema HACCP en el cuerpo principal y reforzar las buenas prácticas
+de higiene. Consultar la versión oficial más reciente y confirmar
+idioma/edición antes de citar.
+
+Uso para la IA: Utilizar como referencia internacional general. Codex
+indica que sus normas y textos afines son voluntarios; para determinar
+obligaciones legales hay que comprobar si han sido incorporados en la
+legislación nacional o regional aplicable.
+
+============================================================ 3. OMS/FAO:
+EVALUACIÓN DE RIESGOS MICROBIOLÓGICOS EN ALIMENTOS
+============================================================
+
+Documento: Microbiological Risk Assessment: Guidance for Food. Serie:
+Microbiological Risk Assessment Series, n.º 36. Fecha de publicación: 7
+de junio de 2021. Página oficial:
+https://www.who.int/publications/i/item/9789240024892
+
+Qué aporta: - Marco estructurado para evaluar riesgos microbiológicos
+asociados a alimentos. - Identificación de peligros microbiológicos. -
+Caracterización y evaluación del riesgo. - Comunicación y gestión del
+riesgo. - Orientación para científicos, evaluadores de riesgos y
+responsables de decisiones.
+
+Licencia indicada por la OMS: La publicación está disponible bajo
+licencia CC BY-NC-SA 3.0 IGO; revisar las condiciones completas antes de
+reutilizar o redistribuir comercialmente.
+
+Uso para la IA: Apoyar explicaciones y trabajos académicos sobre
+evaluación de riesgos microbiológicos. No inventar límites
+microbiológicos: los valores aplicables deben verificarse en la norma
+específica del alimento, país y método de análisis.
+
+============================================================ 4. ISO:
+SISTEMAS DE GESTIÓN DE INOCUIDAD ALIMENTARIA
+============================================================
+
+Página temática oficial de ISO:
+https://www.iso.org/sectors/food-agriculture/food-safety
+
+Guía explicativa de ISO 22000:
+https://www.iso.org/insights/iso-22000-explained
+
+Publicación práctica sobre ISO 22000:2018:
+https://www.iso.org/publication/PUB100454.html
+
+Temas para indexar: - ISO 22000: sistemas de gestión de inocuidad
+alimentaria. - Relación entre sistemas de gestión, análisis de peligros
+y programas prerrequisito. - Control de riesgos en la cadena
+alimentaria. - Trazabilidad, comunicación y mejora del sistema.
+
+Advertencia de derechos: Las normas ISO completas normalmente están
+protegidas por derechos de autor y pueden requerir compra o licencia. No
+buscar ni incorporar copias no autorizadas. Se pueden indexar fichas
+oficiales, resúmenes autorizados y materiales de acceso legal.
+
+Nota sobre versiones: La página de ISO puede mostrar proyectos de
+revisión o ediciones nuevas. Antes de afirmar que una versión está
+vigente, verificar el catálogo oficial y registrar la fecha de consulta.
+
+============================================================ 5.
+LEGISLACIÓN DE NICARAGUA: LEY GENERAL DE SALUD
+============================================================
+
+Documento: Texto consolidado de la Ley n.º 423, Ley General de Salud.
+Fuente oficial: Asamblea Nacional de Nicaragua. Enlace:
+https://legislacion.asamblea.gob.ni/Normaweb.nsf/xpNorma.xsp?action=openDocument&documentId=D5863F9E2CC207AC062587E60058A571
+
+Información de la ficha consultada: El texto consolidado fue aprobado el
+10 de diciembre de 2020 y publicado en La Gaceta, Diario Oficial n.º 10
+del 18 de enero de 2022. La ficha describe las modificaciones
+incorporadas hasta la fecha de consolidación.
+
+Uso para la IA: Usar como punto de partida para localizar disposiciones
+sanitarias generales. Antes de emitir una conclusión legal, verificar
+reformas posteriores, reglamentos y normas específicas. Citar artículo,
+texto y fecha de la fuente cuando sea posible.
+
+============================================================ 6. TEXTOS
+OFICIALES DEL CODEX ALIMENTARIUS
+============================================================
+
+Página oficial en español:
+https://www.fao.org/fao-who-codexalimentarius/codex-texts/es/
+
+Página de códigos de prácticas:
+https://www.fao.org/fao-who-codexalimentarius/codex-texts/codes-of-practice/en/
+
+Tipos de materiales que conviene añadir en próximos lotes: - Códigos de
+prácticas de higiene. - Normas generales y normas para productos
+específicos. - Etiquetado, contaminantes, residuos y aditivos. -
+Muestreo, inspección y certificación. - Recomendaciones para producción,
+almacenamiento y transporte.
+
+Regla para el sistema: Registrar el código oficial, título, idioma,
+año/edición, URL, fecha de descarga y si existe una revisión posterior.
+No tratar una guía internacional como ley nacional automáticamente.
+
+============================================================ 7. CÓMO
+INCORPORAR ESTAS FUENTES A LA BIBLIOTECA
+============================================================
+
+Para cada fuente, guardar estos metadatos: - ID interno. - Título
+oficial. - Organismo emisor. - País o jurisdicción. - Categoría y
+subcategoría. - Tipo documental: ley, norma, guía, manual, artículo,
+tesis. - Número o código oficial. - Fecha de publicación y versión. -
+Estado de vigencia: vigente verificado / reemplazado / por verificar. -
+URL original. - Fecha de consulta y descarga. - Idioma. - Licencia o
+condiciones de uso. - Páginas y secciones relevantes. - Texto extraído y
+estado de OCR. - Huella digital del archivo para detectar duplicados.
+
+Proceso recomendado: 1. Descargar solamente documentos de fuentes
+legítimas y respetar sus licencias. 2. Revisar si el PDF contiene texto
+seleccionable o si requiere OCR. 3. Extraer el texto y conservar la
+paginación o los encabezados de sección. 4. Dividir el contenido en
+fragmentos que mantengan el contexto. 5. Crear embeddings y guardarlos
+en el índice vectorial. 6. Conservar siempre la relación entre cada
+fragmento y el documento original. 7. Probar preguntas y comprobar que
+la recuperación encuentre las páginas correctas. 8. Volver a revisar las
+normas periódicamente para detectar cambios.
+
+============================================================ 8. REGLAS
+QUE DEBE SEGUIR LA IA AL RESPONDER
+============================================================
+
+-   Priorizar fuentes oficiales y documentos originales.
+-   Citar título, organismo, año/versión, sección o artículo y página
+    cuando esté disponible.
+-   Separar los requisitos legales obligatorios de las recomendaciones
+    técnicas.
+-   Indicar la jurisdicción: Nicaragua, Centroamérica o referencia
+    internacional.
+-   No afirmar que una norma está vigente sin verificarlo.
+-   Si las fuentes se contradicen, explicar la diferencia y mostrar las
+    fechas.
+-   Si no encuentra respaldo documental suficiente, reconocerlo.
+-   Para cálculos, límites críticos, parámetros de proceso y criterios
+    microbiológicos, no inventar valores; pedir el contexto necesario y
+    verificar la fuente aplicable.
+-   No sustituir la evaluación de profesionales responsables ni la
+    validación oficial de un plan HACCP.
+
+============================================================ 9.
+SIGUIENTE LOTE PROPUESTO
+============================================================
+
+Lote 02: - RTCA de Buenas Prácticas de Manufactura aplicables a
+alimentos procesados. - RTCA/NTON sobre criterios microbiológicos de
+inocuidad. - Requisitos sanitarios para manipuladores de alimentos. -
+Normas sobre almacenamiento y transporte de productos alimenticios. -
+Guías detalladas de BPM, POES y HACCP publicadas por IPSA. - Documentos
+de Codex sobre higiene y peligros específicos.
+
+Lote 03: - Microbiología de alimentos: patógenos, alterantes, métodos de
+muestreo y análisis. - Evaluación de riesgos microbiológicos. - Agua
+potable, limpieza, desinfección y control de plagas. - Trazabilidad,
+retiro de productos y gestión de alérgenos.
+
+Lote 04: - Ingeniería agroindustrial e industrial. - Operaciones
+unitarias, balances, conservación y procesamiento de alimentos. -
+Calidad, seguridad ocupacional, mantenimiento y gestión de procesos.
+
+FIN DEL LOTE 01
+
+Este archivo es un índice inicial de fuentes y una guía de ingestión; no
+significa que los PDF completos ya hayan sido descargados ni
+incorporados a una base de datos de IA.

@@ -1,0 +1,563 @@
+LOTE 07 — INGENIERÍA CIVIL, MATERIALES Y CONSTRUCCIÓN
+Biblioteca técnica de conocimientos para IA
+Versión: 1.0
+Idioma: Español
+Alcance: Material introductorio y guía de consulta. No sustituye normas vigentes, planos aprobados, estudios geotécnicos ni el criterio de profesionales autorizados.
+
+======================================================================
+0. CÓMO UTILIZAR ESTE DOCUMENTO
+======================================================================
+
+Este archivo reúne conceptos introductorios, fórmulas de referencia, listas de verificación y fuentes públicas para apoyar el estudio y la consulta técnica en ingeniería civil y construcción.
+
+Para una respuesta técnica, la IA debe:
+1. Identificar el país, municipio, tipo de obra y edición normativa aplicable.
+2. Distinguir entre información orientativa y requisito obligatorio.
+3. Citar la fuente consultada, su institución, título, fecha o edición y enlace.
+4. No inventar valores normativos, capacidades de carga, resistencias ni requisitos.
+5. Solicitar datos faltantes antes de realizar cálculos que dependan de ellos.
+6. Indicar los supuestos, unidades, procedimiento y limitaciones de cada cálculo.
+7. Recomendar revisión por un profesional competente cuando haya implicaciones estructurales, geotécnicas, hidráulicas o de seguridad.
+
+ADVERTENCIA:
+Los ejemplos numéricos de este documento son didácticos. No deben utilizarse directamente para diseñar, construir, reparar o certificar una obra real. Las estructuras y obras deben diseñarse conforme a la normativa aplicable y ser revisadas por profesionales autorizados.
+
+======================================================================
+1. REGLAMENTOS, CÓDIGOS Y DOCUMENTACIÓN TÉCNICA
+======================================================================
+
+1.1 Nicaragua
+Antes de diseñar o ejecutar una obra en Nicaragua, verificar la versión vigente y el ámbito de aplicación de:
+- Reglamento Nacional de la Construcción (RNC) y sus reformas o documentos complementarios oficiales.
+- Normas y especificaciones técnicas emitidas por las autoridades competentes.
+- Requisitos municipales para permisos, uso de suelo, construcción y supervisión.
+- Especificaciones del Ministerio de Transporte e Infraestructura (MTI) para obras viales, puentes y materiales, cuando correspondan.
+- Requisitos ambientales, de seguridad laboral, accesibilidad, instalaciones y protección contra incendios aplicables al proyecto.
+
+No asumir que una edición antigua sigue vigente. Confirmar siempre la publicación oficial, reformas y disposiciones locales antes de citar un requisito como obligatorio.
+
+1.2 Referencias internacionales
+- ACI (American Concrete Institute): documentos técnicos sobre concreto y estructuras de concreto.
+- ASTM International: métodos de ensayo y especificaciones de materiales.
+- AASHTO: referencias para carreteras, puentes y transporte.
+- FHWA (Federal Highway Administration): manuales públicos de geotecnia, pavimentos, drenaje y puentes.
+- ISO: normas de gestión de calidad y otras áreas pertinentes.
+- OSHA: orientación de seguridad ocupacional de Estados Unidos; no sustituye la legislación nicaragüense.
+- FEMA: publicaciones técnicas sobre riesgos, sismos y reducción de desastres.
+
+Una norma extranjera solo debe aplicarse si la normativa local la incorpora, el contrato la exige o el responsable técnico justifica su uso.
+
+======================================================================
+2. MECÁNICA DE SUELOS Y GEOTECNIA
+======================================================================
+
+2.1 Objetivos de la investigación geotécnica
+La investigación del suelo busca caracterizar los estratos, nivel freático, resistencia, deformabilidad, drenaje y posibles riesgos del terreno. Sus resultados sirven para evaluar cimentaciones, excavaciones, taludes, rellenos y pavimentos.
+
+Actividades habituales:
+- Inspección del sitio y antecedentes del terreno.
+- Sondeos, calicatas y muestreo según el alcance del estudio.
+- Ensayos de laboratorio y de campo.
+- Identificación de nivel freático y variaciones estacionales.
+- Informe geotécnico con parámetros, limitaciones y recomendaciones.
+
+No es seguro seleccionar una cimentación únicamente por observación visual o por datos de un terreno vecino.
+
+2.2 Clasificación de suelos
+Los suelos pueden describirse según granulometría, plasticidad, origen, humedad y comportamiento. Sistemas como USCS y AASHTO emplean ensayos normalizados para clasificar materiales. La clasificación debe proceder de datos de ensayo; no se debe asignar una clase definitiva solo por el color o apariencia.
+
+2.3 Conceptos principales
+- Contenido de humedad: relación entre la masa de agua y la masa de suelo seco, expresada normalmente como porcentaje.
+- Densidad o peso unitario: masa o peso por unidad de volumen, según la magnitud utilizada.
+- Porosidad: proporción del volumen total ocupada por vacíos.
+- Relación de vacíos: volumen de vacíos dividido entre volumen de sólidos.
+- Límite líquido y límite plástico: referencias para describir la plasticidad de suelos finos.
+- Compactación: densificación mecánica de un suelo, normalmente controlada por humedad y densidad seca.
+- Consolidación: reducción gradual de volumen bajo carga, especialmente en suelos saturados de baja permeabilidad.
+- Capacidad portante: resistencia del sistema suelo-cimentación frente a las acciones aplicadas; debe evaluarse junto con asentamientos y estabilidad.
+
+2.4 Fórmulas introductorias
+Contenido de humedad:
+w (%) = (masa de agua / masa de suelo seco) × 100
+
+Densidad:
+ρ = masa / volumen
+
+Peso unitario:
+γ = peso / volumen
+
+Porosidad:
+n = volumen de vacíos / volumen total
+
+Relación de vacíos:
+e = volumen de vacíos / volumen de sólidos
+
+Grado de saturación:
+Sr (%) = (volumen de agua / volumen de vacíos) × 100
+
+Las magnitudes deben calcularse con unidades coherentes. No confundir densidad (kg/m³) con peso unitario (kN/m³).
+
+2.5 Compactación y control
+La compactación en campo puede compararse con la densidad seca máxima y humedad óptima determinadas mediante el ensayo especificado para el proyecto. El método, la energía de compactación, el equipo y el porcentaje de aceptación deben provenir de las especificaciones aplicables.
+
+Lista de control:
+- Verificar que el material sea apto para el uso previsto.
+- Controlar espesor de cada capa.
+- Ajustar la humedad al rango especificado.
+- Usar equipo adecuado al tipo de suelo.
+- Ejecutar ensayos de densidad y humedad según frecuencia contractual.
+- Registrar ubicación, fecha, resultados y acciones ante incumplimientos.
+
+2.6 Cimentaciones
+La selección entre zapatas, losas, pilotes u otras soluciones depende de cargas, estratigrafía, asentamientos, agua subterránea, condiciones sísmicas, propiedades de estructuras vecinas y restricciones de obra. El diseño requiere estudio geotécnico y cálculo profesional.
+
+======================================================================
+3. CIMENTACIONES Y EXCAVACIONES
+======================================================================
+
+3.1 Elementos básicos
+- Cimentación superficial: transmite cargas a estratos próximos a la superficie cuando las condiciones lo permiten.
+- Cimentación profunda: transfiere cargas a mayor profundidad mediante mecanismos de punta, fricción o combinación.
+- Zapata aislada: soporta normalmente una columna.
+- Zapata corrida: puede soportar muros o una línea de apoyos.
+- Losa de cimentación: distribuye cargas sobre un área amplia.
+- Pilote: elemento profundo cuya capacidad depende del suelo, geometría, instalación y acciones aplicadas.
+
+3.2 Consideraciones de diseño
+Evaluar:
+- Cargas permanentes, variables, sísmicas y otras acciones pertinentes.
+- Capacidad portante y asentamientos totales o diferenciales.
+- Deslizamiento, vuelco y estabilidad global cuando proceda.
+- Efectos del agua, erosión, socavación y drenaje.
+- Interacción con edificaciones vecinas y servicios enterrados.
+- Secuencia constructiva y control de calidad.
+
+3.3 Seguridad de excavaciones
+Antes de excavar:
+- Identificar servicios subterráneos.
+- Evaluar estabilidad del terreno y agua.
+- Definir taludes, entibación o sistema de protección diseñado.
+- Mantener materiales y maquinaria a distancia segura del borde conforme al plan aplicable.
+- Proporcionar acceso y salida seguros.
+- Inspeccionar después de lluvias, vibraciones o cambios de condición.
+- Evitar el ingreso cuando exista riesgo de derrumbe, inundación o atmósfera peligrosa.
+
+No improvisar ángulos de talud ni sistemas de apuntalamiento. Las medidas deben corresponder al suelo, profundidad, entorno y normativa aplicable.
+
+======================================================================
+4. CONCRETO
+======================================================================
+
+4.1 Componentes
+El concreto convencional contiene cemento, agua, agregados finos y gruesos; puede incluir aditivos o adiciones. La dosificación depende de resistencia especificada, durabilidad, trabajabilidad, exposición ambiental, materiales disponibles y método de colocación.
+
+4.2 Propiedades
+- Trabajabilidad: facilidad para mezclar, transportar, colocar y compactar sin segregación excesiva.
+- Resistencia a compresión: se determina mediante probetas y procedimientos de ensayo normalizados.
+- Durabilidad: capacidad de conservar el desempeño durante la vida útil prevista.
+- Relación agua/cemento: influye en resistencia y permeabilidad, pero no es el único factor de desempeño.
+- Curado: mantenimiento de condiciones de humedad y temperatura que permitan el desarrollo adecuado de propiedades.
+
+4.3 Buenas prácticas de colocación
+- Verificar planos, encofrado, acero de refuerzo, recubrimientos e insertos antes del vaciado.
+- Confirmar identificación y documentación de la mezcla.
+- No añadir agua en obra sin autorización técnica y registro.
+- Colocar evitando segregación y juntas frías no planificadas.
+- Compactar con equipo apropiado sin desplazar el refuerzo.
+- Proteger y curar según especificaciones.
+- Registrar fecha, ubicación, lote, condiciones ambientales y ensayos.
+- Investigar resultados fuera de especificación antes de aceptar o rechazar la estructura.
+
+4.4 Volumen geométrico
+Para una losa rectangular:
+V = largo × ancho × espesor
+
+Para un prisma rectangular:
+V = largo × ancho × altura
+
+Las dimensiones deben expresarse en la misma unidad. El volumen geométrico no incluye automáticamente desperdicios, pérdidas, bombeo ni irregularidades. Cualquier margen adicional debe justificarse según el proyecto.
+
+4.5 Control y ensayos
+Los ensayos de asentamiento, temperatura, elaboración de probetas y resistencia deben ejecutarse mediante procedimientos reconocidos y personal competente. La edad de ensayo, frecuencia, criterios de aceptación y tratamiento de resultados deben estar definidos en la especificación.
+
+======================================================================
+5. ACERO DE REFUERZO, MAMPOSTERÍA Y MADERA
+======================================================================
+
+5.1 Acero de refuerzo
+Aspectos a verificar:
+- Grado y especificación del acero.
+- Diámetro, cantidad, separación y ubicación indicados en planos.
+- Longitudes de desarrollo, traslapos, anclajes y dobleces conforme al diseño.
+- Recubrimiento y separación libre.
+- Limpieza y ausencia de condiciones que comprometan la adherencia.
+- Estabilidad del armado durante el vaciado.
+
+No modificar diámetros, espaciamientos, empalmes ni detalles de refuerzo sin autorización del diseñador responsable.
+
+5.2 Mampostería
+La mampostería puede ser de unidades de concreto, arcilla, piedra u otros materiales. Su comportamiento depende de las unidades, mortero, refuerzo, confinamiento, geometría, ejecución y cargas. En zonas sísmicas, los detalles de confinamiento y conexión son especialmente importantes.
+
+Control de obra:
+- Comprobar tipo, dimensiones y calidad de las unidades.
+- Preparar mortero con dosificación especificada.
+- Mantener juntas uniformes según planos y especificaciones.
+- Verificar plomo, nivel, alineación y trabazón.
+- Ejecutar refuerzo, celdas rellenas y elementos de confinamiento conforme al diseño.
+- Proteger la obra durante el curado y frente a la lluvia.
+
+5.3 Madera estructural
+Evaluar especie o clasificación estructural, humedad, defectos, tratamiento, protección contra humedad e insectos, conexiones y condiciones de exposición. No asignar capacidad estructural por apariencia. El diseño debe utilizar propiedades certificadas y las normas aplicables.
+
+======================================================================
+6. LECTURA E INTERPRETACIÓN DE PLANOS
+======================================================================
+
+6.1 Tipos de planos
+- Arquitectónicos: distribución, dimensiones, niveles, puertas, ventanas y acabados.
+- Estructurales: cimentaciones, columnas, vigas, losas, muros y refuerzo.
+- Hidrosanitarios: abastecimiento, desagüe, ventilación y equipos.
+- Eléctricos: circuitos, tableros, canalizaciones y puntos eléctricos.
+- Mecánicos o especiales: climatización, protección contra incendios u otros sistemas.
+
+6.2 Elementos que se deben revisar
+- Nombre del proyecto y ubicación.
+- Número de plano, escala, fecha y revisión.
+- Unidades y cotas.
+- Ejes, niveles, secciones y detalles.
+- Simbología, notas y especificaciones.
+- Referencias cruzadas entre disciplinas.
+- Firmas, sellos o aprobaciones cuando sean exigibles.
+
+6.3 Coordinación
+Ante una discrepancia entre planos arquitectónicos, estructurales e instalaciones, registrar la consulta y solicitar aclaración formal al responsable del diseño. No resolver conflictos críticos mediante suposiciones en campo.
+
+======================================================================
+7. HIDRÁULICA, DRENAJE Y SANEAMIENTO
+======================================================================
+
+7.1 Conceptos
+- Caudal (Q): volumen de fluido que atraviesa una sección por unidad de tiempo.
+- Velocidad media (v): velocidad promedio del flujo a través de una sección.
+- Área hidráulica (A): área de la sección ocupada por el flujo.
+- Presión: fuerza normal por unidad de área.
+- Pérdida de carga: energía por unidad de peso disipada por fricción y accesorios.
+- Cuenca: área que aporta escorrentía a un punto de salida.
+
+Relación básica para flujo:
+Q = A × v
+
+En unidades SI, Q se expresa en m³/s cuando A está en m² y v en m/s.
+
+7.2 Drenaje pluvial
+El diseño requiere considerar lluvia de diseño, área aportante, uso del suelo, pendientes, capacidad de captación, conducción, descarga, erosión y condiciones aguas abajo. Los métodos simplificados solo deben usarse dentro de sus supuestos y cuando la norma o el proyecto lo permita.
+
+7.3 Agua potable y saneamiento
+La selección de diámetros, pendientes, materiales, ventilación, presión, tratamiento y disposición debe cumplir normas sanitarias y ambientales aplicables. Evitar conexiones cruzadas entre agua potable y aguas residuales. Las pruebas de presión, estanqueidad y desinfección deben documentarse según especificación.
+
+7.4 Inspección
+- Revisar cotas, pendientes y alineación antes de cubrir tuberías.
+- Verificar materiales y uniones.
+- Ejecutar pruebas requeridas.
+- Documentar ubicación y profundidad de redes enterradas.
+- Comprobar protección de descargas y control de erosión.
+- Registrar cambios en planos conforme a obra.
+
+======================================================================
+8. CARRETERAS, PAVIMENTOS Y OBRAS VIALES
+======================================================================
+
+8.1 Componentes típicos
+- Subrasante.
+- Subbase, cuando corresponda.
+- Base.
+- Capa de rodadura.
+- Obras de drenaje y elementos de seguridad vial.
+
+La estructura depende del tránsito, clima, drenaje, capacidad de soporte del terreno, materiales y vida útil prevista. No se debe determinar el espesor de capas solo con una regla general.
+
+8.2 Control de calidad
+- Verificar procedencia y clasificación de materiales.
+- Controlar humedad, granulometría y plasticidad según especificación.
+- Revisar espesor y compactación por capa.
+- Comprobar cotas, alineación, pendientes y bombeo.
+- Controlar mezcla, temperatura y densidad en pavimentos asfálticos cuando aplique.
+- Registrar ensayos, lotes, ubicación y resultados.
+
+8.3 Drenaje vial
+El agua puede reducir la capacidad de soporte, erosionar taludes y dañar pavimentos. Revisar cunetas, alcantarillas, entradas y salidas, disipación de energía, mantenimiento y protección frente a socavación.
+
+8.4 Referencias
+Consultar especificaciones vigentes del MTI para Nicaragua y, cuando proceda, documentos AASHTO o FHWA indicados en el contrato. Las referencias extranjeras no sustituyen las disposiciones nacionales aplicables.
+
+======================================================================
+9. CANTIDADES DE OBRA Y PRESUPUESTOS
+======================================================================
+
+9.1 Medición
+Las cantidades deben obtenerse de planos y especificaciones revisados, aplicando las reglas de medición del contrato. Separar cantidades teóricas, cantidades ejecutadas y cantidades pagables cuando no sean equivalentes.
+
+Ejemplos geométricos:
+- Concreto rectangular: V = L × A × H.
+- Área de pared rectangular: A = largo × altura.
+- Área de piso rectangular: A = largo × ancho.
+- Longitud total: suma de los tramos medidos según el criterio del proyecto.
+
+Restar aberturas, incluir elementos adicionales o aplicar desperdicios únicamente según las reglas de medición y el alcance establecido.
+
+9.2 Costo directo
+El costo directo suele organizarse por:
+- Materiales.
+- Mano de obra.
+- Equipos y herramientas.
+- Transporte y otros recursos directamente atribuibles.
+
+Costo de una actividad = suma de (cantidad de recurso × precio unitario del recurso), conforme al análisis de precio unitario.
+
+9.3 Precio unitario
+Un análisis de precio unitario debe documentar:
+- Unidad de pago.
+- Rendimiento o consumo por unidad.
+- Cantidad de cada recurso.
+- Precio y fecha de cotización.
+- Mano de obra y cargas aplicables.
+- Equipos, transporte y desperdicios justificados.
+- Costos indirectos, utilidad, impuestos y otros componentes según el contrato y legislación.
+
+No inventar precios actuales. Solicitar ubicación, fecha, moneda, alcance y fuentes de precios locales.
+
+9.4 Control presupuestario
+Comparar presupuesto base, compromiso, costo real, avance físico y proyección final. Explicar variaciones por cantidades, precios, productividad, cambios de alcance o condiciones imprevistas. Toda modificación debe seguir el proceso de aprobación contractual.
+
+======================================================================
+10. CONTROL DE CALIDAD, INSPECCIÓN Y NO CONFORMIDADES
+======================================================================
+
+10.1 Plan de inspección y ensayos
+Para cada actividad definir:
+- Característica a inspeccionar.
+- Criterio de aceptación y fuente.
+- Método y frecuencia de inspección.
+- Responsable.
+- Registro requerido.
+- Punto de espera o aprobación, cuando corresponda.
+
+10.2 No conformidad
+Una no conformidad es el incumplimiento de un requisito especificado. El proceso típico incluye:
+1. Identificar y describir el incumplimiento.
+2. Registrar ubicación, fecha, requisito y evidencia.
+3. Contener el problema y evaluar riesgos.
+4. Analizar la causa.
+5. Proponer corrección y acción correctiva.
+6. Obtener aprobación del responsable competente.
+7. Ejecutar y verificar la solución.
+8. Cerrar el registro con evidencia.
+
+No ocultar ni alterar resultados de ensayos. La aceptación de una desviación debe ser formal y técnicamente justificada.
+
+10.3 Registros útiles
+- Informes diarios de obra.
+- Planos y especificaciones vigentes.
+- Solicitudes de información y órdenes de cambio.
+- Certificados de materiales.
+- Resultados de laboratorio.
+- Inspecciones y listas de verificación.
+- Fotografías fechadas y localizadas.
+- Actas, permisos y aprobaciones.
+- Registro de incidentes y acciones correctivas.
+
+======================================================================
+11. SEGURIDAD Y SALUD EN LA CONSTRUCCIÓN
+======================================================================
+
+11.1 Riesgos frecuentes
+- Caídas desde altura o al mismo nivel.
+- Derrumbes de excavaciones.
+- Golpes, atrapamientos y caída de objetos.
+- Contacto eléctrico.
+- Polvo, ruido, vibración y sustancias peligrosas.
+- Equipos móviles y maniobras de izaje.
+- Espacios confinados y atmósferas peligrosas.
+- Manipulación manual de cargas y estrés térmico.
+
+11.2 Jerarquía de controles
+Aplicar preferentemente:
+1. Eliminación del peligro.
+2. Sustitución por una opción menos peligrosa.
+3. Controles de ingeniería.
+4. Controles administrativos y procedimientos.
+5. Equipo de protección personal.
+
+El equipo de protección personal es una parte del sistema de prevención, no un sustituto automático de controles más eficaces.
+
+11.3 Prácticas básicas
+- Realizar evaluación de riesgos y charla previa a la tarea.
+- Mantener orden, limpieza, señalización y rutas de circulación.
+- Inspeccionar herramientas, andamios, escaleras y equipos.
+- Usar protección contra caídas y sistemas diseñados cuando se requieran.
+- Controlar accesos a excavaciones y zonas de izaje.
+- Aplicar bloqueo y etiquetado cuando corresponda.
+- Preparar respuesta ante emergencias y primeros auxilios.
+- Reportar incidentes y condiciones inseguras.
+- Cumplir la legislación nicaragüense vigente y las instrucciones del responsable de seguridad.
+
+======================================================================
+12. GESTIÓN AMBIENTAL Y RESIDUOS
+======================================================================
+
+Aspectos a controlar:
+- Manejo y disposición autorizada de escombros.
+- Prevención de derrames de combustibles, aceites y químicos.
+- Control de polvo, ruido, sedimentos y escorrentía.
+- Protección de cauces, vegetación y áreas sensibles.
+- Almacenamiento seguro de materiales.
+- Reutilización o reciclaje cuando sea viable.
+- Registro de retiro y destino de residuos cuando se exija.
+
+Los permisos ambientales y condiciones de manejo dependen del tipo de obra, ubicación y normativa vigente. Deben confirmarse con la autoridad competente.
+
+======================================================================
+13. EJEMPLOS DIDÁCTICOS DE CÁLCULO
+======================================================================
+
+Ejemplo 1: volumen geométrico de una losa
+Datos hipotéticos:
+Largo = 5 m
+Ancho = 4 m
+Espesor = 0.12 m
+
+Cálculo:
+V = 5 × 4 × 0.12 = 2.4 m³
+
+Resultado: volumen geométrico de 2.4 m³. No incluye margen de pedido ni pérdidas. Para una obra real, confirmar dimensiones en planos y especificaciones.
+
+Ejemplo 2: caudal con velocidad media
+Datos hipotéticos:
+Área de sección = 0.25 m²
+Velocidad media = 1.2 m/s
+
+Cálculo:
+Q = A × v
+Q = 0.25 × 1.2 = 0.30 m³/s
+
+Resultado: 0.30 m³/s bajo los supuestos del ejemplo. No constituye un dimensionamiento de tubería o canal.
+
+Ejemplo 3: contenido de humedad
+Datos hipotéticos:
+Masa de suelo húmedo = 1,150 g
+Masa de suelo seco = 1,000 g
+Masa de agua = 1,150 − 1,000 = 150 g
+
+Cálculo:
+w = (150 / 1,000) × 100 = 15 %
+
+Resultado: contenido de humedad de 15 %, suponiendo que las masas fueron determinadas correctamente mediante el procedimiento de ensayo correspondiente.
+
+======================================================================
+14. LISTA GENERAL DE VERIFICACIÓN DE OBRA
+======================================================================
+
+Antes de iniciar:
+[ ] Planos y especificaciones aprobados y vigentes.
+[ ] Permisos y autorizaciones aplicables.
+[ ] Estudio geotécnico revisado.
+[ ] Presupuesto, alcance y cronograma establecidos.
+[ ] Servicios existentes identificados.
+[ ] Plan de seguridad y evaluación de riesgos.
+[ ] Plan de calidad e inspecciones.
+[ ] Plan de manejo ambiental y residuos, si aplica.
+
+Durante la ejecución:
+[ ] Materiales recibidos e identificados.
+[ ] Equipos inspeccionados.
+[ ] Trazado, cotas y niveles verificados.
+[ ] Actividades ejecutadas conforme a planos.
+[ ] Ensayos e inspecciones registrados.
+[ ] Cambios aprobados antes de ejecutarse.
+[ ] No conformidades documentadas y resueltas.
+[ ] Medidas de seguridad y ambientales implementadas.
+
+Antes de entregar:
+[ ] Inspección final y lista de pendientes.
+[ ] Pruebas funcionales y certificados requeridos.
+[ ] Planos conforme a obra.
+[ ] Manuales, garantías y fichas técnicas.
+[ ] Registros de calidad completos.
+[ ] Evidencia de cierre de no conformidades.
+[ ] Acta de recepción según contrato.
+
+======================================================================
+15. FUENTES OFICIALES Y TÉCNICAS PARA CONSULTA
+======================================================================
+
+Verificar disponibilidad, edición y vigencia antes de usar o citar cada documento.
+
+1. Ministerio de Transporte e Infraestructura (MTI), Nicaragua
+   Portal institucional:
+   https://www.mti.gob.ni/
+   Uso: localizar reglamentos, especificaciones y documentos oficiales relacionados con infraestructura y obras viales.
+
+2. Ministerio de Salud (MINSA), Nicaragua
+   Portal institucional:
+   https://www.minsa.gob.ni/
+   Uso: localizar requisitos sanitarios aplicables a proyectos y sistemas de agua/saneamiento cuando corresponda.
+
+3. American Concrete Institute (ACI)
+   https://www.concrete.org/
+   Uso: normas y guías sobre concreto. Algunas publicaciones son de acceso restringido.
+
+4. ASTM International
+   https://www.astm.org/
+   Uso: métodos de ensayo y especificaciones para materiales. Verificar el método y la edición citada en el contrato.
+
+5. Federal Highway Administration (FHWA)
+   https://www.fhwa.dot.gov/
+   Uso: manuales y recursos técnicos de geotecnia, pavimentos, drenaje y puentes.
+
+6. American Association of State Highway and Transportation Officials (AASHTO)
+   https://www.transportation.org/
+   Uso: referencias para diseño y especificaciones de transporte; confirmar la edición aplicable.
+
+7. International Organization for Standardization (ISO)
+   https://www.iso.org/standards.html
+   Uso: catálogo oficial de normas internacionales de gestión y técnicas.
+
+8. Occupational Safety and Health Administration (OSHA)
+   https://www.osha.gov/construction
+   Uso: recursos de seguridad en construcción como referencia complementaria; no reemplazan la legislación local.
+
+9. Federal Emergency Management Agency (FEMA)
+   https://www.fema.gov/
+   Uso: recursos técnicos sobre amenazas, sismos y reducción del riesgo de desastres.
+
+10. National Institute of Standards and Technology (NIST)
+    https://www.nist.gov/
+    Uso: referencias metrológicas, ensayos y recursos científicos pertinentes.
+
+NOTA SOBRE ACCESO:
+Los portales pueden enlazar documentos gratuitos y publicaciones sujetas a pago o licencia. Este archivo no reproduce el texto íntegro de normas protegidas ni afirma que todos los documentos estén disponibles gratuitamente.
+
+======================================================================
+16. FORMATO RECOMENDADO PARA INGESTIÓN EN UNA IA
+======================================================================
+
+Metadatos sugeridos:
+- lote: 07
+- tema: ingeniería civil, materiales y construcción
+- idioma: español
+- país_prioritario: Nicaragua
+- tipo_contenido: introducción técnica y guía de consulta
+- nivel: básico a intermedio
+- advertencia: verificar normativa vigente y revisión profesional
+- fecha_de_revisión: completar al incorporar el documento a la biblioteca
+
+Reglas para respuestas generadas por la IA:
+- Citar la fuente primaria que respalda cada requisito técnico.
+- Distinguir fórmulas generales de métodos de diseño normativo.
+- No afirmar que una obra es segura o cumple el código solo con información incompleta.
+- Pedir dimensiones, unidades, cargas, materiales, ubicación y norma aplicable cuando sean necesarios.
+- Mostrar cálculos con unidades y supuestos.
+- No inventar enlaces, ediciones, tablas normativas ni resultados de laboratorio.
+- Para asuntos estructurales, geotécnicos, sísmicos, hidráulicos o de seguridad, recomendar validación profesional antes de ejecutar.
+
+FIN DEL LOTE 07

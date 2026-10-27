@@ -1,0 +1,658 @@
+LOTE 16 — BIOLOGÍA GENERAL, GENÉTICA, MICROBIOLOGÍA, EVOLUCIÓN Y BIOLOGÍA CELULAR
+Versión: 1.0
+Idioma: Español
+Propósito: material de referencia educativa para una biblioteca de conocimientos de IA.
+
+============================================================
+1. BIOLOGÍA: CONCEPTO Y ALCANCE
+============================================================
+
+La biología es la ciencia que estudia a los seres vivos, su estructura, funcionamiento, origen, evolución, distribución e interacciones con el ambiente.
+
+Principales ramas:
+- Biología celular: estudia las células.
+- Genética: estudia la herencia y la variación.
+- Microbiología: estudia microorganismos, como bacterias, arqueas, muchos hongos microscópicos, protozoos y virus desde el punto de vista biológico.
+- Ecología: estudia las relaciones entre organismos y ambiente.
+- Zoología: estudia animales.
+- Botánica: estudia plantas.
+- Fisiología: estudia funciones de los organismos.
+- Anatomía: estudia estructuras.
+- Biología evolutiva: estudia cambios heredables en poblaciones a lo largo de generaciones.
+- Biología molecular: estudia procesos biológicos a nivel de moléculas.
+
+La biología se relaciona con química, física, matemáticas, informática, medicina, agricultura, conservación ambiental y biotecnología.
+
+Principios generales:
+1. Los seres vivos están formados por una o más células, según la teoría celular.
+2. La información hereditaria se almacena principalmente en ADN; algunos virus utilizan ARN.
+3. El metabolismo transforma materia y energía.
+4. Las poblaciones cambian a lo largo de generaciones.
+5. Los organismos interactúan entre sí y con el entorno.
+6. Las explicaciones científicas deben apoyarse en evidencia verificable.
+
+============================================================
+2. CARACTERÍSTICAS DE LOS SERES VIVOS
+============================================================
+
+Entre las características comunes se encuentran:
+- Organización celular.
+- Uso y transformación de energía.
+- Regulación interna u homeostasis.
+- Crecimiento y desarrollo.
+- Respuesta a estímulos.
+- Reproducción a nivel de organismos o linajes.
+- Información hereditaria.
+- Capacidad de evolucionar a nivel poblacional.
+
+Ningún criterio aislado permite resolver todos los casos límite. Por ejemplo, los virus poseen material genético y evolucionan, pero no tienen estructura celular ni metabolismo independiente; por eso su clasificación como seres vivos depende de la definición empleada.
+
+Niveles de organización:
+átomo → molécula → orgánulo → célula → tejido → órgano → sistema → organismo → población → comunidad → ecosistema → biosfera.
+
+No todos los organismos presentan tejidos, órganos o sistemas. Una bacteria, por ejemplo, es unicelular.
+
+============================================================
+3. TEORÍA CELULAR
+============================================================
+
+La teoría celular clásica establece:
+- Todos los organismos están formados por células.
+- La célula es la unidad básica estructural y funcional de la vida celular.
+- Las células proceden de células preexistentes.
+
+La teoría celular moderna también reconoce que:
+- La información hereditaria pasa de una célula a sus descendientes.
+- El metabolismo y el flujo de energía ocurren dentro de las células.
+- Las células comparten una composición química fundamental.
+
+Tamaño celular:
+Las células suelen medirse en micrómetros (µm); las moléculas, en nanómetros (nm). La mayoría de las células no puede observarse con detalle a simple vista. La microscopía óptica permite estudiar células y tejidos; la microscopía electrónica revela estructuras mucho más pequeñas, aunque la preparación puede alterar muestras.
+
+============================================================
+4. TIPOS DE CÉLULAS
+============================================================
+
+4.1 Células procariotas
+- No poseen núcleo rodeado por membrana.
+- El ADN se encuentra en una región llamada nucleoide.
+- Generalmente son pequeñas y estructuralmente simples, aunque presentan gran diversidad metabólica.
+- Incluyen bacterias y arqueas.
+- Muchas tienen pared celular, pero su composición varía.
+
+4.2 Células eucariotas
+- Poseen núcleo delimitado por membrana.
+- Tienen orgánulos membranosos, como mitocondrias y retículo endoplasmático.
+- Incluyen animales, plantas, hongos y numerosos protistas.
+
+4.3 Diferencias generales entre célula vegetal y animal
+Célula vegetal típica:
+- Pared celular principalmente de celulosa.
+- Cloroplastos en tejidos fotosintéticos.
+- Vacuola central grande en muchas células maduras.
+
+Célula animal típica:
+- No posee pared celular.
+- No tiene cloroplastos.
+- Puede presentar centriolos y lisosomas prominentes, según el tipo celular.
+
+Estas son tendencias generales; existen excepciones y variaciones entre tejidos.
+
+============================================================
+5. ORGÁNULOS Y SUS FUNCIONES
+============================================================
+
+- Membrana plasmática: regula el intercambio de sustancias y la comunicación celular.
+- Citoplasma: región interna donde ocurren múltiples reacciones.
+- Núcleo: contiene la mayor parte del ADN de células eucariotas.
+- Nucléolo: participa en la producción de componentes de ribosomas.
+- Ribosomas: sintetizan proteínas.
+- Mitocondrias: producen gran parte del ATP en muchas células eucariotas mediante respiración celular.
+- Cloroplastos: realizan fotosíntesis en plantas y algas fotosintéticas.
+- Retículo endoplasmático rugoso: participa en síntesis y procesamiento de proteínas destinadas a membranas, orgánulos o secreción.
+- Retículo endoplasmático liso: participa en síntesis de lípidos, almacenamiento de calcio y detoxificación en determinados tejidos.
+- Aparato de Golgi: modifica, clasifica y distribuye proteínas y lípidos.
+- Lisosomas: contienen enzimas para degradar materiales en muchas células animales.
+- Peroxisomas: participan en reacciones oxidativas y degradación de ciertos lípidos.
+- Vacuolas: almacenan sustancias y contribuyen al equilibrio osmótico.
+- Citoesqueleto: aporta soporte, movimiento y organización interna.
+- Pared celular: ofrece soporte y protección en plantas, hongos y muchos microorganismos.
+
+============================================================
+6. MEMBRANA Y TRANSPORTE CELULAR
+============================================================
+
+La membrana plasmática está formada principalmente por una bicapa de lípidos con proteínas y otros componentes. Su permeabilidad selectiva ayuda a mantener condiciones internas apropiadas.
+
+Transporte pasivo:
+- Difusión simple: movimiento neto de moléculas a favor de su gradiente.
+- Difusión facilitada: paso mediante canales o transportadores, sin gasto directo de ATP.
+- Ósmosis: movimiento neto de agua a través de una membrana selectiva debido a diferencias de potencial químico del agua.
+
+Transporte activo:
+- Mueve sustancias contra su gradiente y requiere energía, directa o indirectamente.
+- Las bombas iónicas son ejemplos comunes.
+
+Transporte vesicular:
+- Endocitosis: entrada de materiales mediante vesículas.
+- Exocitosis: liberación de materiales al exterior.
+
+Tonicidad:
+- Un medio hipotónico puede favorecer la entrada de agua a una célula.
+- Un medio hipertónico puede favorecer la salida de agua.
+- Un medio isotónico no genera, en condiciones ideales, un cambio neto sostenido de volumen por ósmosis.
+
+Los efectos reales dependen de la permeabilidad de la membrana y de los solutos presentes.
+
+============================================================
+7. METABOLISMO, ENZIMAS Y ATP
+============================================================
+
+Metabolismo es el conjunto de reacciones químicas de un organismo.
+- Catabolismo: descompone moléculas y suele liberar energía utilizable.
+- Anabolismo: construye moléculas y suele requerir energía.
+
+ATP (adenosín trifosfato) funciona como una molécula central de transferencia de energía. La energía liberada por algunas reacciones puede impulsar transporte, movimiento y síntesis molecular.
+
+Las enzimas son catalizadores biológicos, normalmente proteínas, aunque existen ARN catalíticos. Aumentan la velocidad de reacciones al reducir la energía de activación. No se consumen de manera permanente en una reacción y no cambian el equilibrio químico final.
+
+La actividad enzimática depende de:
+- Temperatura.
+- pH.
+- Concentración de sustrato.
+- Concentración de enzima.
+- Presencia de inhibidores, activadores y cofactores.
+
+Temperaturas o pH extremos pueden alterar la estructura de ciertas enzimas. Cada enzima tiene condiciones óptimas que dependen del ambiente donde funciona.
+
+============================================================
+8. RESPIRACIÓN CELULAR Y FOTOSÍNTESIS
+============================================================
+
+8.1 Respiración celular
+Proceso mediante el cual las células obtienen energía utilizable de moléculas orgánicas. En la respiración aeróbica, el oxígeno actúa como aceptor final de electrones.
+
+Ecuación global simplificada de oxidación completa de glucosa:
+C6H12O6 + 6 O2 → 6 CO2 + 6 H2O + energía utilizable
+
+Etapas principales en células eucariotas:
+1. Glucólisis: ocurre en el citosol y transforma glucosa en piruvato.
+2. Oxidación del piruvato y ciclo del ácido cítrico: liberan CO2 y transfieren electrones a coenzimas.
+3. Cadena de transporte de electrones y fosforilación oxidativa: generan la mayor parte del ATP de la respiración aeróbica.
+
+La cantidad de ATP depende de las condiciones y del organismo; no debe tratarse como un valor universal exacto.
+
+Fermentación:
+Permite regenerar cofactores necesarios para que continúe la glucólisis cuando no se usa una cadena respiratoria. La fermentación láctica produce lactato; la alcohólica puede producir etanol y CO2.
+
+8.2 Fotosíntesis
+Convierte energía luminosa en energía química. En plantas y algas ocurre en cloroplastos; algunas bacterias realizan fotosíntesis con mecanismos diferentes.
+
+Ecuación global simplificada de la fotosíntesis oxigénica:
+6 CO2 + 6 H2O + luz → C6H12O6 + 6 O2
+
+Fase luminosa:
+- Captura energía de la luz.
+- Genera ATP y poder reductor.
+- En la fotosíntesis oxigénica, libera oxígeno a partir del agua.
+
+Ciclo de Calvin:
+- Utiliza ATP y poder reductor para fijar carbono inorgánico y formar moléculas orgánicas.
+
+La fotosíntesis no es simplemente la respiración celular en sentido inverso: sus rutas, enzimas y mecanismos son distintos.
+
+============================================================
+9. CICLO CELULAR, MITOSIS Y MEIOSIS
+============================================================
+
+Ciclo celular:
+- G1: crecimiento y actividad celular.
+- S: duplicación del ADN.
+- G2: preparación para la división.
+- Fase M: división nuclear y, normalmente, citocinesis.
+
+Mitosis:
+- Produce núcleos hijos con una organización cromosómica generalmente equivalente a la célula progenitora.
+- Es importante en crecimiento, reparación y reproducción asexual de muchos organismos.
+- Fases clásicas: profase, metafase, anafase y telofase; la citocinesis divide el citoplasma.
+
+Meiosis:
+- Incluye dos divisiones después de una sola duplicación del ADN.
+- Reduce el número de juegos cromosómicos y contribuye a producir células haploides.
+- El entrecruzamiento y la distribución independiente de cromosomas generan variación genética.
+- En animales participa en la formación de gametos; los ciclos de vida de otros organismos pueden diferir.
+
+Conceptos:
+- Diploide (2n): posee dos juegos cromosómicos.
+- Haploide (n): posee un juego cromosómico.
+- Cromosoma: estructura de ADN y proteínas asociadas.
+- Cromátidas hermanas: copias de un cromosoma duplicado unidas entre sí.
+
+Errores en la división pueden provocar alteraciones cromosómicas. La interpretación clínica de estas alteraciones requiere evaluación profesional y pruebas apropiadas.
+
+============================================================
+10. ADN, ARN Y EXPRESIÓN GÉNICA
+============================================================
+
+ADN (ácido desoxirribonucleico):
+- Almacena información hereditaria en la mayoría de los organismos celulares.
+- Está formado por nucleótidos con bases A, T, C y G.
+- En la estructura típica de doble cadena, A se aparea con T y C con G.
+
+ARN (ácido ribonucleico):
+- Contiene ribosa y suele usar uracilo (U) en lugar de timina.
+- Tipos importantes: ARN mensajero (ARNm), ARN de transferencia (ARNt) y ARN ribosómico (ARNr).
+- Hay muchos otros ARN reguladores y funcionales.
+
+Flujo básico de información genética:
+ADN → ARN → proteína
+
+Este esquema es una simplificación: existen procesos como la replicación del ADN, la transcripción inversa en determinados sistemas y funciones de ARN que no se traducen a proteínas.
+
+Procesos:
+- Replicación: copia del ADN.
+- Transcripción: síntesis de ARN usando ADN como molde.
+- Traducción: síntesis de proteínas a partir de la secuencia del ARNm en ribosomas.
+
+Un gen puede codificar una proteína o un ARN funcional, y la regulación de su expresión depende de múltiples elementos. No todo el ADN codifica proteínas.
+
+============================================================
+11. GENÉTICA BÁSICA
+============================================================
+
+Conceptos fundamentales:
+- Gen: región de material genético con función definida, que puede producir un producto funcional.
+- Alelo: variante de una secuencia genética en una posición o región.
+- Genotipo: composición genética relevante de un organismo.
+- Fenotipo: características observables o medibles, influidas por genes y ambiente.
+- Homocigoto: posee dos alelos iguales en un locus diploide.
+- Heterocigoto: posee dos alelos distintos en un locus diploide.
+- Dominante y recesivo: describen patrones de expresión en contextos genéticos concretos; no significan “mejor”, “más fuerte” ni “más común”.
+
+Ejemplo mendeliano simplificado:
+Si A representa un alelo dominante y a uno recesivo, el cruce Aa × Aa produce, bajo supuestos simples, proporciones genotípicas esperadas:
+- 25 % AA
+- 50 % Aa
+- 25 % aa
+
+Estas proporciones son probabilidades esperadas para muchos descendientes; no garantizan que una familia pequeña tenga exactamente esas cantidades. El ejemplo no representa todos los rasgos humanos.
+
+Patrones de herencia:
+- Dominancia completa.
+- Dominancia incompleta.
+- Codominancia.
+- Alelos múltiples.
+- Herencia ligada al sexo.
+- Herencia mitocondrial.
+- Rasgos poligénicos y multifactoriales.
+
+Muchos rasgos humanos, incluida gran parte de la variación en estatura y riesgo de enfermedades comunes, dependen de múltiples variantes y factores ambientales. Evitar explicaciones deterministas basadas en un solo gen cuando la evidencia indica complejidad.
+
+============================================================
+12. MUTACIONES Y VARIACIÓN GENÉTICA
+============================================================
+
+Una mutación es un cambio en la secuencia del material genético. Puede surgir por errores de replicación o por exposición a ciertos agentes físicos o químicos, entre otras causas.
+
+Tipos generales:
+- Sustitución de una base.
+- Inserción o eliminación de bases.
+- Duplicación o reordenamiento de segmentos.
+- Cambios en el número o estructura de cromosomas.
+
+Efectos posibles:
+- Neutros o casi neutros.
+- Perjudiciales en un contexto determinado.
+- Beneficiosos en un contexto determinado.
+- Diferentes según tejido, ambiente o combinación genética.
+
+Las mutaciones en células germinales pueden transmitirse a la descendencia; las mutaciones somáticas suelen afectar al individuo y pueden contribuir a enfermedades como ciertos cánceres. No todas las mutaciones producen enfermedades.
+
+Fuentes de variación:
+- Mutación.
+- Recombinación durante meiosis.
+- Distribución independiente de cromosomas.
+- Flujo génico entre poblaciones.
+- Reproducción sexual.
+
+============================================================
+13. EVOLUCIÓN Y SELECCIÓN NATURAL
+============================================================
+
+La evolución biológica consiste en cambios heredables en poblaciones a lo largo de generaciones. No significa que cada individuo evolucione durante su vida ni que la evolución tenga una meta predeterminada.
+
+Mecanismos principales:
+- Selección natural: variantes hereditarias que favorecen la reproducción en un ambiente pueden aumentar en frecuencia.
+- Deriva genética: cambios aleatorios en frecuencias alélicas, especialmente relevantes en poblaciones pequeñas.
+- Flujo génico: intercambio de variantes entre poblaciones.
+- Mutación: origen de nuevas variantes.
+- Selección sexual: diferencias de éxito reproductivo relacionadas con el apareamiento.
+
+La adaptación es relativa al ambiente y puede implicar compromisos. Una característica ventajosa en un entorno puede no serlo en otro.
+
+Evidencias de evolución:
+- Registro fósil.
+- Anatomía comparada.
+- Biogeografía.
+- Genética y genómica comparadas.
+- Observaciones de cambios evolutivos en poblaciones.
+- Selección artificial en plantas y animales.
+
+Especiación:
+Puede ocurrir cuando poblaciones acumulan diferencias y se reduce el flujo génico entre ellas. Los mecanismos concretos varían según los organismos y sus sistemas reproductivos.
+
+La evolución no afirma que los humanos desciendan de los monos actuales. Humanos y otros primates actuales comparten antepasados comunes.
+
+============================================================
+14. CLASIFICACIÓN Y DIVERSIDAD DE LA VIDA
+============================================================
+
+La taxonomía nombra y clasifica organismos; la sistemática estudia sus relaciones evolutivas.
+
+Categorías tradicionales:
+dominio → reino → filo (o división en botánica) → clase → orden → familia → género → especie.
+
+Los sistemas de clasificación cambian con nueva evidencia. La clasificación moderna utiliza datos morfológicos, moleculares, ecológicos y evolutivos.
+
+Tres dominios ampliamente reconocidos:
+- Bacteria.
+- Archaea.
+- Eukarya.
+
+Una especie puede definirse de distintas maneras según el grupo estudiado. El concepto biológico de especie se basa en la reproducción y el aislamiento reproductivo, pero no se aplica sin dificultad a organismos asexuales, fósiles o ciertos casos de hibridación.
+
+La nomenclatura científica binomial utiliza género y epíteto específico; por ejemplo, Homo sapiens. El género comienza con mayúscula y el epíteto específico con minúscula; ambos suelen escribirse en cursiva.
+
+============================================================
+15. MICROBIOLOGÍA: PRINCIPALES GRUPOS
+============================================================
+
+Bacterias:
+- Organismos procariotas.
+- Presentan diversidad de formas, metabolismos y hábitats.
+- Algunas causan enfermedades; muchas son inocuas o beneficiosas.
+- Pueden participar en digestión, ciclos de nutrientes, fermentación y producción de compuestos.
+
+Arqueas:
+- Procariotas distintos de las bacterias en aspectos genéticos y bioquímicos.
+- Se encuentran en ambientes diversos; no todas viven en condiciones extremas.
+
+Hongos:
+- Eucariotas que absorben nutrientes del entorno.
+- Incluyen levaduras, mohos y organismos productores de setas.
+- Cumplen funciones ecológicas como descomposición; algunos causan infecciones o deterioro de alimentos.
+
+Protozoos y otros protistas:
+- Grupo diverso de eucariotas, muchos unicelulares.
+- Algunos son de vida libre y otros parásitos.
+- El término “protista” es práctico, pero no representa un único linaje evolutivo simple.
+
+Virus:
+- Entidades infecciosas acelulares que contienen ADN o ARN y necesitan células hospedadoras para replicarse.
+- No se multiplican por división celular.
+- Los antibióticos antibacterianos no tratan infecciones virales.
+- Las medidas de prevención y los tratamientos dependen del virus y de la enfermedad.
+
+Microbiota:
+Conjunto de microorganismos que viven en un ambiente específico, por ejemplo, el intestino o la piel. El término microbioma puede incluir también sus genes y el entorno funcional, según el uso.
+
+============================================================
+16. ESTRUCTURA Y REPRODUCCIÓN BACTERIANA
+============================================================
+
+Estructuras posibles:
+- Membrana plasmática.
+- Pared celular.
+- Citoplasma y ribosomas.
+- Nucleoide con ADN.
+- Plásmidos en algunas especies.
+- Cápsula, flagelos, pili u otras estructuras en ciertos grupos.
+
+Las bacterias se reproducen comúnmente por fisión binaria, pero el intercambio horizontal de genes puede ocurrir mediante mecanismos como conjugación, transformación y transducción. Estos procesos no equivalen a reproducción sexual, aunque contribuyen a la variación genética.
+
+La tinción de Gram diferencia grupos según características de la envoltura celular:
+- Gram positivas: suelen retener el colorante principal debido a su pared rica en peptidoglucano.
+- Gram negativas: tienen una capa más delgada de peptidoglucano y una membrana externa.
+
+La tinción de Gram orienta la identificación, pero no determina por sí sola la especie ni la sensibilidad a antibióticos.
+
+============================================================
+17. CRECIMIENTO MICROBIANO Y CONTROL
+============================================================
+
+El crecimiento de una población microbiana depende de nutrientes, temperatura, pH, disponibilidad de agua, oxígeno, salinidad y otros factores.
+
+Fases típicas de una curva de crecimiento en un sistema cerrado:
+1. Latencia: adaptación al medio.
+2. Exponencial: división a una tasa relativamente constante.
+3. Estacionaria: se equilibran crecimiento y pérdida de células, o se agotan recursos.
+4. Declive: disminuye la población viable.
+
+Métodos de control:
+- Limpieza: elimina suciedad y reduce carga microbiana, pero no necesariamente destruye microorganismos.
+- Desinfección: reduce o inactiva muchos microorganismos en objetos inanimados; la eficacia depende del método.
+- Antisepsia: aplicación de agentes para reducir microorganismos en tejidos vivos.
+- Esterilización: proceso validado para eliminar todas las formas viables de microorganismos, incluidas esporas, bajo condiciones definidas.
+
+La elección de método depende del material, el microorganismo y el uso previsto. No mezclar productos de limpieza, especialmente lejía/cloro con ácidos o amoníaco, porque puede producir gases tóxicos. Seguir siempre la etiqueta del fabricante y las normas locales.
+
+============================================================
+18. ANTIBIÓTICOS Y RESISTENCIA ANTIMICROBIANA
+============================================================
+
+Los antibióticos actúan contra bacterias mediante mecanismos como inhibición de la pared celular, síntesis proteica o replicación de ácidos nucleicos. No son eficaces contra los virus.
+
+La resistencia antimicrobiana aparece cuando microorganismos resistentes sobreviven y se multiplican bajo la presión de antimicrobianos. Puede difundirse por mutaciones y transferencia de genes.
+
+Buenas prácticas generales:
+- Usar antibióticos solo bajo indicación de un profesional autorizado.
+- No compartir medicamentos ni usar sobrantes.
+- Seguir la pauta prescrita y consultar al profesional si aparecen efectos adversos o dudas.
+- La duración y el medicamento apropiado dependen de la infección; no se debe modificar el tratamiento basándose solo en consejos generales.
+- Prevención de infecciones, vacunación, higiene y uso responsable de antimicrobianos ayudan a reducir riesgos.
+
+No es correcto afirmar que todas las bacterias son dañinas ni que un antibiótico “más fuerte” siempre es mejor.
+
+============================================================
+19. VIRUS Y RESPUESTA INMUNITARIA: NOCIONES
+============================================================
+
+Los virus pueden tener cápside y, en algunos casos, envoltura lipídica. Su genoma puede ser ADN o ARN, de cadena simple o doble, según el grupo.
+
+Etapas generales de una infección viral:
+- Unión a la célula susceptible.
+- Entrada o entrega del genoma.
+- Replicación y producción de componentes virales.
+- Ensamblaje.
+- Liberación, que puede ocurrir por distintos mecanismos.
+
+El sistema inmunitario incluye:
+- Inmunidad innata: barreras, células y moléculas de respuesta rápida.
+- Inmunidad adaptativa: linfocitos B y T, anticuerpos y memoria inmunitaria.
+
+Las vacunas entrenan componentes del sistema inmunitario para reconocer patógenos o antígenos. Su tipo, eficacia, pauta y riesgos dependen de la vacuna y de la población. Las decisiones individuales deben basarse en fuentes sanitarias confiables y orientación profesional.
+
+============================================================
+20. ECOLOGÍA Y ECOSISTEMAS
+============================================================
+
+Ecología estudia las interacciones entre organismos y ambiente.
+
+Conceptos:
+- Individuo: organismo particular.
+- Población: individuos de una misma especie en un área y periodo.
+- Comunidad: conjunto de poblaciones que interactúan.
+- Ecosistema: comunidad y componentes físicos del entorno.
+- Hábitat: lugar donde vive un organismo.
+- Nicho ecológico: función y condiciones de vida de una especie.
+- Biodiversidad: diversidad genética, de especies y ecosistemas.
+
+Flujo de energía:
+La energía entra en muchos ecosistemas como luz solar, se transforma por fotosíntesis y pasa entre niveles tróficos. Parte se disipa como calor en cada transferencia.
+
+Ciclos de materia:
+El carbono, nitrógeno, fósforo y agua circulan entre organismos y ambiente mediante procesos biológicos, químicos y físicos.
+
+Interacciones:
+- Mutualismo: ambas especies pueden beneficiarse.
+- Comensalismo: una se beneficia y la otra no presenta un efecto importante detectable.
+- Parasitismo: el parásito se beneficia y el hospedador resulta perjudicado.
+- Depredación y herbivoría: un organismo consume a otro organismo o sus tejidos.
+- Competencia: organismos disputan recursos limitados.
+
+La respuesta de un ecosistema a una alteración depende de múltiples factores; evitar atribuir todos los cambios a una sola causa sin evidencia.
+
+============================================================
+21. MÉTODO CIENTÍFICO Y EXPERIMENTACIÓN
+============================================================
+
+Flujo general:
+1. Formular una pregunta clara.
+2. Revisar el conocimiento previo.
+3. Plantear una hipótesis comprobable.
+4. Diseñar un método que permita contrastarla.
+5. Recoger datos con controles adecuados.
+6. Analizar resultados y fuentes de incertidumbre.
+7. Comunicar métodos y resultados.
+8. Repetir, replicar o refinar cuando sea necesario.
+
+Variables:
+- Independiente: factor que se manipula o compara.
+- Dependiente: resultado medido.
+- Controladas: factores que se mantienen constantes cuando es posible.
+- Grupo de control: referencia útil para interpretar el efecto de una intervención.
+
+Correlación no demuestra causalidad. Una diferencia observada puede deberse a sesgos, azar, variables de confusión o errores de medición.
+
+Buenas prácticas:
+- Registrar procedimientos y datos originales.
+- Utilizar muestras y controles apropiados.
+- Informar resultados negativos o inconclusos.
+- Diferenciar evidencia, interpretación y especulación.
+- Respetar bioseguridad, bienestar animal, consentimiento y normas éticas aplicables.
+
+============================================================
+22. BIOSEGURIDAD Y LÍMITES PRÁCTICOS
+============================================================
+
+La biología y la microbiología pueden implicar riesgos biológicos. Las prácticas deben ajustarse al nivel de riesgo, al equipo disponible y a las normas institucionales.
+
+Principios generales:
+- No cultivar microorganismos desconocidos en casa ni abrir recipientes con cultivos sin supervisión y protocolos adecuados.
+- No manipular muestras humanas, animales o ambientales potencialmente infecciosas sin capacitación, equipo y procedimientos aprobados.
+- No ingerir ni oler deliberadamente muestras o sustancias de laboratorio.
+- Lavarse las manos y mantener superficies de trabajo limpias.
+- Utilizar protección personal adecuada al riesgo.
+- Desechar residuos biológicos según normas locales e institucionales.
+- Ante exposición potencial a material infeccioso, buscar orientación médica y seguir el protocolo de seguridad correspondiente.
+
+La información general no sustituye capacitación formal, evaluación de riesgo ni procedimientos institucionales.
+
+============================================================
+23. BIOTECNOLOGÍA Y APLICACIONES
+============================================================
+
+Biotecnología utiliza organismos, células o componentes biológicos para crear productos o resolver problemas.
+
+Aplicaciones:
+- Fermentación de alimentos.
+- Producción de enzimas y medicamentos.
+- Diagnóstico molecular.
+- Mejoramiento de cultivos.
+- Tratamiento biológico de residuos.
+- Producción de biocombustibles.
+- Investigación de enfermedades.
+
+Herramientas:
+- PCR: amplifica regiones específicas de ADN.
+- Secuenciación: determina el orden de nucleótidos.
+- Cultivo celular: mantiene células en condiciones controladas.
+- Edición genética: modifica secuencias genéticas mediante herramientas específicas; sus riesgos y usos dependen del sistema y la aplicación.
+- Bioinformática: analiza datos biológicos mediante métodos computacionales.
+
+La presencia de una herramienta no garantiza resultados correctos. La contaminación, el diseño experimental, los controles y la interpretación afectan la fiabilidad.
+
+============================================================
+24. ERRORES CONCEPTUALES FRECUENTES
+============================================================
+
+- “Todos los microorganismos causan enfermedades”: falso; muchos son beneficiosos o neutrales en su contexto.
+- “Los antibióticos matan virus”: falso; los antibióticos se dirigen a procesos bacterianos.
+- “Dominante significa más frecuente”: falso; dominancia describe un patrón de expresión.
+- “Los individuos evolucionan para adaptarse”: impreciso; la evolución ocurre en poblaciones a través de generaciones.
+- “Las mutaciones siempre son dañinas”: falso; sus efectos varían.
+- “Todas las células tienen núcleo”: falso; las procariotas carecen de núcleo membranoso.
+- “Las plantas no respiran”: falso; las plantas realizan respiración celular además de fotosíntesis cuando cuentan con los tejidos y condiciones correspondientes.
+- “Un resultado estadísticamente significativo siempre es importante”: falso; también importan el tamaño del efecto, el diseño y la calidad de los datos.
+- “Una prueba negativa descarta siempre una infección”: falso; depende del momento, sensibilidad, muestra y enfermedad.
+- “Una especie se identifica únicamente por su apariencia”: no siempre; pueden requerirse datos genéticos, ecológicos o reproductivos.
+
+============================================================
+25. GLOSARIO
+============================================================
+
+ADN: molécula que almacena información hereditaria.
+Alelo: variante de un gen o región genética.
+ATP: molécula utilizada en transferencia de energía celular.
+Bacteria: dominio de organismos procariotas.
+Bioseguridad: medidas para reducir riesgos biológicos.
+Célula: unidad básica estructural y funcional de los organismos celulares.
+Cromosoma: estructura de ADN y proteínas asociadas.
+Ecología: estudio de interacciones entre organismos y ambiente.
+Enzima: catalizador biológico.
+Eucariota: célula con núcleo delimitado por membrana.
+Evolución: cambio heredable en poblaciones a lo largo de generaciones.
+Fenotipo: características observables o medibles.
+Gen: región de material genético que produce un producto funcional.
+Genotipo: constitución genética considerada.
+Homeostasis: regulación de condiciones internas.
+Meiosis: división celular que reduce el número de juegos cromosómicos.
+Metabolismo: conjunto de reacciones químicas de un organismo.
+Microbiota: comunidad de microorganismos de un ambiente.
+Mitosis: división nuclear que distribuye cromosomas duplicados.
+Mutación: cambio en la secuencia del material genético.
+Ósmosis: movimiento neto de agua a través de una membrana selectiva.
+Procariota: célula sin núcleo delimitado por membrana.
+Selección natural: cambio en frecuencias de variantes asociado a diferencias de éxito reproductivo.
+Transcripción: síntesis de ARN a partir de un molde de ADN.
+Traducción: síntesis de proteína a partir de información del ARN mensajero.
+Virus: entidad infecciosa acelular que requiere células para replicarse.
+
+============================================================
+26. PREGUNTAS DE REPASO
+============================================================
+
+1. ¿Qué establece la teoría celular?
+2. ¿Cuáles son dos diferencias entre células procariotas y eucariotas?
+3. ¿Qué función cumplen los ribosomas?
+4. ¿Cómo se diferencian transporte pasivo y activo?
+5. ¿Qué papel desempeña el ATP?
+6. ¿En qué se distinguen mitosis y meiosis?
+7. ¿Qué relación existe entre ADN, ARN y proteínas?
+8. ¿Por qué un alelo dominante no tiene que ser el más común?
+9. ¿Qué mecanismos pueden cambiar las frecuencias alélicas de una población?
+10. ¿Por qué la evolución no es un proceso dirigido hacia una meta?
+11. ¿Qué diferencias existen entre bacterias, arqueas, hongos y virus?
+12. ¿Qué significa resistencia antimicrobiana?
+13. ¿Por qué correlación no equivale a causalidad?
+14. ¿Qué medidas básicas reducen riesgos en actividades de microbiología?
+15. ¿Cómo fluye la energía en un ecosistema y cómo circula la materia?
+
+============================================================
+27. ORIENTACIÓN PARA UNA IA QUE UTILICE ESTE LOTE
+============================================================
+
+Al responder preguntas de biología:
+- Identificar el nivel apropiado: molecular, celular, organismo, población o ecosistema.
+- Definir términos técnicos antes de utilizarlos extensamente.
+- Distinguir hechos bien establecidos, hipótesis activas e incertidumbres.
+- Evitar afirmaciones absolutas cuando hay excepciones conocidas.
+- No diagnosticar enfermedades ni prescribir medicamentos a partir de información general.
+- Para información médica actual, priorizar organismos sanitarios oficiales, revisiones científicas y profesionales cualificados.
+- Para cuestiones de laboratorio, respetar bioseguridad y no ofrecer procedimientos peligrosos para cultivar, modificar o diseminar agentes biológicos.
+- Explicar fórmulas, supuestos y límites de los modelos.
+- No inventar referencias, experimentos ni resultados.
+- Recordar que los ejemplos mendelianos son modelos simplificados y que muchos rasgos son multifactoriales.
+- Tratar la diversidad biológica con precisión y evitar extrapolar resultados de una especie a todas las demás.
+
+FIN DEL LOTE 16

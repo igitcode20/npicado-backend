@@ -1,0 +1,534 @@
+LOTE 08 — ELECTRICIDAD, ELECTRÓNICA Y AUTOMATIZACIÓN INDUSTRIAL
+Biblioteca técnica de conocimientos para IA
+Versión: 1.0
+Idioma: Español
+Enfoque: conceptos, fórmulas introductorias, documentación y fuentes técnicas.
+Advertencia: este documento es educativo. No sustituye códigos eléctricos vigentes, manuales del fabricante, evaluación de riesgos ni el trabajo de personal calificado.
+
+======================================================================
+0. INSTRUCCIONES DE USO PARA LA IA
+======================================================================
+
+Este lote reúne material introductorio para apoyar el estudio y la consulta sobre electricidad, electrónica, motores, instrumentación y automatización.
+
+Al responder:
+1. Aclarar si la pregunta se refiere a corriente alterna (CA) o corriente continua (CC).
+2. Identificar tensión, corriente, potencia, frecuencia, unidades y condiciones de operación.
+3. Mostrar fórmulas, sustitución de datos, unidades y supuestos.
+4. No inventar valores de fusibles, interruptores, calibres de conductores, ajustes de protección ni requisitos normativos.
+5. Consultar la norma local y la documentación del fabricante antes de recomendar componentes.
+6. Distinguir los ejemplos educativos de los diseños aptos para instalación.
+7. Para trabajos con tensión peligrosa, tableros, motores industriales o maquinaria, recomendar intervención de personal calificado y procedimientos de seguridad.
+
+SEGURIDAD:
+La electricidad puede causar electrocución, quemaduras, incendios y explosiones. No trabajar sobre circuitos energizados basándose únicamente en este documento. Antes de intervenir, se deben aislar las fuentes de energía, aplicar bloqueo y etiquetado cuando corresponda, verificar ausencia de tensión con un instrumento apropiado y seguir los procedimientos y la normativa aplicables. Los condensadores pueden conservar energía después de desconectar el equipo.
+
+======================================================================
+1. FUNDAMENTOS DE ELECTRICIDAD
+======================================================================
+
+1.1 Magnitudes principales
+- Tensión o voltaje (V): diferencia de potencial eléctrico.
+- Corriente (I): flujo de carga eléctrica; se mide en amperios (A).
+- Resistencia (R): oposición al paso de corriente; se mide en ohmios (Ω).
+- Potencia (P): rapidez con que se transfiere o transforma energía; se mide en vatios (W).
+- Energía (E): potencia acumulada durante un intervalo; se expresa en joules (J) o kilovatios-hora (kWh).
+- Frecuencia (f): ciclos por segundo en corriente alterna; se mide en hertz (Hz).
+- Capacitancia (C): capacidad de almacenar carga por unidad de tensión; se mide en faradios (F).
+- Inductancia (L): propiedad relacionada con el campo magnético y los cambios de corriente; se mide en henrios (H).
+
+1.2 Ley de Ohm
+V = I × R
+I = V / R
+R = V / I
+
+Estas relaciones aplican directamente a elementos óhmicos bajo condiciones adecuadas. No describen por sí solas todos los componentes electrónicos ni todos los comportamientos de CA.
+
+Ejemplo educativo:
+Una resistencia de 12 Ω conectada a una fuente ideal de 24 V:
+I = 24 V / 12 Ω = 2 A.
+La potencia disipada sería P = V × I = 48 W. En una situación real, la resistencia debe tener una potencia nominal adecuada y las condiciones térmicas deben evaluarse.
+
+1.3 Potencia eléctrica
+Para un circuito de CC ideal:
+P = V × I
+P = I² × R
+P = V² / R
+
+Energía:
+E = P × t
+
+Si P se expresa en kilovatios y t en horas, E se obtiene en kWh.
+
+Ejemplo:
+Un equipo ideal de 100 W funcionando durante 5 horas consume:
+E = 0.1 kW × 5 h = 0.5 kWh.
+El consumo real depende de la potencia de entrada y del funcionamiento del equipo.
+
+1.4 Corriente alterna
+En CA, tensión y corriente pueden variar con el tiempo y presentar desfase. Para señales sinusoidales se utilizan valores eficaces (RMS).
+
+Potencia activa monofásica:
+P = V × I × cos(φ)
+
+Potencia aparente:
+S = V × I
+
+Potencia reactiva:
+Q = V × I × sin(φ)
+
+En estas expresiones, V e I son valores eficaces y φ es el ángulo de desfase. P se expresa en W, S en VA y Q en var. La relación y el uso de estas magnitudes dependen de las condiciones de la carga y de la forma de onda.
+
+Para sistemas trifásicos equilibrados, una expresión común de potencia activa es:
+P = √3 × V_L × I_L × cos(φ)
+donde V_L e I_L son tensión y corriente de línea. Confirmar la configuración del sistema y las definiciones antes de utilizarla.
+
+======================================================================
+2. CIRCUITOS ELÉCTRICOS
+======================================================================
+
+2.1 Circuitos en serie
+En un circuito ideal en serie:
+- La corriente es igual en todos los elementos.
+- La tensión total es la suma de las caídas de tensión.
+- La resistencia equivalente de resistencias en serie es:
+  R_eq = R1 + R2 + ... + Rn
+
+2.2 Circuitos en paralelo
+En un circuito ideal en paralelo:
+- La tensión es igual en cada rama.
+- La corriente total es la suma de las corrientes de las ramas.
+- Para resistencias en paralelo:
+  1/R_eq = 1/R1 + 1/R2 + ... + 1/Rn
+
+Para dos resistencias:
+R_eq = (R1 × R2) / (R1 + R2)
+
+2.3 Leyes de Kirchhoff
+Ley de corrientes: la suma algebraica de las corrientes en un nodo es cero, según la convención de signos elegida.
+
+Ley de tensiones: la suma algebraica de las tensiones alrededor de un lazo cerrado es cero.
+
+Estas leyes permiten analizar circuitos cuando se definen correctamente los nodos, ramas, sentidos de corriente y polaridades.
+
+2.4 Cortocircuito y circuito abierto
+- Cortocircuito: trayectoria de impedancia muy baja que puede provocar corrientes elevadas.
+- Circuito abierto: interrupción de la trayectoria de corriente.
+- Sobrecarga: operación que demanda corriente por encima de la prevista durante cierto tiempo.
+- Falla a tierra: conexión no intencional entre un conductor activo y tierra o una parte conductora puesta a tierra.
+
+La protección adecuada depende del sistema, del conductor, de la carga, de la corriente de falla y del código aplicable.
+
+======================================================================
+3. INSTALACIONES ELÉCTRICAS Y PROTECCIONES
+======================================================================
+
+3.1 Componentes habituales
+- Conductores y cables.
+- Canalizaciones, cajas y accesorios.
+- Interruptores de maniobra.
+- Interruptores automáticos y fusibles.
+- Dispositivos diferenciales cuando sean requeridos.
+- Tableros, barras y terminales.
+- Sistema de puesta a tierra y equipotencialidad.
+- Protección contra sobretensiones, según evaluación y normativa.
+- Etiquetas, diagramas y directorios de circuitos.
+
+3.2 Selección de conductores
+La selección no debe basarse únicamente en una fórmula simple de corriente. Se deben verificar, según el código aplicable:
+- Material y sección del conductor.
+- Capacidad de corriente admisible.
+- Temperatura nominal del aislamiento y de las terminales.
+- Temperatura ambiente.
+- Agrupamiento y método de instalación.
+- Longitud y caída de tensión.
+- Corriente de cortocircuito y coordinación de protecciones.
+- Condiciones húmedas, corrosivas, exteriores o de riesgo especial.
+
+No recomendar un calibre universal sin conocer las condiciones y la normativa aplicable.
+
+3.3 Protecciones
+Los dispositivos de protección deben coordinarse con los conductores, cargas y niveles de falla. La selección y los ajustes requieren cálculos y verificación profesional.
+
+- Fusible: interrumpe el circuito cuando la corriente y el tiempo alcanzan sus características de actuación.
+- Interruptor automático: protege según su curva y capacidad nominal especificadas.
+- Dispositivo diferencial: detecta desequilibrio de corriente bajo las condiciones de diseño; no sustituye la protección contra sobrecorriente.
+- Protector contra sobretensiones: limita transitorios dentro de las condiciones para las que fue diseñado.
+
+3.4 Puesta a tierra
+La puesta a tierra y la unión equipotencial ayudan a controlar tensiones de contacto y a permitir el funcionamiento de las protecciones conforme al diseño. La configuración depende del sistema eléctrico y del código local. Una varilla de tierra instalada sin evaluación no garantiza por sí sola una instalación segura.
+
+3.5 Caída de tensión
+La caída de tensión depende de corriente, longitud, material, sección, temperatura, factor de potencia y configuración. Para una estimación válida, usar el método del código o guía de diseño aplicable. No usar una aproximación de CC para una instalación de CA compleja sin justificarla.
+
+3.6 Documentación de instalación
+Conservar:
+- Diagrama unifilar actualizado.
+- Cuadro de cargas y circuitos.
+- Planos de canalización.
+- Identificación de conductores y protecciones.
+- Resultados de pruebas y mediciones.
+- Certificados y fichas técnicas.
+- Registro de inspecciones y modificaciones.
+
+======================================================================
+4. SEGURIDAD ELÉCTRICA
+======================================================================
+
+4.1 Riesgos
+- Choque eléctrico y electrocución.
+- Quemaduras por arco eléctrico.
+- Incendio por sobrecarga, conexiones defectuosas o aislamiento deteriorado.
+- Arranque inesperado de motores o máquinas.
+- Energía almacenada en condensadores, baterías, resortes o sistemas hidráulicos/neumáticos.
+- Atmósferas inflamables o explosivas.
+
+4.2 Prácticas esenciales
+- Evaluar el riesgo antes de iniciar.
+- Identificar todas las fuentes de energía.
+- Desenergizar cuando sea posible.
+- Aplicar bloqueo y etiquetado conforme al procedimiento del lugar.
+- Verificar el instrumento antes y después de comprobar ausencia de tensión.
+- Utilizar herramientas, instrumentos y EPP con clasificación apropiada.
+- Mantener distancias y barreras indicadas por la normativa.
+- No usar equipos dañados o húmedos fuera de su clasificación.
+- Restringir el acceso a personal autorizado.
+- Mantener un plan de emergencia y personal capacitado.
+
+No proporcionar instrucciones para manipular equipos energizados sin un marco profesional y de seguridad adecuado. El EPP no convierte automáticamente en segura una tarea que puede desenergizarse.
+
+======================================================================
+5. ELECTRÓNICA BÁSICA
+======================================================================
+
+5.1 Resistencias
+Limitan corriente, dividen tensión y establecen polarización. El código de colores y la tolerancia dependen del componente. Verificar el valor con instrumento y con el circuito desconectado cuando sea necesario.
+
+Divisor de tensión ideal con dos resistencias en serie:
+V_out = V_in × R2 / (R1 + R2)
+Esto supone una salida sin carga significativa; una carga conectada puede alterar el resultado.
+
+5.2 Condensadores
+Almacenan energía en un campo eléctrico. Se usan en filtrado, temporización, acoplamiento y circuitos de potencia. Revisar capacitancia, tensión nominal, polaridad, temperatura y tipo. Desconectar no garantiza que estén descargados.
+
+Energía almacenada:
+E = 1/2 × C × V²
+
+5.3 Diodos
+Permiten corriente preferentemente en una dirección según sus características. Tipos comunes: rectificador, Zener, LED y Schottky. Verificar corriente, tensión inversa, disipación y polaridad.
+
+5.4 Transistores
+Se emplean como interruptores o amplificadores. Entre los tipos comunes están BJT y MOSFET. La selección depende de tensión, corriente, disipación, frecuencia, control de compuerta/base y requisitos térmicos.
+
+5.5 Circuitos integrados
+Un circuito integrado contiene múltiples componentes en un encapsulado. Consultar la hoja de datos del fabricante para pinout, alimentación, límites absolutos, condiciones de operación y circuito recomendado.
+
+5.6 Sensores
+Ejemplos:
+- Temperatura: termistor, RTD, termopar y sensores integrados.
+- Proximidad: inductivo, capacitivo, fotoeléctrico y ultrasónico.
+- Presión: sensores piezorresistivos y otros principios.
+- Posición: encoder, potenciómetro y sensores de fin de carrera.
+- Luz: fotodiodo, fototransistor y sensores digitales.
+
+Verificar rango, precisión, repetibilidad, tiempo de respuesta, protección ambiental, interfaz eléctrica y calibración.
+
+======================================================================
+6. INSTRUMENTACIÓN Y MEDICIÓN
+======================================================================
+
+6.1 Multímetro
+Puede medir tensión, resistencia, continuidad y, según el modelo, corriente, capacitancia, frecuencia y otras magnitudes. Seleccionar función, rango y categoría de medición adecuados.
+
+Reglas:
+- No medir resistencia en un circuito energizado.
+- Para medir corriente, utilizar la conexión y entrada correctas del instrumento.
+- No conectar un multímetro configurado para corriente directamente en paralelo con una fuente de tensión.
+- Revisar cables, puntas, fusibles internos y clasificación CAT.
+- Seguir el manual del fabricante.
+
+6.2 Pinza amperimétrica
+Mide corriente a través del campo magnético alrededor de un conductor; ciertos modelos también miden CC. Abrazar un solo conductor cuando se mide corriente de una carga, salvo que el método de medición indique lo contrario. Abrazar juntos fase y neutro normalmente puede cancelar el campo y no mostrar la corriente de carga esperada.
+
+6.3 Osciloscopio
+Permite observar señales en función del tiempo. Verificar la tensión máxima de entrada y el tipo de sonda. La referencia de tierra de muchos osciloscopios está conectada a tierra de protección; una conexión incorrecta puede causar cortocircuitos o riesgo de choque. Para mediciones en potencia, utilizar técnicas y sondas apropiadas con personal calificado.
+
+6.4 Calibración y trazabilidad
+Cuando una medición sea crítica, comprobar calibración, incertidumbre, resolución, rango, condiciones ambientales y trazabilidad metrológica. Registrar el instrumento, número de identificación, fecha y resultados.
+
+======================================================================
+7. MOTORES ELÉCTRICOS
+======================================================================
+
+7.1 Tipos comunes
+- Motor de inducción trifásico.
+- Motor de inducción monofásico.
+- Motor síncrono.
+- Motor de corriente continua.
+- Motor paso a paso.
+- Servomotor.
+
+7.2 Datos de placa
+Revisar tensión, corriente nominal, potencia, frecuencia, velocidad, factor de potencia, eficiencia, conexión, régimen de servicio, clase de aislamiento, grado de protección y condiciones ambientales.
+
+La placa y el manual del fabricante prevalecen sobre suposiciones basadas solo en tamaño o apariencia.
+
+7.3 Arranque y control
+Métodos habituales, según la aplicación:
+- Arranque directo.
+- Arranque estrella-triángulo, cuando el motor y la carga lo permiten.
+- Arrancador suave.
+- Variador de frecuencia.
+- Control mediante contactores y relés.
+
+La selección debe considerar corriente de arranque, par requerido, carga, frecuencia de maniobras, protecciones, compatibilidad electromagnética y requisitos de seguridad.
+
+7.4 Mantenimiento preventivo
+- Inspeccionar ruido, vibración, temperatura y olor anormal.
+- Revisar ventilación y limpieza.
+- Verificar fijaciones y alineación.
+- Inspeccionar conexiones con el equipo aislado y en condiciones seguras.
+- Revisar rodamientos conforme al fabricante.
+- Medir aislamiento con procedimiento e instrumento apropiados.
+- Registrar tendencias para detectar cambios.
+- Confirmar que las protecciones sean las especificadas.
+
+No abrir, lubricar ni intervenir un motor sin aislar las fuentes de energía y seguir los procedimientos aplicables.
+
+======================================================================
+8. AUTOMATIZACIÓN INDUSTRIAL Y PLC
+======================================================================
+
+8.1 ¿Qué es un PLC?
+Un controlador lógico programable (PLC) recibe señales de entradas, ejecuta un programa y actualiza salidas para controlar una máquina o proceso. Se utiliza en líneas de producción, bombeo, transporte, envasado y otros sistemas.
+
+8.2 Elementos de un sistema
+- Fuente de alimentación.
+- CPU y memoria.
+- Módulos de entradas y salidas.
+- Sensores y actuadores.
+- HMI (interfaz hombre-máquina).
+- Red industrial y comunicaciones.
+- Dispositivos de protección.
+- Sistema de seguridad funcional, cuando el riesgo lo requiera.
+
+8.3 Entradas y salidas
+- Entrada digital: representa estados discretos, como abierto/cerrado.
+- Salida digital: activa una señal o dispositivo compatible.
+- Entrada analógica: recibe una magnitud variable, por ejemplo una señal normalizada.
+- Salida analógica: genera una señal de control variable.
+
+Verificar tensión, tipo de señal, aislamiento, corriente permitida, común, polaridad, escalado y configuración del módulo.
+
+8.4 Lógica básica
+AND: la salida es verdadera cuando todas las entradas requeridas son verdaderas.
+OR: la salida es verdadera cuando al menos una entrada es verdadera.
+NOT: invierte el estado lógico.
+
+Ejemplo conceptual de enclavamiento:
+- Una orden de marcha puede activar un estado de funcionamiento si las condiciones de permiso se cumplen.
+- Una orden de parada o una condición de fallo debe retirar la orden de funcionamiento según el diseño.
+- Las funciones relacionadas con seguridad de personas no deben depender de lógica ordinaria de PLC salvo que el sistema esté diseñado y certificado para esa función.
+
+8.5 Lenguajes
+IEC 61131-3 describe lenguajes de programación de PLC, como Ladder Diagram (LD), Function Block Diagram (FBD), Structured Text (ST) y otros según la edición y el entorno. La disponibilidad depende del fabricante.
+
+8.6 Diagnóstico
+- Consultar alarmas y códigos del fabricante.
+- Revisar estados de entradas y salidas con procedimientos seguros.
+- Confirmar alimentación, comunicaciones y configuración.
+- Comparar el programa y parámetros con una copia aprobada.
+- Documentar cambios y respaldar la versión.
+- No puentear interbloqueos ni desactivar protecciones para mantener una máquina en marcha.
+
+======================================================================
+9. RELÉS, CONTACTORES Y VARIADORES
+======================================================================
+
+9.1 Relés
+Un relé utiliza una señal de control para conmutar contactos. Verificar tensión y tipo de bobina, corriente de contactos, categoría de utilización, vida eléctrica y protección contra transitorios.
+
+9.2 Contactores
+Se utilizan para maniobrar cargas de potencia. Seleccionar según tensión, corriente, tipo de carga, frecuencia de maniobra y coordinación con la protección de cortocircuito. No usar la corriente térmica genérica como único criterio para seleccionar un contactor de motor.
+
+9.3 Variadores de frecuencia
+Controlan la velocidad de motores compatibles mediante el ajuste de frecuencia y tensión según la estrategia de control. Consultar manuales para:
+- Dimensionamiento del variador y motor.
+- Protección y puesta a tierra.
+- Cableado y blindaje.
+- Ventilación y distancias.
+- Parámetros de motor.
+- Rampas y límites.
+- Compatibilidad con cables largos y aislamiento del motor.
+- Seguridad durante mantenimiento.
+
+Un variador puede mantener tensiones peligrosas en su bus de CC después de cortar la alimentación. Respetar el tiempo de descarga del fabricante y verificar ausencia de tensión antes de intervenir.
+
+======================================================================
+10. MANTENIMIENTO Y DIAGNÓSTICO DE FALLAS
+======================================================================
+
+10.1 Método general
+1. Recopilar síntomas, alarmas, historial y condiciones de operación.
+2. Evaluar riesgos y establecer condiciones seguras.
+3. Consultar diagramas y manuales vigentes.
+4. Formular hipótesis comprobables.
+5. Realizar pruebas autorizadas con instrumentos apropiados.
+6. Comparar resultados con especificaciones del fabricante.
+7. Corregir la causa, no solo el síntoma.
+8. Probar la función de forma controlada.
+9. Registrar la causa, la solución y las piezas utilizadas.
+10. Actualizar el plan preventivo si corresponde.
+
+10.2 Fallas frecuentes y líneas de investigación
+- Equipo no enciende: revisar alimentación, protección, conexiones y permisos según procedimiento.
+- Motor se detiene: revisar alarmas, sobrecarga, ventilación, carga mecánica y condiciones eléctricas.
+- Sensor no cambia de estado: verificar alimentación, cableado, alineación, rango y diagnóstico del dispositivo.
+- Comunicación PLC-HMI falla: revisar red, dirección, configuración, cableado y alarmas del fabricante.
+- Medición inestable: revisar instrumento, conexión, ruido eléctrico, blindaje, puesta a tierra y condiciones del sensor.
+
+Estas son hipótesis iniciales, no diagnósticos definitivos. No hacer pruebas peligrosas ni puentear dispositivos de seguridad.
+
+10.3 Indicadores
+- MTBF: tiempo medio entre fallas, calculado según la definición y población de equipos usada.
+- MTTR: tiempo medio de reparación, conforme a la definición del sistema.
+- Disponibilidad: proporción de tiempo en que el equipo está disponible bajo la definición adoptada.
+- Cumplimiento preventivo: porcentaje de tareas preventivas realizadas respecto de las planificadas.
+
+Definir el periodo, la población de equipos y la forma de medir antes de comparar indicadores.
+
+======================================================================
+11. EJEMPLOS EDUCATIVOS
+======================================================================
+
+Ejemplo 1: corriente en una resistencia
+Datos hipotéticos: V = 12 V, R = 6 Ω.
+I = V/R = 12/6 = 2 A.
+P = V × I = 12 × 2 = 24 W.
+La resistencia real debe soportar la disipación con margen apropiado y bajo sus condiciones térmicas.
+
+Ejemplo 2: energía de un equipo
+Datos hipotéticos: potencia de entrada 0.2 kW, tiempo de uso 3 h.
+E = P × t = 0.2 × 3 = 0.6 kWh.
+El cálculo supone potencia constante.
+
+Ejemplo 3: divisor de tensión ideal
+Datos hipotéticos: Vin = 10 V, R1 = 1 kΩ y R2 = 1 kΩ, salida tomada sobre R2.
+Vout = Vin × R2/(R1+R2)
+Vout = 10 × 1/(1+1) = 5 V.
+El resultado ideal cambia si la salida tiene una carga que afecta el divisor.
+
+Ejemplo 4: potencia activa monofásica
+Datos hipotéticos: V = 120 V RMS, I = 2 A RMS, factor de potencia = 0.8.
+P = V × I × cos(φ) = 120 × 2 × 0.8 = 192 W.
+Es un ejemplo matemático, no una recomendación para dimensionar un circuito.
+
+======================================================================
+12. LISTAS DE VERIFICACIÓN
+======================================================================
+
+12.1 Antes de una intervención
+[ ] Identificar equipo y todas las fuentes de energía.
+[ ] Revisar planos, procedimiento y manual.
+[ ] Evaluar riesgos y definir controles.
+[ ] Desenergizar y aplicar bloqueo/etiquetado cuando corresponda.
+[ ] Verificar ausencia de tensión con instrumento apropiado.
+[ ] Considerar energía almacenada y movimiento residual.
+[ ] Confirmar herramientas, instrumentos y EPP adecuados.
+[ ] Restringir el área y comunicar el trabajo.
+
+12.2 Antes de poner en servicio
+[ ] Retirar herramientas y materiales ajenos al equipo.
+[ ] Verificar cubiertas, guardas y conexiones.
+[ ] Confirmar que las protecciones estén instaladas y ajustadas según el diseño aprobado.
+[ ] Revisar puesta a tierra y continuidad cuando corresponda.
+[ ] Ejecutar pruebas autorizadas.
+[ ] Confirmar funcionamiento de paradas e interbloqueos de seguridad.
+[ ] Comunicar la puesta en servicio al personal involucrado.
+[ ] Registrar resultados y actualizar documentación.
+
+12.3 Documentación de automatización
+[ ] Diagrama eléctrico actualizado.
+[ ] Lista de entradas y salidas.
+[ ] Programa y parámetros respaldados.
+[ ] Identificación de versiones.
+[ ] Lista de alarmas y acciones.
+[ ] Manuales de equipos.
+[ ] Registro de cambios y pruebas.
+[ ] Procedimiento de recuperación y mantenimiento.
+
+======================================================================
+13. FUENTES OFICIALES Y TÉCNICAS
+======================================================================
+
+Verificar edición, alcance y disponibilidad antes de citar. Algunas normas completas requieren compra o licencia.
+
+1. International Electrotechnical Commission (IEC)
+   https://www.iec.ch/
+   Referencia internacional para normas de electricidad, electrónica, instalaciones y automatización.
+
+2. National Institute of Standards and Technology (NIST)
+   https://www.nist.gov/
+   Recursos de metrología, mediciones y referencias técnicas.
+
+3. Occupational Safety and Health Administration (OSHA)
+   https://www.osha.gov/electrical
+   Orientación sobre seguridad eléctrica en Estados Unidos. No sustituye la legislación nicaragüense.
+
+4. National Fire Protection Association (NFPA)
+   https://www.nfpa.org/
+   Información sobre códigos y seguridad eléctrica; confirmar qué edición y disposiciones son aplicables.
+
+5. International Organization for Standardization (ISO)
+   https://www.iso.org/standards.html
+   Catálogo de normas internacionales, incluidas normas de gestión y automatización.
+
+6. Siemens — documentación técnica
+   https://support.industry.siemens.com/
+   Manuales y recursos para PLC, accionamientos y automatización de productos Siemens.
+
+7. Schneider Electric — documentación técnica
+   https://www.se.com/
+   Manuales y fichas de equipos de distribución, control y automatización.
+
+8. Rockwell Automation — documentación técnica
+   https://www.rockwellautomation.com/
+   Recursos y documentación para control industrial y automatización.
+
+9. Fluke — recursos de medición
+   https://www.fluke.com/
+   Guías y documentación de instrumentos de medición. Seguir siempre las instrucciones del modelo concreto.
+
+10. Ministerio del Trabajo de Nicaragua (MITRAB)
+    https://www.mitrab.gob.ni/
+    Consultar la legislación y los requisitos nacionales vigentes de seguridad y salud en el trabajo.
+
+11. La Gaceta, Diario Oficial de Nicaragua
+    https://www.lagaceta.gob.ni/
+    Fuente para verificar publicaciones oficiales y normativa nacional cuando esté disponible en el portal.
+
+No afirmar que una norma extranjera es obligatoria en Nicaragua sin verificar su incorporación o exigencia contractual. Confirmar requisitos nacionales y municipales vigentes con las autoridades competentes.
+
+======================================================================
+14. METADATOS PARA LA BIBLIOTECA DE IA
+======================================================================
+
+lote: 08
+tema: electricidad, electrónica y automatización industrial
+idioma: español
+país_prioritario: Nicaragua
+nivel: básico a intermedio
+tipo_contenido: guía educativa y de consulta
+fecha_de_revision: completar al incorporar a la biblioteca
+advertencia: verificar normativa, manuales y procedimientos de seguridad vigentes
+
+Reglas de respuesta:
+- Citar la fuente primaria y su edición cuando se use un requisito.
+- No inventar valores de protección, calibres, parámetros de motor ni límites de equipo.
+- Pedir los datos faltantes antes de realizar cálculos.
+- Mostrar unidades, supuestos y límites.
+- Diferenciar los ejemplos de los diseños listos para ejecutar.
+- Recomendar validación por personal calificado para instalaciones, maquinaria y riesgos eléctricos.
+- No presentar este lote como sustituto de normas completas o manuales del fabricante.
+
+FIN DEL LOTE 08

@@ -1,0 +1,314 @@
+LOTE 13 — MATEMÁTICAS APLICADAS, ÁLGEBRA, CÁLCULO Y OPTIMIZACIÓN
+Versión: 1.0
+Idioma: Español
+Propósito: Base de conocimiento educativa para estudiar, explicar y aplicar matemáticas con rigor, ejemplos y procedimientos verificables.
+
+0. ALCANCE Y REGLAS GENERALES
+Este lote cubre aritmética, álgebra, funciones, geometría analítica, trigonometría, cálculo diferencial e integral, álgebra lineal, ecuaciones diferenciales, métodos numéricos y optimización.
+
+Reglas:
+1. Definir variables, unidades y supuestos antes de resolver.
+2. Mostrar el procedimiento, no solamente el resultado.
+3. Comprobar respuestas sustituyendo en la ecuación original cuando sea posible.
+4. Respetar el dominio de las funciones y las restricciones del problema.
+5. Evitar redondear valores intermedios sin necesidad; indicar la precisión final.
+6. Distinguir soluciones exactas de aproximaciones numéricas.
+7. No usar software como sustituto de la explicación.
+8. Si faltan datos o hay ambigüedad, explicarlo y pedir aclaración.
+9. Verificar unidades y la validez del modelo en aplicaciones reales.
+10. No afirmar que un método numérico garantiza una solución global si solo garantiza una solución local.
+
+1. ARITMÉTICA Y FUNDAMENTOS
+Jerarquía de operaciones: paréntesis; potencias y raíces; multiplicación y división de izquierda a derecha; suma y resta de izquierda a derecha.
+Ejemplo: 3 + 2 × (5 − 1)^2 = 3 + 2 × 16 = 35.
+
+Fracciones:
+- a/b + c/d = (ad + bc)/(bd), con denominadores no nulos.
+- (a/b)(c/d) = ac/bd.
+- (a/b)/(c/d) = ad/bc, si los denominadores necesarios son distintos de cero.
+
+Porcentajes:
+p % de A = (p/100)A.
+Cambio porcentual = [(nuevo − original)/original] × 100 %, si el original no es cero.
+Ejemplo: de C$800 a C$920: (920 − 800)/800 × 100 % = 15 %.
+Un aumento de 20 % y luego una reducción de 20 % no se cancelan: 100 × 1.2 × 0.8 = 96.
+
+Proporciones:
+Si a/b = c/d, entonces ad = bc, siempre que los denominadores no sean cero.
+Proporcionalidad directa: y = kx. Inversa: y = k/x, con x ≠ 0.
+
+Potencias:
+a^m a^n = a^(m+n); a^m/a^n = a^(m−n), si a ≠ 0; (a^m)^n = a^(mn); (ab)^n = a^n b^n; a^0 = 1 si a ≠ 0; a^(−n) = 1/a^n si a ≠ 0.
+En los reales, √a requiere a ≥ 0.
+Notación científica: a × 10^n, con 1 ≤ |a| < 10. Ejemplo: 0.000045 = 4.5 × 10^−5.
+
+2. ÁLGEBRA ELEMENTAL
+Términos semejantes: 3x + 5x − 2 = 8x − 2.
+Distributiva: a(b + c) = ab + ac. Ejemplo: 4(2x − 3) = 8x − 12.
+
+Productos notables:
+- (a + b)^2 = a^2 + 2ab + b^2.
+- (a − b)^2 = a^2 − 2ab + b^2.
+- (a + b)(a − b) = a^2 − b^2.
+- (x + a)(x + b) = x^2 + (a + b)x + ab.
+
+Factorización:
+- Factor común: 6x² + 9x = 3x(2x + 3).
+- Diferencia de cuadrados: x² − 25 = (x − 5)(x + 5).
+- Trinomio cuadrado perfecto: x² + 6x + 9 = (x + 3)².
+- Para x² + bx + c, buscar r y s con r + s = b y rs = c.
+
+Ecuación lineal:
+ax + b = c, a ≠ 0; x = (c − b)/a.
+Ejemplo: 3x − 7 = 11 → 3x = 18 → x = 6. Comprobación: 3(6) − 7 = 11.
+
+Ecuación cuadrática:
+ax² + bx + c = 0, a ≠ 0.
+x = (−b ± √(b² − 4ac))/(2a).
+Discriminante D = b² − 4ac: D > 0, dos raíces reales distintas; D = 0, raíz doble; D < 0, no hay raíces reales (sí puede haber complejas).
+Ejemplo: x² − 5x + 6 = 0 = (x − 2)(x − 3), por tanto x = 2 o 3.
+
+Sistemas lineales:
+Resolver por sustitución, eliminación, igualación o matrices.
+Ejemplo: x + y = 7; x − y = 1. Al sumar, 2x = 8; x = 4, y = 3.
+Un sistema puede tener una solución, ninguna o infinitas soluciones.
+
+Desigualdades:
+Al multiplicar o dividir por un número negativo se invierte el signo. Ejemplo: −2x > 6 implica x < −3.
+
+3. FUNCIONES
+Una función asigna exactamente una salida a cada entrada de su dominio. Dominio: entradas permitidas; imagen/rango: salidas producidas; ceros: x donde f(x) = 0.
+
+Función afín: f(x) = mx + b. m es la pendiente y b la intersección con el eje y.
+Pendiente entre dos puntos: m = (y₂ − y₁)/(x₂ − x₁), si x₂ ≠ x₁.
+
+Función cuadrática: f(x) = ax² + bx + c, a ≠ 0.
+Vértice: xᵥ = −b/(2a), yᵥ = f(xᵥ). Si a > 0 abre hacia arriba; si a < 0, hacia abajo.
+
+Exponenciales y logaritmos:
+f(x) = a^x, con a > 0 y a ≠ 1.
+log_a(x) = y equivale a a^y = x; para logaritmos reales, x > 0.
+log_a(xy) = log_a(x) + log_a(y).
+log_a(x/y) = log_a(x) − log_a(y), para x,y > 0.
+log_a(x^r) = r log_a(x), para x > 0 en el contexto real usual.
+
+Composición: (f ∘ g)(x) = f(g(x)). Una función tiene inversa funcional si es biyectiva entre los conjuntos considerados; restringir el dominio puede permitir una inversa.
+Restricciones de dominio: denominadores distintos de cero; radicandos de raíces pares ≥ 0; argumentos de logaritmos > 0.
+
+4. GEOMETRÍA ANALÍTICA Y TRIGONOMETRÍA
+Distancia entre P₁(x₁,y₁) y P₂(x₂,y₂):
+d = √[(x₂ − x₁)² + (y₂ − y₁)²].
+Punto medio: M = ((x₁ + x₂)/2, (y₁ + y₂)/2).
+
+Recta:
+y = mx + b; forma punto-pendiente y − y₁ = m(x − x₁).
+Rectas paralelas distintas tienen la misma pendiente. Rectas perpendiculares con pendientes definidas cumplen m₁m₂ = −1.
+
+Circunferencia: (x − h)² + (y − k)² = r²; centro (h,k), radio r > 0.
+Área de triángulo: A = base × altura / 2.
+Pitágoras en triángulos rectángulos: a² + b² = c², donde c es la hipotenusa.
+
+Razones trigonométricas en triángulo rectángulo:
+sin θ = opuesto/hipotenusa; cos θ = adyacente/hipotenusa; tan θ = opuesto/adyacente, cuando está definida.
+Identidad: sin² θ + cos² θ = 1.
+tan θ = sin θ/cos θ si cos θ ≠ 0.
+Conversión: 180° = π rad; grados a radianes: grados × π/180; radianes a grados: radianes × 180/π.
+
+Áreas y volúmenes:
+- Rectángulo: A = bh.
+- Círculo: A = πr²; circunferencia = 2πr.
+- Prisma: V = área de base × altura.
+- Cilindro: V = πr²h.
+- Esfera: V = (4/3)πr³.
+- Cono: V = (1/3)πr²h.
+
+5. ÁLGEBRA LINEAL Y MATRICES
+Vector en Rⁿ: lista ordenada de n componentes. Producto escalar u·v = Σuᵢvᵢ. Norma euclídea ||v|| = √(Σvᵢ²).
+Una matriz es una tabla rectangular. Para sumar matrices deben tener igual dimensión. El producto AB requiere columnas de A = filas de B.
+Para A = [[a,b],[c,d]], det(A) = ad − bc. Si det(A) ≠ 0, A es invertible.
+Sistema matricial: Ax = b. Métodos: eliminación de Gauss, Gauss-Jordan, factorizaciones y métodos iterativos. La regla de Cramer aplica a sistemas cuadrados con determinante de coeficientes no nulo, aunque no suele ser eficiente para sistemas grandes.
+Valor propio: Av = λv para algún vector v ≠ 0. Se obtiene λ resolviendo det(A − λI) = 0. Aplicaciones: estabilidad, sistemas y reducción de dimensión.
+
+6. LÍMITES Y CONTINUIDAD
+lim(x→a) f(x) = L indica que f(x) se aproxima a L cuando x se aproxima a a, aunque f(a) no exista o no sea L.
+Reglas: límite de una suma = suma de límites; límite de un producto = producto de límites; para un cociente, dividir límites si el límite del denominador no es cero.
+Formas como 0/0 o ∞/∞ son indeterminaciones, no respuestas. Usar factorización, racionalización, límites conocidos o L'Hôpital cuando sus hipótesis se cumplen.
+
+Ejemplo:
+lim(x→2) (x² − 4)/(x − 2)
+= lim(x→2) (x + 2) = 4, tras factorizar y cancelar para x ≠ 2.
+
+Continuidad en a exige: f(a) definida; existe lim(x→a)f(x); y ese límite es f(a).
+
+7. CÁLCULO DIFERENCIAL
+La derivada mide tasa de cambio instantánea y pendiente de la tangente, cuando existe:
+f'(x) = lim(h→0) [f(x+h) − f(x)]/h.
+
+Reglas:
+- d(c)/dx = 0.
+- d(x^n)/dx = n x^(n−1).
+- (cf)' = cf'.
+- (f + g)' = f' + g'.
+- (fg)' = f'g + fg'.
+- (f/g)' = (f'g − fg')/g², con g ≠ 0.
+- Cadena: d[f(g(x))]/dx = f'(g(x))g'(x).
+
+Derivadas comunes:
+- d(e^x)/dx = e^x.
+- d(a^x)/dx = a^x ln(a), a > 0.
+- d(ln x)/dx = 1/x, x > 0.
+- d(sin x)/dx = cos x.
+- d(cos x)/dx = −sin x.
+- d(tan x)/dx = sec²x, donde está definida.
+
+Ejemplo: f(x) = 3x² − 4x + 7 → f'(x) = 6x − 4. En x = 2, f'(2) = 8.
+
+Puntos críticos: donde f'(x) = 0 o f' no existe, si f está definida.
+Prueba de segunda derivada: si f'(c) = 0 y f''(c) > 0, hay mínimo local bajo condiciones habituales; si f''(c) < 0, máximo local; si f''(c) = 0, la prueba no concluye.
+Para extremos absolutos en intervalo cerrado, evaluar puntos críticos interiores y extremos.
+
+Aplicaciones: velocidad = derivada de posición; aceleración = derivada de velocidad; costo marginal como aproximación local; optimización y análisis de sensibilidad.
+
+8. CÁLCULO INTEGRAL
+Una antiderivada F cumple F' = f:
+∫ f(x) dx = F(x) + C.
+Regla de potencia: ∫x^n dx = x^(n+1)/(n+1) + C para n ≠ −1.
+Caso especial: ∫(1/x) dx = ln|x| + C, x ≠ 0.
+Otras: ∫e^x dx = e^x + C; ∫cos x dx = sin x + C; ∫sin x dx = −cos x + C.
+
+Teorema fundamental: si F' = f y f es continua en [a,b], ∫ de a a b f(x)dx = F(b) − F(a).
+Ejemplo: ∫ de 0 a 2 de 3x² dx = [x³]₀² = 8.
+
+Técnicas: sustitución, integración por partes (∫u dv = uv − ∫v du), fracciones parciales, identidades trigonométricas y métodos numéricos como trapecios o Simpson.
+La integral definida representa acumulación neta. Para áreas geométricas, considerar el signo y separar intervalos si hace falta.
+Aplicaciones: distancia a partir de velocidad, acumulación de costos, volumen y probabilidad.
+
+9. ECUACIONES DIFERENCIALES
+Una ecuación diferencial relaciona una función desconocida con sus derivadas.
+Separable: dy/dx = g(x)h(y). Si es válido dividir, dy/h(y) = g(x)dx e integrar; revisar soluciones constantes excluidas por la división.
+Crecimiento exponencial: dP/dt = kP tiene P(t) = P₀e^(kt), si P(0) = P₀. k > 0 indica crecimiento y k < 0 decrecimiento.
+Modelo logístico: dP/dt = rP(1 − P/K), con r,K > 0; K es capacidad de carga del modelo idealizado.
+Ecuación lineal y' + p(x)y = q(x). Factor integrante μ(x) = e^(∫p(x)dx); entonces (μy)' = μq.
+Aplicaciones: circuitos, movimiento, mezclas, poblaciones, transferencia térmica y economía. Validar condiciones iniciales y supuestos.
+
+10. MÉTODOS NUMÉRICOS
+Error absoluto = |aproximación − referencia|.
+Error relativo = error absoluto/|referencia|, si referencia ≠ 0.
+Distinguir errores de redondeo, truncamiento, medición y modelo.
+
+Bisección para f(x)=0:
+Elegir [a,b] con f continua y f(a)f(b)<0. Calcular m=(a+b)/2; evaluar f(m); conservar el subintervalo con cambio de signo; repetir hasta la tolerancia. Bajo continuidad, hay al menos una raíz en el intervalo, pero puede haber más de una.
+
+Newton:
+x_(n+1) = x_n − f(x_n)/f'(x_n).
+Necesita derivada y aproximación inicial; puede fallar si la derivada es cero o la aproximación es inadecuada.
+
+Trapecio:
+∫ de a a b f(x)dx ≈ (b−a)[f(a)+f(b)]/2.
+Con muchos subintervalos, sumar las áreas aproximadas. Simpson puede ser más preciso para funciones suficientemente suaves y particiones adecuadas.
+Sistemas: métodos directos (Gauss, LU) e iterativos (Jacobi, Gauss-Seidel, gradiente conjugado en condiciones apropiadas). Revisar condicionamiento, estabilidad, tolerancia y costo.
+
+11. OPTIMIZACIÓN
+Formular variables de decisión, función objetivo, restricciones, región factible, dominio y supuestos.
+
+Ejemplo: 20 m de cerca para un rectángulo.
+2x + 2y = 20 → y = 10 − x.
+Área A(x) = x(10 − x) = 10x − x².
+A'(x) = 10 − 2x = 0 → x = 5; y = 5.
+A''(x) = −2 < 0, así que el área máxima es 25 m² en un cuadrado de 5 m por 5 m, suponiendo que se usa toda la cerca y no hay otras restricciones.
+
+Programación lineal: maximizar/minimizar cᵀx sujeto a Ax ≤ b y restricciones de dominio. Métodos: gráfico, símplex y punto interior. Puede no haber solución factible, haber múltiples soluciones o una función objetivo no acotada.
+
+Multiplicadores de Lagrange para f(x,y) sujeto a g(x,y)=c:
+∇f = λ∇g. Resolver junto con la restricción y revisar candidatos, fronteras y condiciones de regularidad.
+
+Convexidad: en problemas convexos, los mínimos locales son globales bajo las hipótesis correspondientes. No todo problema real es convexo.
+Descenso por gradiente: x_(k+1) = x_k − α_k∇f(x_k). Un paso grande puede impedir convergencia; uno pequeño puede hacerla lenta. En problemas no convexos no se garantiza un mínimo global.
+
+12. PROBABILIDAD, ESTADÍSTICA Y MATEMÁTICAS FINANCIERAS
+Media: x̄ = Σxᵢ/n.
+Mediana: valor central tras ordenar; con cantidad par de datos, promedio de los dos centrales.
+Rango = máximo − mínimo.
+Varianza poblacional: σ² = Σ(xᵢ − μ)²/N.
+Varianza muestral: s² = Σ(xᵢ − x̄)²/(n−1), n > 1.
+Desviación estándar = raíz de la varianza correspondiente.
+
+Probabilidad:
+P(Aᶜ)=1−P(A).
+P(A∪B)=P(A)+P(B)−P(A∩B).
+P(A|B)=P(A∩B)/P(B), si P(B)>0.
+Si A y B son independientes, P(A∩B)=P(A)P(B).
+
+Regresión lineal: y = β₀ + β₁x + ε. Asociación no demuestra por sí sola causalidad. Revisar residuos, supuestos, valores atípicos, tamaño de muestra y extrapolación.
+
+Interés simple: I = Prt; monto A = P(1 + rt), con unidades de tiempo y tasa compatibles.
+Interés compuesto: A = P(1 + r)^n.
+Capitalización m veces al año: A = P(1 + r/m)^(mt), si r es tasa nominal anual y t está en años. Confirmar si la tasa es nominal o efectiva.
+
+13. UNIDADES Y VERIFICACIÓN
+Una ecuación física debe ser dimensionalmente consistente. Ejemplo: distancia = velocidad × tiempo; m = (m/s) × s.
+Conversión: 2.5 km × (1000 m/1 km) = 2500 m. Cancelar unidades ayuda a detectar errores.
+La precisión reportada debe corresponder a la de los datos; no presentar decimales injustificados.
+
+Comprobar:
+- Sustitución en la ecuación original.
+- Signo y orden de magnitud.
+- Unidades y restricciones del dominio.
+- Comparación con un caso simple o método alternativo cuando sea útil.
+
+14. PROCEDIMIENTO GENERAL
+1. Leer el enunciado y definir qué se conoce y qué se busca.
+2. Definir variables, parámetros y unidades.
+3. Hacer un esquema o tabla si ayuda.
+4. Elegir el modelo o método apropiado.
+5. Comprobar las hipótesis del método.
+6. Desarrollar los cálculos ordenadamente.
+7. Verificar el resultado de manera independiente.
+8. Interpretar el resultado en contexto.
+9. Indicar unidades, redondeo y limitaciones.
+10. Si no hay solución, explicar si las restricciones son incompatibles, el modelo no aplica o el método no convergió.
+
+15. ERRORES FRECUENTES
+- Dividir por una expresión que puede ser cero sin analizar ese caso.
+- No invertir el signo de una desigualdad al multiplicar por negativo.
+- Confundir f'(x) con f(x).
+- Omitir la constante de integración.
+- Tratar una indeterminación como resultado.
+- Suponer que todo punto crítico es extremo.
+- Usar fórmulas sin verificar sus condiciones.
+- Mezclar grados y radianes.
+- Redondear demasiado pronto.
+- Aceptar soluciones que violan el dominio original.
+- Interpretar correlación como causalidad.
+- Presentar una aproximación como exacta.
+- Afirmar que un algoritmo iterativo siempre converge.
+- Ignorar unidades y restricciones.
+
+16. GLOSARIO
+Álgebra: operaciones y relaciones expresadas mediante símbolos.
+Derivada: tasa de cambio instantánea.
+Dominio: entradas permitidas de una función.
+Ecuación diferencial: ecuación que contiene una función desconocida y sus derivadas.
+Función: correspondencia que asigna una salida a cada entrada del dominio.
+Integral: operación relacionada con acumulación y antiderivadas.
+Límite: valor al que se aproxima una función o sucesión.
+Matriz: arreglo rectangular de elementos.
+Modelo matemático: representación simplificada de un sistema.
+Optimización: búsqueda de valores que maximizan o minimizan un objetivo bajo restricciones.
+Pendiente: cambio vertical dividido por cambio horizontal en una recta.
+Variable: símbolo que representa una cantidad que puede cambiar.
+Vector: objeto matemático con componentes y operaciones definidas.
+
+17. INSTRUCCIONES PARA UNA IA QUE USE ESTE LOTE
+- Ajustar la explicación al nivel de la persona y definir símbolos nuevos.
+- Explicar cuándo y bajo qué condiciones se puede usar cada fórmula.
+- Incluir una comprobación en ejercicios de varios pasos.
+- Si se pide solo la respuesta, ser breve sin ocultar restricciones importantes.
+- Si hay varias interpretaciones, declarar la elegida.
+- No inventar datos faltantes.
+- En cálculos extensos, usar herramientas disponibles y verificar.
+- En problemas aplicados, declarar supuestos y limitaciones del modelo.
+- Para decisiones de ingeniería, finanzas, salud o seguridad, recomendar validación competente y cumplimiento de normas aplicables.
+- Distinguir hechos matemáticos, convenciones de notación y supuestos.
+
+FIN DEL LOTE 13

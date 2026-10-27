@@ -1,0 +1,547 @@
+LOTE 15 — QUÍMICA GENERAL, QUÍMICA ORGÁNICA, REACCIONES, SOLUCIONES Y ESTEQUIOMETRÍA
+Versión: 1.0
+Idioma: Español
+Propósito: Base de conocimiento educativa para explicar conceptos químicos, resolver cálculos y comprender reacciones con precisión, seguridad y atención a las unidades.
+
+======================================================================
+0. ALCANCE Y PRINCIPIOS GENERALES
+======================================================================
+
+Este lote incluye estructura atómica, tabla periódica, enlaces, nomenclatura básica, reacciones, balanceo, mol, estequiometría, gases, soluciones, ácidos y bases, equilibrio, cinética, termodinámica química, electroquímica y fundamentos de química orgánica.
+
+Reglas generales:
+1. Diferenciar observaciones, modelos, cálculos y supuestos.
+2. Escribir fórmulas químicas con subíndices y cargas correctos.
+3. Balancear las ecuaciones antes de hacer cálculos estequiométricos.
+4. Mantener unidades coherentes y cifras significativas razonables.
+5. No confundir coeficientes de una ecuación con subíndices de una fórmula.
+6. Considerar pureza, rendimiento, reactivo limitante y condiciones experimentales cuando correspondan.
+7. No identificar una sustancia únicamente por su apariencia.
+8. Tratar productos químicos desconocidos como potencialmente peligrosos.
+9. No mezclar productos de limpieza ni realizar reacciones fuera de un entorno adecuado.
+10. En laboratorio, consultar la ficha de datos de seguridad (SDS), usar equipo de protección y seguir protocolos institucionales.
+
+======================================================================
+1. MATERIA, ÁTOMOS E ISÓTOPOS
+======================================================================
+
+1.1 Materia
+La materia tiene masa y ocupa espacio. Puede presentarse como sólido, líquido, gas o plasma, según las condiciones.
+
+1.2 Estructura atómica
+- Protón: carga positiva, ubicado en el núcleo.
+- Neutrón: sin carga eléctrica, ubicado en el núcleo.
+- Electrón: carga negativa, asociado a orbitales alrededor del núcleo.
+
+El número atómico Z es el número de protones.
+El número másico A es protones + neutrones.
+Número de neutrones = A − Z.
+En un átomo neutro, número de electrones = Z.
+
+1.3 Isótopos
+Los isótopos de un elemento tienen igual número de protones y diferente número de neutrones.
+La masa atómica que aparece en la tabla periódica suele ser un promedio ponderado de las masas isotópicas naturales.
+
+1.4 Iones
+Un catión tiene carga positiva por pérdida de electrones.
+Un anión tiene carga negativa por ganancia de electrones.
+La carga de un ion no cambia el número de protones del núcleo.
+
+1.5 Configuración electrónica
+Describe cómo se distribuyen los electrones en niveles, subniveles y orbitales.
+La configuración ayuda a explicar la valencia y las propiedades periódicas. En casos avanzados existen excepciones al orden simplificado de llenado.
+
+======================================================================
+2. TABLA PERIÓDICA Y PROPIEDADES
+======================================================================
+
+2.1 Organización
+Los periodos son filas; los grupos son columnas. Los elementos de un grupo suelen compartir patrones de electrones de valencia y propiedades químicas.
+
+2.2 Familias comunes
+- Grupo 1: metales alcalinos, generalmente muy reactivos.
+- Grupo 2: metales alcalinotérreos.
+- Grupo 17: halógenos, a menudo forman aniones −1.
+- Grupo 18: gases nobles, generalmente poco reactivos.
+- Metales de transición: presentan varios estados de oxidación en muchos casos.
+
+2.3 Tendencias periódicas generales
+- Radio atómico: suele aumentar al bajar un grupo y disminuir al avanzar de izquierda a derecha en un periodo.
+- Energía de ionización: generalmente aumenta hacia la derecha y hacia arriba.
+- Electronegatividad: generalmente aumenta hacia la derecha y hacia arriba; los gases nobles requieren cuidado según la escala y el contexto.
+Estas son tendencias generales, no reglas sin excepciones.
+
+2.4 Metales y no metales
+Los metales suelen conducir electricidad y calor y ser maleables. Los no metales presentan propiedades diversas. Los metaloides tienen características intermedias.
+
+======================================================================
+3. ENLACES Y ESTRUCTURA MOLECULAR
+======================================================================
+
+3.1 Enlace iónico
+Suele formarse por atracción electrostática entre iones de cargas opuestas, frecuentemente después de transferencia de electrones entre un metal y un no metal.
+Ejemplo idealizado: Na⁺ y Cl⁻ forman NaCl.
+
+3.2 Enlace covalente
+Los átomos comparten pares de electrones.
+Puede ser no polar o polar según la distribución de carga.
+Ejemplos: H₂, H₂O, CO₂.
+
+3.3 Enlace metálico
+Los núcleos metálicos y electrones deslocalizados contribuyen a la cohesión y conductividad de los metales.
+
+3.4 Estructuras de Lewis
+Representan electrones de valencia y enlaces. La regla del octeto es útil en muchos compuestos sencillos, pero tiene excepciones, por ejemplo especies con número impar de electrones, octetos incompletos y elementos de periodos posteriores.
+
+3.5 Geometría molecular
+El modelo VSEPR relaciona la geometría con la repulsión entre regiones de densidad electrónica.
+Ejemplos aproximados:
+- CO₂: lineal.
+- CH₄: tetraédrica.
+- NH₃: piramidal trigonal.
+- H₂O: angular.
+
+3.6 Polaridad
+La polaridad molecular depende de la polaridad de los enlaces y de la geometría. Una molécula puede tener enlaces polares y aun así ser no polar si los dipolos se cancelan, como ocurre en CO₂ ideal.
+
+======================================================================
+4. NOMENCLATURA Y FÓRMULAS QUÍMICAS
+======================================================================
+
+4.1 Fórmulas
+La fórmula molecular indica el número real de átomos de cada elemento en una molécula. La fórmula empírica muestra la proporción entera más sencilla.
+
+4.2 Estados de oxidación
+El estado de oxidación es una herramienta formal para llevar cuenta de electrones. Reglas habituales:
+- Elemento libre: 0.
+- Ion monoatómico: igual a su carga.
+- Oxígeno: generalmente −2, con excepciones como peróxidos.
+- Hidrógeno: generalmente +1 con no metales y −1 en ciertos hidruros metálicos.
+- La suma de los estados de oxidación equivale a la carga total de la especie.
+
+4.3 Nomenclatura básica
+La nomenclatura sistemática e IUPAC depende del tipo de compuesto. Para aprender:
+- Óxidos: combinación de oxígeno con otro elemento.
+- Hidróxidos: contienen el grupo OH⁻.
+- Ácidos: sustancias que pueden donar protones en el modelo de Brønsted-Lowry.
+- Sales: compuestos iónicos derivados de cationes y aniones.
+- Compuestos moleculares: pueden usar prefijos como mono-, di-, tri- y tetra- según el sistema de nomenclatura.
+
+Ejemplos sencillos:
+NaCl: cloruro de sodio.
+CO₂: dióxido de carbono.
+CaCO₃: carbonato de calcio.
+NaOH: hidróxido de sodio.
+HCl(aq): ácido clorhídrico en disolución acuosa; HCl(g) es cloruro de hidrógeno.
+
+4.4 Valencias y fórmulas
+La fórmula debe ser eléctricamente neutra para un compuesto iónico globalmente neutro.
+Ejemplo: Mg²⁺ y Cl⁻ forman MgCl₂, porque se necesitan dos cloruros por cada magnesio.
+
+======================================================================
+5. REACCIONES QUÍMICAS Y BALANCEO
+======================================================================
+
+5.1 Reacción química
+Una reacción transforma reactivos en productos mediante reorganización de átomos y enlaces. En una ecuación balanceada se conserva el número de átomos de cada elemento y la carga total.
+
+5.2 Tipos frecuentes
+- Síntesis: A + B → AB.
+- Descomposición: AB → A + B.
+- Sustitución simple: A + BC → AC + B, si es químicamente favorable.
+- Doble desplazamiento: AB + CD → AD + CB, según solubilidad y condiciones.
+- Combustión: reacción con un oxidante; la combustión completa de un hidrocarburo suele producir CO₂ y H₂O si hay oxígeno suficiente.
+- Neutralización: reacción ácido-base, frecuentemente produce sal y agua en sistemas acuosos sencillos.
+- Oxidación-reducción: hay transferencia de electrones o cambio de estados de oxidación.
+
+5.3 Balanceo por tanteo
+Cambiar coeficientes, no subíndices.
+Ejemplo:
+H₂ + O₂ → H₂O
+Balanceada:
+2H₂ + O₂ → 2H₂O.
+Comprobación: 4 H a ambos lados y 2 O a ambos lados.
+
+5.4 Balanceo redox
+Método general en medio ácido:
+1. Separar las semirreacciones de oxidación y reducción.
+2. Balancear los elementos distintos de H y O.
+3. Balancear O con H₂O.
+4. Balancear H con H⁺.
+5. Balancear carga con electrones.
+6. Igualar electrones, sumar y cancelar especies comunes.
+En medio básico, añadir OH⁻ para neutralizar H⁺ y simplificar agua.
+Verificar átomos y carga en ambos lados.
+
+5.5 Estados físicos
+Se pueden indicar (s), (l), (g) y (aq) para sólido, líquido, gas y disolución acuosa. Las condiciones importan para determinar productos y equilibrio.
+
+======================================================================
+6. EL MOL Y LA ESTEQUIOMETRÍA
+======================================================================
+
+6.1 Mol
+Un mol contiene exactamente 6.02214076 × 10²³ entidades elementales. Estas pueden ser átomos, moléculas, iones u otras partículas especificadas.
+
+6.2 Masa molar
+La masa molar M se expresa normalmente en g/mol.
+Cantidad de sustancia:
+n = m/M,
+donde n es mol, m masa en gramos y M masa molar en g/mol.
+
+Número de partículas:
+N = n N_A,
+donde N_A es la constante de Avogadro.
+
+6.3 Estequiometría
+Los coeficientes de una ecuación balanceada establecen proporciones molares.
+Procedimiento:
+1. Balancear la reacción.
+2. Convertir la cantidad dada a moles.
+3. Usar la proporción de coeficientes.
+4. Convertir los moles obtenidos a la unidad solicitada.
+5. Verificar unidades y razonabilidad.
+
+Ejemplo:
+2H₂ + O₂ → 2H₂O.
+La proporción es 2 mol H₂ : 1 mol O₂ : 2 mol H₂O.
+Con 3 mol de H₂ y suficiente O₂, se producen teóricamente 3 mol de H₂O.
+
+6.4 Reactivo limitante
+Es el reactivo que se consume primero según la proporción balanceada y limita la cantidad máxima de producto.
+Para identificarlo, calcular cuánto producto podría formar cada reactivo y comparar.
+
+6.5 Reactivo en exceso
+Es el reactivo que queda después de consumir el limitante. Exceso consumido = cantidad inicial − cantidad final.
+
+6.6 Rendimiento
+Rendimiento porcentual = (rendimiento real/rendimiento teórico) × 100 %.
+El rendimiento real se mide; el teórico se calcula a partir de la estequiometría.
+La pureza de una muestra puede reducir la cantidad efectiva de reactivo.
+
+6.7 Fórmula empírica y molecular
+La fórmula empírica se obtiene a partir de la proporción molar más simple.
+Para obtener la fórmula molecular, comparar la masa molar experimental con la masa molar empírica: factor = M_molecular/M_empírica, que debe corresponder a un entero razonable.
+
+======================================================================
+7. GASES
+======================================================================
+
+7.1 Variables
+Presión P, volumen V, temperatura absoluta T y cantidad de sustancia n.
+
+7.2 Leyes ideales
+- Boyle, a temperatura y cantidad constantes: P₁V₁ = P₂V₂.
+- Charles, a presión y cantidad constantes: V₁/T₁ = V₂/T₂.
+- Gay-Lussac, a volumen y cantidad constantes: P₁/T₁ = P₂/T₂.
+La temperatura debe estar en kelvin.
+
+7.3 Ecuación del gas ideal
+PV = nRT.
+Usar unidades compatibles. Por ejemplo, R ≈ 8.314 J/(mol·K) si P está en Pa y V en m³.
+
+7.4 Presiones parciales
+Para una mezcla ideal, la presión total es la suma de las presiones parciales:
+P_total = ΣPᵢ.
+Fracción molar: xᵢ = nᵢ/n_total.
+En mezcla ideal, Pᵢ = xᵢP_total.
+
+7.5 Limitaciones
+Los gases reales se desvían del modelo ideal especialmente a presiones elevadas o temperaturas cercanas a la condensación. Usar modelos reales cuando la precisión lo requiera.
+
+======================================================================
+8. SOLUCIONES Y CONCENTRACIONES
+======================================================================
+
+8.1 Solución
+Una solución es una mezcla homogénea de uno o más solutos en un solvente.
+
+8.2 Molaridad
+Molaridad C = moles de soluto/volumen de solución en litros.
+Unidad: mol/L.
+No confundir volumen de solvente con volumen final de solución.
+
+8.3 Dilución
+Para el mismo soluto, sin reacción ni pérdida:
+C₁V₁ = C₂V₂.
+Los volúmenes deben usar unidades coherentes.
+
+8.4 Porcentajes de concentración
+- % m/m = (masa de soluto/masa de solución) × 100.
+- % m/v = (gramos de soluto/mL de solución) × 100, según la convención indicada.
+- % v/v = (volumen de soluto/volumen de solución) × 100, cuando corresponde.
+- Fracción molar: xᵢ = nᵢ/n_total.
+
+8.5 Solubilidad
+La solubilidad depende de la naturaleza del soluto y solvente, la temperatura y, en gases, la presión.
+Una solución saturada está en equilibrio con soluto no disuelto bajo las condiciones especificadas.
+
+8.6 Preparación segura de soluciones
+Usar material volumétrico adecuado y equipo de protección. En la dilución de ácidos concentrados, seguir el procedimiento institucional; como regla de seguridad de laboratorio, se añade ácido al agua lentamente, nunca agua al ácido concentrado. No preparar sustancias peligrosas sin supervisión y protocolo apropiado.
+
+======================================================================
+9. ÁCIDOS, BASES Y pH
+======================================================================
+
+9.1 Modelos
+Arrhenius: en agua, un ácido aumenta H₃O⁺ y una base aumenta OH⁻, en el modelo acuoso.
+Brønsted-Lowry: ácido dona protones; base acepta protones.
+Lewis: ácido acepta un par de electrones; base dona un par de electrones.
+
+9.2 pH
+pH = −log₁₀(a_H₃O⁺), definido en términos de actividad. En soluciones diluidas ideales suele aproximarse como pH ≈ −log₁₀[H₃O⁺].
+En agua diluida a 25 °C, pH + pOH ≈ 14, bajo las condiciones habituales.
+No asumir que pH 7 es neutro a cualquier temperatura.
+
+9.3 Ácidos y bases fuertes y débiles
+Fuertes: se ionizan extensamente en agua bajo condiciones comunes.
+Débiles: se ionizan parcialmente y establecen equilibrio.
+La fuerza no es lo mismo que la concentración: una solución diluida de ácido fuerte puede tener menor concentración de H₃O⁺ que una solución concentrada de ácido débil, según el caso.
+
+9.4 Neutralización y titulación
+En una neutralización, las cantidades reaccionan según la ecuación balanceada. En una titulación, el punto de equivalencia ocurre cuando las cantidades reaccionan en la proporción estequiométrica; no siempre coincide con pH 7.
+Indicadores y medidores de pH ayudan a detectar el punto final experimental.
+
+======================================================================
+10. EQUILIBRIO QUÍMICO
+======================================================================
+
+10.1 Equilibrio dinámico
+En un equilibrio químico, las velocidades directa e inversa son iguales y las concentraciones macroscópicas permanecen constantes, aunque las reacciones siguen ocurriendo.
+
+10.2 Constante de equilibrio
+Para aA + bB ⇌ cC + dD:
+K_c = ([C]^c[D]^d)/([A]^a[B]^b), usando actividades; en aproximaciones de soluciones diluidas, se usan concentraciones.
+Los sólidos y líquidos puros no aparecen en la expresión habitual de K.
+
+10.3 Cociente de reacción
+Q se calcula con la misma forma de K usando las cantidades actuales.
+- Q < K: evolución neta hacia productos.
+- Q > K: evolución neta hacia reactivos.
+- Q = K: el sistema está en equilibrio.
+
+10.4 Principio de Le Châtelier
+Un sistema en equilibrio responde a cambios de concentración, presión/volumen o temperatura de forma que contrarresta parcialmente el cambio impuesto.
+Cambiar la temperatura puede cambiar K; cambiar concentración no cambia K a temperatura constante.
+
+10.5 Equilibrios de solubilidad
+Para una sal poco soluble, el producto de solubilidad K_sp se expresa usando las actividades de los iones disueltos. El efecto del ion común puede disminuir la solubilidad en muchos casos.
+
+======================================================================
+11. CINÉTICA QUÍMICA
+======================================================================
+
+11.1 Velocidad de reacción
+Describe el cambio de concentración de reactivos o productos por unidad de tiempo.
+Para aA → bB, la velocidad puede expresarse como:
+v = −(1/a)d[A]/dt = (1/b)d[B]/dt, con definiciones apropiadas.
+
+11.2 Factores que afectan la velocidad
+- Concentración de reactivos.
+- Temperatura.
+- Superficie de contacto para sólidos.
+- Catalizadores.
+- Naturaleza química y medio de reacción.
+Estos factores actúan de maneras que dependen del mecanismo.
+
+11.3 Ley de velocidad
+Una forma experimental es v = k[A]^m[B]^n.
+Los órdenes m y n se determinan experimentalmente y no tienen que coincidir con los coeficientes estequiométricos, salvo casos elementales justificados.
+
+11.4 Ecuación de Arrhenius
+k = A e^(−E_a/(RT)).
+E_a es la energía de activación; R la constante de los gases; T la temperatura absoluta.
+Un catalizador ofrece una ruta alternativa con menor barrera de activación y no cambia la constante de equilibrio a una temperatura dada.
+
+======================================================================
+12. TERMODINÁMICA QUÍMICA
+======================================================================
+
+12.1 Sistema y entorno
+Sistema: parte estudiada; entorno: lo que la rodea. Los sistemas pueden intercambiar energía y, según el tipo, materia.
+
+12.2 Entalpía
+A presión constante, si solo se realiza trabajo presión-volumen y se cumplen las condiciones usuales, el cambio de entalpía ΔH corresponde al calor intercambiado por el sistema.
+- ΔH < 0: proceso exotérmico según esta convención.
+- ΔH > 0: proceso endotérmico.
+
+12.3 Ley de Hess
+El cambio de entalpía total depende de los estados inicial y final, no de la ruta. Las ecuaciones termoquímicas pueden sumarse invirtiendo signos cuando se invierte una reacción y multiplicando ΔH al escalar la ecuación.
+
+12.4 Energía libre de Gibbs
+ΔG = ΔH − TΔS, para temperatura y condiciones compatibles.
+A temperatura y presión constantes, ΔG < 0 indica espontaneidad termodinámica en el sentido considerado; no indica que la reacción sea rápida.
+ΔG = 0 caracteriza equilibrio bajo las condiciones apropiadas.
+
+12.5 Entropía
+La entropía está relacionada con la dispersión de energía y el número de microestados accesibles. La segunda ley requiere que la entropía total de un sistema aislado no disminuya en un proceso espontáneo.
+
+======================================================================
+13. OXIDACIÓN-REDUCCIÓN Y ELECTROQUÍMICA
+======================================================================
+
+13.1 Redox
+Oxidación: aumento del estado de oxidación o pérdida de electrones.
+Reducción: disminución del estado de oxidación o ganancia de electrones.
+Oxidante: especie que se reduce. Reductor: especie que se oxida.
+
+13.2 Celdas electroquímicas
+En una celda galvánica, una reacción espontánea produce energía eléctrica.
+En una celda electrolítica, una fuente externa impulsa una reacción no espontánea.
+La oxidación ocurre en el ánodo y la reducción en el cátodo en ambos tipos de celda; el signo de los electrodos cambia según el tipo.
+
+13.3 Potencial de celda
+En condiciones estándar, E°_celda = E°_cátodo − E°_ánodo, usando potenciales estándar de reducción.
+Un E°_celda positivo indica espontaneidad para la reacción escrita bajo condiciones estándar, según la convención electroquímica.
+
+13.4 Electrólisis
+La carga eléctrica es Q = It.
+La cantidad de electrones en moles es n(e⁻) = Q/F, donde F ≈ 96485 C/mol.
+Para calcular la cantidad de producto, usar la semirreacción balanceada y la relación entre electrones y sustancia.
+
+======================================================================
+14. QUÍMICA ORGÁNICA: FUNDAMENTOS
+======================================================================
+
+14.1 Carbono
+El carbono forma enlaces covalentes y cadenas, anillos y estructuras ramificadas. Los compuestos orgánicos contienen carbono, aunque algunos compuestos de carbono, como CO₂ y carbonatos, suelen estudiarse en química inorgánica.
+
+14.2 Hidrocarburos
+- Alcanos: enlaces simples C–C; fórmula acíclica general C_nH_(2n+2).
+- Alquenos: al menos un doble enlace; para una cadena acíclica con un doble enlace, C_nH_(2n).
+- Alquinos: al menos un triple enlace; para una cadena acíclica con un triple enlace, C_nH_(2n−2).
+Estas fórmulas generales no aplican sin cambios a compuestos cíclicos, con múltiples enlaces o con otros grupos funcionales.
+
+14.3 Grupos funcionales comunes
+- Alcohol: grupo hidroxilo unido a carbono saturado, R–OH.
+- Éter: R–O–R'.
+- Aldehído: R–CHO.
+- Cetona: R–CO–R'.
+- Ácido carboxílico: R–COOH.
+- Éster: R–COO–R'.
+- Amina: derivados orgánicos del amoníaco.
+- Amida: contiene un grupo carbonilo unido a nitrógeno.
+- Halogenuro orgánico: contiene enlace carbono-halógeno.
+
+14.4 Isomería
+Isómeros tienen la misma fórmula molecular pero distinta estructura o disposición espacial. La isomería puede cambiar propiedades físicas y químicas.
+
+14.5 Reacciones orgánicas básicas
+- Adición: incorporación de átomos o grupos a un enlace múltiple.
+- Sustitución: reemplazo de un átomo o grupo por otro.
+- Eliminación: formación de un enlace múltiple al retirar grupos.
+- Oxidación y reducción orgánicas: cambios en enlaces con oxígeno, hidrógeno u otros elementos.
+- Esterificación: formación de un éster a partir de un ácido carboxílico y un alcohol en condiciones adecuadas.
+El producto y el mecanismo dependen de reactivos, condiciones y estructura.
+
+14.6 Polímeros
+Los polímeros son macromoléculas formadas por unidades repetidas. Pueden ser naturales o sintéticos; sus propiedades dependen de la estructura, composición y procesamiento.
+
+======================================================================
+15. QUÍMICA ANALÍTICA Y MEDICIONES
+======================================================================
+
+15.1 Medición y calibración
+Una medición debe incluir unidades, método e incertidumbre cuando corresponda. Calibrar instrumentos ayuda a comparar sus lecturas con referencias trazables.
+
+15.2 Exactitud y precisión
+Exactitud: cercanía al valor de referencia.
+Precisión: consistencia entre mediciones repetidas.
+Un conjunto puede ser preciso y, aun así, tener un sesgo sistemático.
+
+15.3 Cromatografía
+Separa componentes según sus diferentes interacciones con una fase móvil y una fase estacionaria. Hay variantes como cromatografía de gases y líquida.
+
+15.4 Espectroscopía
+Estudia la interacción entre materia y radiación electromagnética. Técnicas como IR, UV-Vis y RMN aportan información diferente sobre composición y estructura.
+
+15.5 Curva de calibración
+Relaciona una señal instrumental con concentraciones conocidas. Las muestras desconocidas se estiman dentro del intervalo validado; extrapolar puede producir errores.
+
+======================================================================
+16. SEGURIDAD QUÍMICA
+======================================================================
+
+- Leer etiquetas y fichas SDS antes de utilizar una sustancia.
+- Usar gafas, guantes y bata adecuados al riesgo.
+- Trabajar con ventilación apropiada y campana cuando el procedimiento lo requiera.
+- No probar sustancias ni pipetear con la boca.
+- No mezclar productos domésticos de limpieza; algunas combinaciones liberan gases tóxicos.
+- No calentar recipientes cerrados ni improvisar reacciones.
+- Mantener los productos etiquetados y separados según compatibilidad.
+- Gestionar residuos según las reglas del laboratorio; no verter sustancias desconocidas al desagüe.
+- En caso de exposición, seguir el protocolo de emergencia y solicitar ayuda médica o de seguridad competente.
+- Nunca suponer que una sustancia es segura porque es común o tiene poco olor.
+
+======================================================================
+17. MÉTODO GENERAL PARA RESOLVER PROBLEMAS
+======================================================================
+
+1. Identificar la pregunta y los datos.
+2. Escribir las fórmulas químicas correctamente.
+3. Balancear la reacción si aplica.
+4. Convertir unidades y calcular masas molares.
+5. Elegir la relación química adecuada.
+6. Sustituir valores mostrando unidades.
+7. Considerar reactivo limitante, pureza y rendimiento si corresponde.
+8. Revisar conservación de átomos y carga.
+9. Comprobar orden de magnitud y cifras significativas.
+10. Declarar supuestos y limitaciones.
+
+======================================================================
+18. ERRORES FRECUENTES
+======================================================================
+
+- Cambiar subíndices para balancear una ecuación.
+- Hacer cálculos estequiométricos con una ecuación sin balancear.
+- Confundir gramos con moles.
+- Usar masa molar incorrecta.
+- Ignorar el reactivo limitante.
+- Suponer rendimiento del 100 % sin que se indique.
+- Usar Celsius en la ecuación de gases ideales en lugar de kelvin.
+- Confundir concentración con fuerza de un ácido o base.
+- Suponer que toda neutralización termina en pH 7.
+- Confundir equilibrio con ausencia de reacción.
+- Suponer que un catalizador cambia la posición del equilibrio.
+- Confundir espontaneidad termodinámica con rapidez.
+- Asignar órdenes de reacción solo a partir de los coeficientes globales.
+- Ignorar cargas al balancear ecuaciones iónicas.
+- Mezclar productos químicos sin evaluar compatibilidad y riesgos.
+
+======================================================================
+19. GLOSARIO
+======================================================================
+
+Ácido: especie que dona protones en el modelo de Brønsted-Lowry.
+Base: especie que acepta protones en el modelo de Brønsted-Lowry.
+Catalizador: sustancia que modifica la velocidad mediante una ruta alternativa y se regenera en el ciclo global.
+Concentración: cantidad de soluto por cantidad definida de solución o solvente.
+Electrón: partícula subatómica con carga negativa.
+Enlace químico: interacción que mantiene unidos átomos o iones.
+Estequiometría: relaciones cuantitativas entre reactivos y productos.
+Ion: átomo o grupo con carga neta.
+Isótopo: variante de un elemento con igual número de protones y diferente número de neutrones.
+Mol: unidad de cantidad de sustancia.
+Oxidación: pérdida de electrones o aumento del estado de oxidación.
+pH: medida logarítmica relacionada con la actividad de los iones hidronio.
+Reactivo limitante: reactivo que determina la cantidad máxima teórica de producto.
+Reducción: ganancia de electrones o disminución del estado de oxidación.
+Solución: mezcla homogénea de soluto(s) y solvente.
+Termodinámica química: estudio de los cambios de energía y espontaneidad en procesos químicos.
+
+======================================================================
+20. RECOMENDACIONES PARA UNA IA QUE USE ESTE LOTE
+======================================================================
+
+- Adaptar el nivel de detalle a la pregunta y definir símbolos.
+- Mostrar el balanceo y las unidades en cálculos estequiométricos.
+- Distinguir modelos ideales de resultados experimentales.
+- No inventar condiciones, concentraciones ni propiedades de sustancias.
+- Consultar fuentes fiables y fichas SDS cuando se necesiten datos de seguridad específicos.
+- Rechazar la improvisación de procedimientos peligrosos y priorizar prevención y respuesta segura.
+- Aclarar que los resultados de ejercicios son educativos y no sustituyen protocolos profesionales de laboratorio.
+- Si el problema está incompleto, indicar qué datos faltan.
+- Verificar que se conserven átomos, carga y unidades.
+- En cálculos con incertidumbre, comunicar límites y precisión.
+
+FIN DEL LOTE 15

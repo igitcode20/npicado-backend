@@ -1,0 +1,657 @@
+LOTE 10 — INFORMÁTICA, REDES, CIBERSEGURIDAD Y COMPUTACIÓN EN LA NUBE
+Versión: 1.0
+Idioma: Español
+Propósito: Base de conocimiento técnica para una IA de aprendizaje, consulta y asistencia tecnológica.
+
+======================================================================
+0. INSTRUCCIONES PARA LA IA QUE UTILICE ESTE LOTE
+======================================================================
+
+Este documento ofrece fundamentos generales. No sustituye documentación oficial, políticas institucionales ni la evaluación de profesionales responsables.
+
+Reglas de respuesta:
+1. Explica los conceptos con claridad y distingue hechos, recomendaciones y ejemplos.
+2. Cuando la respuesta dependa de versiones, fechas, proveedores o configuraciones actuales, consulta documentación oficial vigente.
+3. No inventes resultados de comandos, diagnósticos, precios, certificaciones ni capacidades de servicios.
+4. Antes de sugerir cambios que puedan afectar equipos o datos, explica el alcance, los riesgos y cómo recuperar el estado anterior.
+5. Prioriza prácticas defensivas, autorización explícita, privacidad y mínimo privilegio.
+6. No solicites contraseñas, claves privadas, códigos de autenticación ni tokens secretos.
+7. En ejemplos, usa datos ficticios y direcciones reservadas para documentación cuando corresponda.
+8. Si no hay suficiente información para resolver un problema, formula preguntas concretas y pide mensajes de error relevantes, ocultando datos sensibles.
+9. Separa las instrucciones para Windows, Linux y macOS cuando los comandos no sean equivalentes.
+10. Recomienda copias de seguridad antes de operaciones de mantenimiento o migración.
+
+======================================================================
+1. FUNDAMENTOS DE INFORMÁTICA
+======================================================================
+
+1.1 Hardware y software
+- Hardware: componentes físicos de un sistema, como procesador, memoria RAM, almacenamiento, placa base, pantalla y periféricos.
+- Software: instrucciones y programas que hacen funcionar el equipo.
+- Firmware: software de bajo nivel almacenado en un dispositivo, como el firmware de un router o UEFI.
+- Sistema operativo: administra recursos, procesos, memoria, archivos, dispositivos y permisos.
+- Aplicación: programa orientado a tareas del usuario.
+- Controlador (driver): permite que el sistema operativo se comunique con un dispositivo.
+
+1.2 Componentes principales
+- CPU: ejecuta instrucciones; su rendimiento depende de arquitectura, núcleos, frecuencia, memoria caché y carga.
+- RAM: memoria de trabajo volátil. Su contenido normalmente se pierde al apagar el equipo.
+- SSD/HDD: almacenamiento persistente. Un SSD no tiene partes móviles; un HDD utiliza componentes mecánicos.
+- GPU: procesa gráficos y otras tareas paralelas compatibles.
+- Placa base: interconecta los componentes.
+- Fuente de alimentación: entrega energía eléctrica dentro de especificaciones.
+- NIC o adaptador de red: conecta el equipo a una red cableada o inalámbrica.
+
+1.3 Unidades de información
+- bit: unidad binaria.
+- byte: normalmente 8 bits.
+- KB, MB, GB y TB pueden usarse de forma decimal; KiB, MiB, GiB y TiB representan potencias de 2.
+- Mbps mide megabits por segundo; MB/s mide megabytes por segundo. No son equivalentes: 8 bits forman un byte, sin contar sobrecarga de protocolos.
+
+1.4 Rendimiento y diagnóstico
+Un equipo lento puede deberse a memoria insuficiente, almacenamiento saturado, procesos intensivos, sobrecalentamiento, malware, controladores defectuosos, problemas de red o fallos físicos. Diagnosticar implica observar uso de CPU, memoria, disco, temperatura, registros y cambios recientes antes de reemplazar componentes.
+
+======================================================================
+2. SISTEMAS OPERATIVOS Y TERMINAL
+======================================================================
+
+2.1 Conceptos
+- Proceso: instancia de un programa en ejecución.
+- Servicio o daemon: proceso que proporciona funciones en segundo plano.
+- Sistema de archivos: organiza archivos y directorios.
+- Usuario y grupo: identidades usadas para administrar acceso.
+- Permiso: define operaciones permitidas sobre recursos.
+- Registro o log: evento guardado para diagnóstico, auditoría o seguridad.
+- Actualización: corrige errores, mejora compatibilidad y puede resolver vulnerabilidades.
+
+2.2 Comandos básicos de Windows
+Los siguientes comandos son principalmente de consulta; la salida depende del equipo y de sus permisos.
+
+- `whoami`: muestra la identidad actual.
+- `hostname`: muestra el nombre del equipo.
+- `ipconfig`: presenta información de interfaces de red.
+- `ipconfig /all`: muestra detalles adicionales de red.
+- `ping 127.0.0.1`: prueba la pila de red local.
+- `ping example.com`: prueba resolución y conectividad ICMP si la red lo permite.
+- `nslookup example.com`: consulta información DNS.
+- `tracert example.com`: muestra saltos aproximados hacia un destino.
+- `tasklist`: lista procesos.
+- `systeminfo`: presenta información del sistema.
+- `dir`: lista archivos y carpetas.
+- `cd`: cambia el directorio actual.
+- `where python`: busca un ejecutable en las rutas configuradas.
+- `Get-Process` en PowerShell: muestra procesos.
+- `Get-Service` en PowerShell: muestra servicios.
+- `Get-ComputerInfo` en PowerShell: obtiene información del equipo.
+
+2.3 Comandos básicos de Linux
+- `whoami`: identidad actual.
+- `hostname`: nombre del equipo.
+- `pwd`: directorio actual.
+- `ls -la`: lista archivos, incluidos ocultos, con detalles.
+- `cd carpeta`: cambia de directorio.
+- `ip address` o `ip a`: muestra interfaces y direcciones IP.
+- `ip route`: muestra rutas de red.
+- `ping example.com`: prueba conectividad cuando ICMP está permitido.
+- `getent hosts example.com`: consulta resolución de nombres según la configuración del sistema.
+- `ss -tuln`: muestra sockets TCP/UDP en escucha; los permisos pueden limitar detalles.
+- `df -h`: muestra uso de sistemas de archivos.
+- `free -h`: muestra memoria.
+- `ps aux`: lista procesos.
+- `journalctl -p warning`: consulta eventos de prioridad warning o superior en sistemas con systemd; el acceso puede estar restringido.
+- `man comando`: abre el manual de un comando, si está instalado.
+
+Precaución: los comandos de eliminación, formateo, permisos recursivos, firewall, particiones y administración de servicios pueden causar daños. Verifica el objetivo, entiende cada opción y prepara una recuperación antes de ejecutarlos.
+
+2.4 Permisos y cuentas
+- Usa una cuenta estándar para tareas diarias y privilegios administrativos solo cuando sean necesarios.
+- No ejecutes programas desconocidos como administrador o root.
+- Revisa cuidadosamente comandos copiados de internet.
+- No publiques salidas de diagnóstico sin revisar nombres de usuario, direcciones, rutas, nombres internos y otros datos privados.
+
+======================================================================
+3. REDES INFORMÁTICAS
+======================================================================
+
+3.1 Conceptos esenciales
+- Red: conjunto de dispositivos que intercambian datos.
+- LAN: red local.
+- WAN: red de área amplia.
+- WLAN: red local inalámbrica.
+- Router: reenvía tráfico entre redes.
+- Switch: conecta dispositivos dentro de una red local.
+- Punto de acceso: proporciona conectividad inalámbrica.
+- Módem u ONT: conecta con el servicio del proveedor, según la tecnología.
+- Firewall: aplica reglas para permitir o bloquear tráfico.
+- VPN: crea un túnel protegido entre extremos; no garantiza anonimato total ni elimina todos los riesgos.
+- Ancho de banda: capacidad de transmisión.
+- Latencia: tiempo que tarda un paquete en llegar.
+- Pérdida de paquetes: paquetes que no llegan al destino.
+- Jitter: variación de la latencia.
+
+3.2 Dirección IP y conceptos relacionados
+- IPv4 utiliza direcciones de 32 bits, normalmente escritas como cuatro octetos decimales.
+- IPv6 utiliza direcciones de 128 bits.
+- Dirección privada IPv4: se usa normalmente dentro de redes internas y no se enruta directamente por internet.
+- Dirección pública: se utiliza para el encaminamiento público, según asignación y configuración.
+- Máscara o prefijo: indica qué parte de una dirección identifica la red.
+- Puerta de enlace predeterminada: router al que se envía tráfico destinado a otras redes.
+- DHCP: asigna automáticamente configuración de red.
+- DNS: traduce nombres de dominio a registros como direcciones IP.
+- NAT: traduce direcciones entre espacios de red; es común en routers domésticos.
+
+Rangos IPv4 privados más conocidos:
+- 10.0.0.0/8
+- 172.16.0.0/12
+- 192.168.0.0/16
+
+Direcciones especiales para documentación y ejemplos:
+- 192.0.2.0/24
+- 198.51.100.0/24
+- 203.0.113.0/24
+No deben tratarse como direcciones públicas de servicios reales.
+
+3.3 Protocolos comunes
+- Ethernet: tecnología común de redes cableadas.
+- Wi-Fi: familia de estándares para redes inalámbricas.
+- IP: direccionamiento y encaminamiento de paquetes.
+- TCP: transporte fiable y orientado a conexión.
+- UDP: transporte sin conexión, con menor sobrecarga y sin garantía de entrega.
+- ICMP: mensajes de control y diagnóstico de red.
+- DNS: resolución de nombres.
+- DHCP: asignación de configuración IP.
+- HTTP: protocolo de transferencia web.
+- HTTPS: HTTP protegido mediante TLS.
+- TLS: protege confidencialidad e integridad del tráfico y permite autenticar servidores mediante certificados.
+- SSH: acceso remoto cifrado y administración.
+- SFTP: transferencia de archivos sobre SSH.
+- SMTP: envío de correo.
+- IMAP: acceso y sincronización de correo.
+- NTP: sincronización de hora.
+
+3.4 Puertos frecuentes
+Los números son valores convencionales; la configuración real puede variar.
+
+- 20/21 TCP: FTP tradicional; no recomendado para información sensible sin protección adicional.
+- 22 TCP: SSH.
+- 25 TCP: SMTP entre servidores, según configuración.
+- 53 TCP/UDP: DNS.
+- 67/68 UDP: DHCP para servidor/cliente IPv4.
+- 80 TCP: HTTP.
+- 123 UDP: NTP.
+- 143 TCP: IMAP sin TLS directo; usar configuración segura.
+- 443 TCP: HTTPS.
+- 587 TCP: envío de correo con autenticación y protección según configuración.
+- 993 TCP: IMAP sobre TLS.
+- 3389 TCP/UDP: Remote Desktop Protocol de Windows, según configuración.
+
+No expongas servicios de administración a internet sin una necesidad justificada, controles sólidos y supervisión.
+
+3.5 Método básico de diagnóstico de conectividad
+1. Comprueba que el equipo tiene alimentación y que Wi-Fi o cable están activos.
+2. Verifica la dirección IP, máscara/prefijo, puerta de enlace y DNS.
+3. Prueba la pila local con `ping 127.0.0.1` en Windows o Linux.
+4. Prueba la puerta de enlace si está permitido.
+5. Consulta DNS con `nslookup` en Windows o `getent hosts`/`dig` en Linux si está disponible.
+6. Prueba más de un destino para distinguir una falla local de un bloqueo remoto.
+7. Revisa firewall, proxy, VPN, cableado, punto de acceso y registros.
+8. Registra hora, error exacto, cambios recientes y alcance del problema.
+
+Un fallo de `ping` no demuestra por sí solo que un servicio esté caído: ICMP puede estar bloqueado mientras el servicio funciona.
+
+======================================================================
+4. WEB, DOMINIOS, CERTIFICADOS Y API
+======================================================================
+
+4.1 Componentes de una dirección web
+Ejemplo ficticio: `https://www.example.com:443/ruta?pagina=2#seccion`
+- Esquema: `https`.
+- Host: `www.example.com`.
+- Puerto: `443`.
+- Ruta: `/ruta`.
+- Consulta: `pagina=2`.
+- Fragmento: `seccion`.
+
+4.2 HTTP y códigos de estado
+- 200 OK: la petición se procesó correctamente.
+- 201 Created: se creó un recurso.
+- 204 No Content: operación correcta sin contenido de respuesta.
+- 301/302: redirección.
+- 400 Bad Request: solicitud inválida.
+- 401 Unauthorized: falta autenticación válida o no es aceptada.
+- 403 Forbidden: acceso denegado.
+- 404 Not Found: recurso no encontrado.
+- 409 Conflict: conflicto con el estado actual.
+- 422 Unprocessable Content: contenido entendible pero no procesable según reglas de la aplicación.
+- 429 Too Many Requests: límite de solicitudes alcanzado.
+- 500 Internal Server Error: error interno del servidor.
+- 502 Bad Gateway: respuesta inválida de un servidor intermediario.
+- 503 Service Unavailable: servicio temporalmente no disponible.
+- 504 Gateway Timeout: tiempo de espera agotado en un intermediario.
+
+4.3 API
+Una API define cómo interactúan sistemas de software.
+- Endpoint: ruta de una operación.
+- Método HTTP: GET, POST, PUT, PATCH, DELETE, entre otros.
+- Encabezado: metadatos de la petición o respuesta.
+- Cuerpo: contenido, a menudo JSON.
+- Autenticación: identifica quién realiza la petición.
+- Autorización: determina qué puede hacer esa identidad.
+- Límite de solicitudes: reduce abuso y sobrecarga.
+- Idempotencia: repetir una operación produce el mismo efecto final cuando el contrato así lo define.
+
+Principios:
+- Valida entradas en el servidor, incluso si el cliente ya las valida.
+- Verifica autorización en cada operación y sobre cada recurso.
+- No devuelvas secretos, trazas internas ni datos personales innecesarios.
+- Documenta formatos, códigos de error, límites y versiones.
+- Usa HTTPS y registra eventos relevantes sin guardar credenciales.
+
+4.4 JSON de ejemplo
+{
+  "id": "pedido-demo-001",
+  "estado": "pendiente",
+  "total": 125.00,
+  "moneda": "NIO"
+}
+El ejemplo usa datos ficticios. En producción, valida tipos, rangos, moneda y reglas comerciales del servidor; no confíes en un total enviado por el cliente sin recalcularlo.
+
+======================================================================
+5. BASES DE DATOS Y ALMACENAMIENTO
+======================================================================
+
+5.1 Modelos
+- Base de datos relacional: organiza información en tablas y relaciones; suele usar SQL.
+- Base de datos documental: almacena documentos estructurados, a menudo similares a JSON.
+- Clave primaria: identifica un registro.
+- Clave foránea: relaciona registros entre tablas.
+- Índice: acelera consultas específicas, con costos de almacenamiento y escritura.
+- Transacción: agrupa operaciones que deben cumplir propiedades de consistencia.
+- Respaldo: copia recuperable de datos.
+- Replicación: mantiene copias en distintos nodos; no sustituye por sí sola una estrategia de backup.
+
+5.2 Buenas prácticas
+- Define esquema, validaciones, reglas de integridad y política de retención.
+- Usa consultas parametrizadas o mecanismos equivalentes del controlador.
+- Aplica privilegios mínimos a cuentas de aplicación y administración.
+- Cifra tráfico y protege copias de seguridad.
+- Prueba restauraciones periódicamente.
+- No guardes contraseñas en texto plano; usa algoritmos de hash de contraseñas apropiados, con sal y parámetros recomendados.
+- Separa datos de desarrollo y producción.
+- Evita registrar información sensible innecesaria.
+
+5.3 SQL de lectura
+Ejemplo ilustrativo:
+`SELECT id, estado FROM pedidos WHERE estado = 'pendiente' LIMIT 20;`
+La sintaxis y el límite pueden variar por motor. Para valores externos, utiliza parámetros en el controlador en vez de concatenar texto en la consulta.
+
+5.4 MongoDB: conceptos generales
+- Documento: unidad de datos similar a JSON, almacenada internamente en BSON.
+- Colección: grupo de documentos.
+- `_id`: identificador único del documento.
+- Índice: optimiza consultas frecuentes.
+- Agregación: transforma y resume datos mediante etapas.
+- Validación: limita estructura o tipos aceptados.
+Usa usuarios de base de datos con permisos limitados, autenticación, cifrado en tránsito y restricciones de red. No publiques credenciales ni habilites acceso abierto sin controles.
+
+======================================================================
+6. CIBERSEGURIDAD DEFENSIVA
+======================================================================
+
+6.1 Objetivos de seguridad
+- Confidencialidad: solo las personas o sistemas autorizados acceden a los datos.
+- Integridad: los datos y sistemas no se modifican indebidamente.
+- Disponibilidad: los servicios y datos están accesibles cuando se necesitan.
+- Autenticidad: se verifica la identidad u origen.
+- Trazabilidad: los eventos relevantes pueden investigarse mediante registros adecuados.
+
+6.2 Amenazas comunes
+- Phishing: mensajes que intentan engañar para robar información o instalar software.
+- Ingeniería social: manipulación de personas para obtener acceso o información.
+- Malware: software malicioso, incluidas variantes que roban datos o cifran archivos.
+- Ransomware: extorsión que suele incluir cifrado o robo de datos.
+- Robo de credenciales: uso indebido de contraseñas, tokens o sesiones.
+- Vulnerabilidad: debilidad que puede ser explotada bajo ciertas condiciones.
+- Configuración incorrecta: permisos, servicios o almacenamiento expuestos indebidamente.
+- Ataque de denegación de servicio: busca afectar disponibilidad mediante sobrecarga u otros métodos.
+- Riesgo de terceros: dependencia de proveedores, paquetes, extensiones o servicios externos.
+
+6.3 Medidas prioritarias
+1. Mantén sistema operativo, navegador, aplicaciones y firmware soportados y actualizados.
+2. Activa autenticación multifactor, preferiblemente métodos resistentes al phishing cuando estén disponibles.
+3. Usa un gestor de contraseñas y contraseñas únicas.
+4. Limita permisos de usuario y de aplicación.
+5. Mantén copias de seguridad aisladas o protegidas; prueba su restauración.
+6. Activa firewall y protección antimalware adecuados.
+7. Desactiva servicios innecesarios y elimina cuentas sin uso.
+8. Protege dispositivos móviles y cifra discos cuando sea apropiado.
+9. Revisa accesos, registros, alertas y actividad anómala.
+10. Capacita a los usuarios para verificar solicitudes urgentes y enlaces inesperados.
+11. Define un procedimiento para reportar incidentes.
+12. Protege secretos en un gestor de secretos o variables de entorno administradas; no los subas al repositorio.
+
+6.4 Contraseñas y MFA
+- No reutilices una contraseña entre servicios.
+- Prioriza contraseñas largas y únicas.
+- No compartas códigos de un solo uso con terceros.
+- La MFA reduce el riesgo, pero no evita todos los ataques; protege especialmente las sesiones y dispositivos.
+- Los códigos de recuperación deben almacenarse en un lugar seguro.
+- Nunca envíes claves privadas, contraseñas o tokens en capturas públicas.
+
+6.5 Correo o mensaje sospechoso
+- Revisa el dominio real del remitente y no solo el nombre visible.
+- No abras archivos inesperados ni habilites macros por presión.
+- Accede al servicio escribiendo la dirección conocida en el navegador.
+- Confirma solicitudes de pago o cambios de cuenta por un canal independiente.
+- Reporta el mensaje conforme a la política de la organización.
+- Si ingresaste credenciales, cambia la contraseña desde un dispositivo confiable, revoca sesiones cuando sea posible y avisa al administrador.
+
+6.6 Copias de seguridad
+Una política de respaldo debe especificar:
+- Qué datos se respaldan.
+- Frecuencia y ventana de respaldo.
+- Ubicación y cifrado.
+- Quién puede borrar o modificar las copias.
+- Tiempo de retención.
+- Responsable y procedimiento de restauración.
+- Pruebas periódicas.
+
+Conceptos:
+- RPO: cantidad máxima de pérdida de datos medida en tiempo que la organización acepta.
+- RTO: tiempo objetivo para restaurar un servicio.
+Una copia que nunca se ha restaurado en una prueba no debe considerarse plenamente verificada.
+
+6.7 Respuesta a incidentes
+1. Preparación: contactos, inventario, respaldos y procedimientos.
+2. Identificación: confirmar indicios y alcance.
+3. Contención: limitar el daño sin destruir evidencia.
+4. Erradicación: eliminar la causa con autorización y análisis.
+5. Recuperación: restaurar desde fuentes confiables y vigilar recaídas.
+6. Lecciones aprendidas: documentar causa, impacto y mejoras.
+No borres registros ni reinstales sistemas de inmediato si eso puede destruir evidencia importante. Sigue las obligaciones legales y la política de la organización.
+
+6.8 Alcance ético
+Toda prueba de seguridad debe realizarse con autorización explícita y dentro de un alcance definido. Practica en laboratorios propios, entornos educativos o sistemas expresamente autorizados. No escanees, accedas ni modifiques sistemas ajenos sin permiso. Este lote se enfoca en prevención, diagnóstico y respuesta defensiva.
+
+======================================================================
+7. DESARROLLO SEGURO DE SOFTWARE
+======================================================================
+
+7.1 Principios
+- Validación en servidor: verifica tipo, longitud, formato, límites y reglas comerciales.
+- Codificación de salida: evita que datos no confiables se interpreten como código en HTML u otros contextos.
+- Consultas parametrizadas: reducen riesgos de inyección SQL.
+- Control de acceso: verifica permisos en el servidor para cada recurso y operación.
+- Gestión de sesión: usa cookies seguras, expiración adecuada y protección contra robo de sesión.
+- Gestión de secretos: evita secretos en el código fuente, logs, repositorios o aplicaciones cliente.
+- Dependencias: usa paquetes necesarios, versiones mantenidas y revisión de vulnerabilidades.
+- Errores: muestra mensajes útiles sin revelar trazas internas ni detalles sensibles.
+- Registro: conserva eventos necesarios para seguridad y diagnóstico, con retención controlada.
+- Privacidad: recopila solo los datos necesarios y limita acceso y conservación.
+
+7.2 Riesgos de aplicaciones web
+- Control de acceso roto.
+- Configuración de seguridad incorrecta.
+- Fallos criptográficos.
+- Inyección.
+- Diseño inseguro.
+- Componentes desactualizados o vulnerables.
+- Fallos de autenticación.
+- Integridad de software y datos insuficiente.
+- Registro y monitoreo deficientes.
+- Manejo incorrecto de errores o condiciones excepcionales.
+
+La lista es una síntesis educativa y no reemplaza la versión vigente de OWASP Top 10.
+
+7.3 Git básico
+- `git status`: muestra el estado del repositorio.
+- `git log --oneline`: muestra un historial resumido.
+- `git diff`: presenta cambios no confirmados.
+- `git branch`: lista ramas locales.
+- `git switch nombre-rama`: cambia de rama existente.
+- `git pull`: integra cambios remotos según la configuración.
+- `git add archivo`: prepara un archivo para el siguiente commit.
+- `git commit -m "mensaje"`: registra los cambios preparados.
+- `git push`: publica commits en el remoto configurado.
+
+Buenas prácticas:
+- Revisa `git diff` antes de confirmar cambios.
+- No subas `.env`, claves privadas, tokens, credenciales, bases de datos reales ni datos personales.
+- Usa `.gitignore`, pero recuerda que ignorar un archivo no elimina una copia ya versionada.
+- Si se expone un secreto, revócalo o rótalo; borrarlo del último commit no siempre elimina copias del historial.
+
+7.4 Pruebas
+- Unitarias: prueban unidades pequeñas.
+- Integración: verifican interacción entre componentes.
+- Sistema: evalúan el producto completo.
+- Aceptación: comprueban requisitos de negocio.
+- Regresión: verifican que cambios no rompan funciones existentes.
+- Seguridad: revisa dependencias, configuración, autenticación, autorización y entradas.
+Prueba casos válidos, inválidos, límites, permisos denegados, fallos de red y recuperación.
+
+======================================================================
+8. COMPUTACIÓN EN LA NUBE
+======================================================================
+
+8.1 Modelos de servicio
+- IaaS: proveedor ofrece recursos de infraestructura; el cliente administra una parte importante del sistema.
+- PaaS: plataforma administrada para desarrollar y ejecutar aplicaciones.
+- SaaS: aplicación lista para usar, administrada principalmente por el proveedor.
+Las responsabilidades exactas dependen del servicio y del contrato.
+
+8.2 Modelos de despliegue
+- Nube pública: infraestructura del proveedor disponible para múltiples clientes con aislamiento lógico.
+- Nube privada: entorno dedicado a una organización.
+- Híbrida: combina entornos distintos.
+- Multinube: usa más de un proveedor; puede aumentar flexibilidad y también complejidad.
+
+8.3 Conceptos
+- Región: área geográfica con infraestructura del proveedor.
+- Zona de disponibilidad: ubicación o conjunto de instalaciones diseñado para aislamiento frente a fallos, según el proveedor.
+- Máquina virtual: entorno virtualizado que ejecuta un sistema operativo.
+- Contenedor: empaqueta aplicación y dependencias usando aislamiento del sistema operativo.
+- Escalado vertical: aumentar recursos de una instancia.
+- Escalado horizontal: aumentar instancias o réplicas.
+- Balanceador: distribuye tráfico.
+- Alta disponibilidad: diseño para reducir interrupciones.
+- Recuperación ante desastres: plan para restablecer sistemas después de un evento grave.
+- Infraestructura como código: define infraestructura mediante archivos versionables y revisables.
+
+8.4 Seguridad en nube
+- Configura identidades y roles con privilegios mínimos.
+- Protege cuentas raíz o propietarias con MFA y uso restringido.
+- Evita almacenamiento público accidental.
+- Cifra datos en tránsito y en reposo según sensibilidad y requisitos.
+- Activa auditoría y alertas de seguridad.
+- Define presupuestos y alertas de gasto.
+- Gestiona secretos con servicios apropiados.
+- Comprende qué administra el proveedor y qué administra el cliente.
+- Elimina recursos de prueba que ya no se necesitan.
+- Verifica región, residencia de datos, retención y requisitos legales aplicables.
+
+8.5 Costos y resiliencia
+Los costos pueden incluir cómputo, almacenamiento, transferencia, solicitudes, licencias, soporte y copias. Usa etiquetas, presupuestos, alertas y revisión periódica. No supongas que un servicio es gratuito solo porque tiene un nivel de prueba.
+
+======================================================================
+9. CONTENEDORES, DEVOPS Y OBSERVABILIDAD
+======================================================================
+
+9.1 Máquina virtual y contenedor
+- Una VM suele incluir un sistema operativo invitado completo.
+- Un contenedor comparte el kernel del host y empaqueta la aplicación con sus dependencias.
+- Los contenedores no son una barrera de seguridad absoluta; requieren configuración, aislamiento y actualización adecuados.
+- Usa imágenes de fuentes confiables, versiones controladas y escaneo de vulnerabilidades.
+
+9.2 Docker: comandos de consulta comunes
+Solo ejecútalos en equipos y entornos que administras.
+- `docker --version`: muestra la versión del cliente.
+- `docker ps`: lista contenedores en ejecución.
+- `docker ps -a`: lista contenedores, incluidos detenidos.
+- `docker images`: lista imágenes locales.
+- `docker logs NOMBRE_CONTENEDOR`: consulta logs del contenedor indicado.
+- `docker inspect NOMBRE_CONTENEDOR`: muestra configuración detallada; revisa la salida antes de compartirla porque puede contener información sensible.
+
+Evita publicar puertos, montar carpetas sensibles o ejecutar contenedores privilegiados sin entender las implicaciones.
+
+9.3 CI/CD
+- Integración continua (CI): automatiza compilación y pruebas de cambios.
+- Entrega continua: mantiene software listo para liberar.
+- Despliegue continuo: publica automáticamente cambios que cumplen las reglas definidas.
+- Pipeline: secuencia de tareas automatizadas.
+- Artefacto: resultado versionado de una compilación.
+Buenas prácticas: revisión por pares, pruebas automatizadas, escaneo de dependencias, secretos administrados, permisos limitados y mecanismo de reversión.
+
+9.4 Observabilidad
+- Métricas: valores numéricos a lo largo del tiempo.
+- Logs: eventos registrados.
+- Trazas: recorrido de una petición entre componentes.
+- Alertas: notificaciones cuando se cumple una condición.
+- SLI: indicador de nivel de servicio.
+- SLO: objetivo de nivel de servicio.
+- SLA: compromiso formal de nivel de servicio.
+Define qué medir, umbrales razonables, responsables y procedimientos de respuesta. Evita registrar contraseñas, tokens o contenido personal innecesario.
+
+======================================================================
+10. WIFI Y SEGURIDAD DE RED LOCAL
+======================================================================
+
+- Usa WPA3-Personal cuando los dispositivos lo soporten; WPA2-AES puede ser una alternativa razonable en equipos compatibles.
+- Evita protocolos antiguos e inseguros.
+- Cambia credenciales administrativas predeterminadas del router.
+- Actualiza el firmware desde el proveedor oficial.
+- Desactiva administración remota si no se necesita.
+- Usa una red de invitados para visitantes o dispositivos que deban estar aislados.
+- Cambia la contraseña Wi-Fi si se ha compartido ampliamente o hay indicios de acceso no autorizado.
+- Ubica el router para una cobertura adecuada y revisa interferencias antes de comprar equipo nuevo.
+- No confundas ocultar el nombre de la red con una medida de seguridad suficiente.
+- Mantén un inventario básico de dispositivos autorizados.
+
+======================================================================
+11. PRIVACIDAD Y PROTECCIÓN DE DATOS
+======================================================================
+
+- Recopila solo la información necesaria para una finalidad legítima y explicada.
+- Define quién puede consultar, modificar, exportar y borrar datos.
+- Establece plazos de retención y procedimientos de eliminación.
+- Cifra datos sensibles cuando corresponda y protege claves de cifrado.
+- Limita el uso de datos reales en desarrollo, pruebas y demostraciones.
+- Enmascara o anonimiza datos para compartir ejemplos.
+- Revisa permisos de aplicaciones y conexiones con terceros.
+- Antes de usar servicios externos, evalúa sus condiciones, tratamiento de datos y requisitos legales aplicables.
+- No prometas cumplimiento legal sin revisar la jurisdicción, el contexto y las normas vigentes.
+
+======================================================================
+12. RESOLUCIÓN DE PROBLEMAS: MÉTODO GENERAL
+======================================================================
+
+Para investigar un problema tecnológico:
+1. Define el síntoma observable y el resultado esperado.
+2. Determina alcance: un usuario, un equipo, una red o todos los usuarios.
+3. Anota cuándo comenzó y qué cambió.
+4. Reproduce el problema de forma segura.
+5. Recopila mensajes de error y registros pertinentes, ocultando secretos.
+6. Formula hipótesis y prueba una variable a la vez.
+7. Aplica primero cambios reversibles y de bajo riesgo.
+8. Verifica si el resultado esperado se recuperó.
+9. Documenta causa probable, solución y pasos para prevenir recurrencia.
+10. Escala a personal responsable si hay riesgo de pérdida de datos, exposición de información o interrupción importante.
+
+Plantilla de reporte:
+- Título:
+- Fecha y hora:
+- Sistema y versión:
+- Síntoma:
+- Resultado esperado:
+- Alcance e impacto:
+- Cambios recientes:
+- Mensaje de error:
+- Pruebas realizadas:
+- Resultados:
+- Causa confirmada o hipótesis:
+- Solución aplicada:
+- Verificación:
+- Pendientes y responsable:
+
+======================================================================
+13. EJERCICIOS DE APRENDIZAJE SEGURO
+======================================================================
+
+Ejercicio 1: Diagnóstico de red
+Objetivo: identificar si un problema ocurre en el equipo, DNS o conexión externa.
+Actividades: consultar `ipconfig` o `ip a`, revisar la puerta de enlace, resolver `example.com` y comparar resultados. No cambies la configuración sin guardar el estado inicial.
+
+Ejercicio 2: Higiene de contraseñas
+Objetivo: mejorar las cuentas propias.
+Actividades: activar MFA, reemplazar contraseñas reutilizadas y guardar códigos de recuperación en un lugar seguro. No compartas contraseñas con quien te ayude.
+
+Ejercicio 3: Plan de respaldo
+Objetivo: diseñar una estrategia de recuperación.
+Actividades: identificar datos críticos, definir RPO/RTO, crear una copia protegida y probar la restauración en un entorno seguro.
+
+Ejercicio 4: Revisión de un repositorio
+Objetivo: reducir exposición accidental.
+Actividades: revisar archivos versionados, confirmar que secretos no están presentes, revisar dependencias y documentar cambios. Si se descubre una clave real, revocarla y rotarla.
+
+Ejercicio 5: Diseño de una API
+Objetivo: crear una interfaz segura.
+Actividades: documentar endpoints, validar datos en el servidor, definir autenticación y autorización, usar errores consistentes y evitar devolver datos innecesarios.
+
+Ejercicio 6: Preparación ante incidentes
+Objetivo: definir un procedimiento básico.
+Actividades: asignar contactos, listar sistemas críticos, describir cómo contener un equipo sospechoso, proteger registros y restaurar desde respaldos verificados.
+
+======================================================================
+14. GLOSARIO BREVE
+======================================================================
+
+- ACL: lista de control de acceso.
+- API: interfaz de programación de aplicaciones.
+- Backup: copia de seguridad.
+- CIDR: notación para prefijos de red.
+- CI/CD: automatización de integración, entrega o despliegue.
+- CPU: unidad central de procesamiento.
+- DNS: sistema de nombres de dominio.
+- DHCP: protocolo de configuración dinámica de host.
+- DDoS: denegación de servicio distribuida.
+- EDR: detección y respuesta en endpoints.
+- Firewall: sistema que filtra tráfico según reglas.
+- Hash: resumen de longitud definida calculado a partir de datos.
+- IAM: gestión de identidades y accesos.
+- IP: protocolo de internet.
+- MFA: autenticación multifactor.
+- NAT: traducción de direcciones de red.
+- RPO: objetivo de punto de recuperación.
+- RTO: objetivo de tiempo de recuperación.
+- SIEM: plataforma para centralizar y analizar eventos de seguridad.
+- SSH: protocolo de acceso remoto cifrado.
+- TLS: protocolo de seguridad de la capa de transporte.
+- VPN: red privada virtual.
+- VM: máquina virtual.
+- Vulnerabilidad: debilidad que puede comprometer un sistema.
+
+======================================================================
+15. FUENTES OFICIALES Y REFERENCIAS PARA AMPLIAR
+======================================================================
+
+Consulta siempre las versiones vigentes:
+- NIST Cybersecurity Framework: https://www.nist.gov/cyberframework
+- NIST Computer Security Resource Center: https://csrc.nist.gov/
+- CISA Secure Our World: https://www.cisa.gov/secure-our-world
+- CISA Cybersecurity Performance Goals: https://www.cisa.gov/cross-sector-cybersecurity-performance-goals
+- OWASP Top 10: https://owasp.org/www-project-top-ten/
+- OWASP Cheat Sheet Series: https://cheatsheetseries.owasp.org/
+- Microsoft Learn: https://learn.microsoft.com/
+- Documentación de Windows: https://learn.microsoft.com/windows/
+- Documentación de Linux man-pages: https://man7.org/linux/man-pages/
+- Documentación oficial de Git: https://git-scm.com/doc
+- Documentación oficial de Docker: https://docs.docker.com/
+- Documentación oficial de MongoDB: https://www.mongodb.com/docs/
+- Documentación de MDN para HTTP y web: https://developer.mozilla.org/
+- Cloudflare Learning Center para conceptos generales de redes: https://www.cloudflare.com/learning/
+- Cisco Networking Academy: https://www.netacad.com/
+
+Las fuentes pueden cambiar de contenido y estructura. La mención de una fuente no significa que todo su contenido esté reproducido en este lote ni que constituya asesoramiento legal o profesional.
+
+======================================================================
+FIN DEL LOTE 10
+======================================================================

@@ -1,0 +1,265 @@
+BIBLIOTECA TÉCNICA PARA IA — LOTE 05 INGENIERÍA DE ALIMENTOS Y
+OPERACIONES UNITARIAS
+
+Versión: 1.0 Fecha de compilación: 22 de octubre de 2026 Idioma
+principal: español Tipo: catálogo de fuentes técnicas, conceptos base y
+guía de ingestión.
+
+IMPORTANTE Este lote combina conceptos introductorios con fuentes de
+consulta. No contiene libros completos ni sustituye manuales de diseño,
+validación de procesos, fichas técnicas de equipos o legislación
+vigente. Para cálculos industriales reales se necesitan datos
+específicos del producto, equipo, condiciones de operación y criterios
+de seguridad.
+
+============================================================ 1. MANUAL
+DE REFERENCIA: FOOD PROCESSING HANDBOOK
+============================================================
+
+Editorial: Wiley Ficha bibliográfica:
+https://onlinelibrary.wiley.com/book/10.1002/3527607579
+
+Descripción: Manual de referencia sobre tecnología y equipos de
+procesamiento de alimentos. La ficha bibliográfica presenta temas como
+manejo poscosecha, procesamiento térmico, evaporación, deshidratación,
+congelación, envasado y operaciones de separación.
+
+Uso para la IA: - Identificar los principios de las operaciones
+unitarias. - Relacionar parámetros de proceso con cambios físicos,
+químicos, microbiológicos y sensoriales. - Localizar bibliografía
+especializada por operación.
+
+Acceso: El libro puede requerir compra o acceso institucional. No asumir
+que el contenido completo es de libre descarga.
+
+============================================================ 2. EQUIPOS
+PARA EL PROCESAMIENTO DE ALIMENTOS
+============================================================
+
+Editorial: Springer Ficha:
+https://link.springer.com/book/10.1007/978-3-319-25020-5
+
+Descripción: Referencia sobre equipos de procesamiento, con secciones de
+evaporación, deshidratación, refrigeración, congelación, procesamiento
+térmico, transferencia de masa y envasado.
+
+Temas para indexar: - Selección de equipo y capacidad. - Principios de
+funcionamiento. - Transferencia de calor y masa. - Consumo de energía y
+eficiencia. - Limpieza, mantenimiento y diseño higiénico.
+
+Acceso: Consultar disponibilidad de capítulos de acceso abierto o
+mediante una biblioteca autorizada.
+
+============================================================ 3.
+TRATAMIENTO TÉRMICO Y HACCP
+============================================================
+
+FDA — Principios y aplicación de HACCP:
+https://www.fda.gov/food/hazard-analysis-critical-control-point-haccp/haccp-principles-application-guidelines
+
+El procesamiento térmico puede ser un punto crítico de control cuando se
+usa para controlar un peligro identificado. El tiempo y la temperatura
+deben justificarse para el producto, microorganismo objetivo, equipo,
+envase y condiciones reales del proceso.
+
+Conceptos que la IA debe diferenciar: - Calentamiento: transferencia de
+energía térmica al producto. - Pasteurización: tratamiento térmico
+diseñado para alcanzar objetivos específicos de inocuidad y/o
+estabilidad; no equivale necesariamente a esterilización comercial. -
+Esterilización comercial: tratamiento validado para lograr la
+estabilidad comercial esperada bajo condiciones definidas; no debe
+interpretarse como ausencia absoluta de toda forma de vida microbiana. -
+Enfriamiento: retirada de calor para limitar crecimiento microbiano y
+preservar calidad. - Letalidad térmica: efecto acumulado del tiempo y la
+temperatura sobre el microorganismo objetivo.
+
+Reglas de seguridad: - No inventar combinaciones tiempo-temperatura. -
+No aplicar una condición de pasteurización a productos distintos sin
+validación. - Los procesos de alimentos envasados de baja acidez pueden
+requerir evaluación especializada y validación de autoridad de
+proceso. - Mantener registros calibrados de tiempo, temperatura, presión
+y otros parámetros críticos según el proceso.
+
+============================================================ 4.
+REFRIGERACIÓN Y SEGURIDAD ALIMENTARIA
+============================================================
+
+USDA FSIS — Refrigeración y seguridad alimentaria:
+https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/refrigeration
+
+FDA — Almacenamiento seguro de alimentos:
+https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely
+
+Temas: - Carga térmica y extracción de calor. - Conservación de la
+cadena de frío. - Registro de temperaturas y calibración de
+termómetros. - Enfriamiento de productos cocidos. - Separación de
+alimentos crudos y listos para consumo. - Efectos de la temperatura
+sobre microorganismos, textura, oxidación y vida útil.
+
+Conceptos: La refrigeración ralentiza el crecimiento de muchos
+microorganismos, pero no esteriliza el alimento. Algunos
+microorganismos, entre ellos Listeria monocytogenes, pueden crecer a
+temperaturas de refrigeración bajo ciertas condiciones.
+
+Para el diseño industrial, evaluar: - Temperatura inicial y final del
+producto. - Masa, geometría, composición y propiedades térmicas. -
+Temperatura y velocidad del aire o fluido refrigerante. - Carga del
+equipo, apertura de puertas y condiciones ambientales. - Tiempo
+requerido y uniformidad térmica.
+
+No usar una temperatura genérica como requisito legal universal:
+consultar la normativa y especificación del producto aplicables.
+
+============================================================ 5.
+CONGELACIÓN Y DESCONGELACIÓN
+============================================================
+
+USDA FSIS — Congelación y seguridad alimentaria:
+https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety
+
+Temas: - Formación de cristales de hielo. - Velocidad de congelación y
+calidad. - Cambios de textura y pérdida de exudado. - Almacenamiento
+congelado y fluctuaciones de temperatura. - Descongelación controlada. -
+Diferencia entre seguridad microbiológica y calidad sensorial.
+
+Principios: - La congelación detiene o ralentiza mucho el crecimiento
+microbiano, pero no garantiza que los microorganismos presentes sean
+destruidos. - La calidad depende de la materia prima, velocidad de
+congelación, envase, temperatura y tiempo de almacenamiento. - La
+descongelación debe controlarse para evitar que la superficie permanezca
+durante mucho tiempo en condiciones favorables al crecimiento
+microbiano.
+
+============================================================ 6. SECADO,
+DESHIDRATACIÓN Y EVAPORACIÓN
+============================================================
+
+Referencias bibliográficas: - Food Processing Handbook:
+https://onlinelibrary.wiley.com/book/10.1002/3527607579 - Handbook of
+Farm, Dairy and Food Machinery Engineering, capítulo sobre secado y
+evaporación:
+https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780128148037000142
+
+Conceptos: - Humedad: cantidad de agua en el alimento según la base de
+cálculo utilizada. - Actividad de agua (aw): medida de la disponibilidad
+del agua para participar en procesos físicos, químicos y
+microbiológicos. - Secado: eliminación de agua mediante transferencia de
+calor y masa. - Evaporación: concentración de una solución al vaporizar
+parte del disolvente. - Liofilización: eliminación de hielo por
+sublimación bajo condiciones controladas de presión y temperatura.
+
+Variables de proceso: - Temperatura y humedad del aire. - Velocidad del
+aire. - Espesor, tamaño y forma del producto. - Humedad inicial y
+final. - Presión de operación cuando corresponde. - Tiempo de residencia
+y sensibilidad térmica. - Consumo de energía y rendimiento.
+
+Precaución: No asumir que reducir la humedad garantiza inocuidad. La
+actividad de agua, el pH, el tratamiento previo, el empaque y el
+almacenamiento también influyen en la estabilidad.
+
+============================================================ 7. BALANCES
+DE MATERIA Y ENERGÍA
+============================================================
+
+Balance general de materia, sin reacción: Entrada + generación -
+salida - consumo = acumulación.
+
+En un sistema sin reacción y en estado estacionario: Entrada total de
+masa = salida total de masa.
+
+Balance general de energía: Energía que entra - energía que sale +
+energía generada - energía consumida = acumulación de energía.
+
+Para un balance térmico sencillo sin cambio de fase: Q = m · Cp · ΔT
+
+Donde: - Q: calor transferido (J o kJ). - m: masa (kg). - Cp: calor
+específico (J/kg·K o kJ/kg·K). - ΔT: cambio de temperatura (K o °C de
+diferencia).
+
+Esta expresión es una aproximación cuando el calor específico puede
+considerarse constante y no hay cambios de fase relevantes. Si hay
+evaporación, congelación, reacción o variación significativa de
+propiedades, deben incorporarse los términos correspondientes.
+
+Para la IA: - Mostrar unidades en cada variable. - Convertir unidades
+antes de calcular. - Declarar supuestos. - Comprobar coherencia
+dimensional. - Distinguir datos proporcionados de valores estimados. -
+No inventar propiedades termofísicas; citar tablas o fuentes cuando se
+utilicen.
+
+============================================================ 8.
+TRANSFERENCIA DE CALOR Y MASA
+============================================================
+
+Temas de estudio: - Conducción a través de sólidos. - Convección entre
+superficie y fluido. - Radiación térmica. - Coeficientes globales de
+transferencia de calor. - Resistencias térmicas en serie. - Difusión y
+transferencia de masa. - Condiciones de contorno y estado
+estacionario/transitorio.
+
+La elección del modelo depende de geometría, propiedades del material,
+régimen de flujo, condiciones de operación y datos disponibles. Un
+cálculo simplificado no sustituye la validación de un equipo real.
+
+============================================================ 9. ENVASADO
+Y VIDA ÚTIL ============================================================
+
+Temas a integrar: - Envases rígidos, semirrígidos y flexibles. - Barrera
+a humedad, oxígeno y luz. - Sellado e integridad del envase. -
+Interacciones entre producto y material de empaque. - Atmósfera
+modificada y envasado al vacío. - Compatibilidad con tratamientos
+térmicos o congelación. - Estudios de vida útil y criterios de
+aceptación.
+
+La vida útil no debe determinarse solo por apariencia o una fórmula
+general. Debe justificarse con el tipo de producto, proceso, envase,
+condiciones de almacenamiento, análisis pertinentes y evaluación de
+riesgos.
+
+============================================================ 10.
+METADATOS Y PROCESAMIENTO DE LOS DOCUMENTOS
+============================================================
+
+Para cada fuente: - id_documento - título original - autor o
+institución - editorial - edición y año - ISBN/DOI si existe - URL
+oficial - fecha de consulta - tipo de acceso: abierto, institucional o
+comercial - capítulos y páginas - tema y operación unitaria -
+ecuaciones, variables y unidades - supuestos y límites de aplicación -
+estado de verificación
+
+Proceso recomendado: 1. Obtener el documento desde la editorial,
+institución o repositorio autorizado. 2. Guardar el original y registrar
+su procedencia. 3. Extraer texto, tablas, ecuaciones y páginas. 4.
+Verificar que las ecuaciones y símbolos no se hayan alterado. 5. Dividir
+por capítulos y temas conservando referencias. 6. Indexar con embeddings
+y búsqueda textual. 7. Recuperar fragmentos antes de responder. 8. Citar
+título, edición, capítulo y página. 9. Marcar cálculos de ingeniería
+como estimaciones cuando falten datos.
+
+============================================================ 11. REGLAS
+PARA RESPUESTAS TÉCNICAS
+============================================================
+
+-   Preguntar por el alimento, capacidad y condiciones de operación si
+    son esenciales.
+-   Distinguir diseño conceptual, cálculo preliminar y diseño validado.
+-   No afirmar que un proceso es seguro sin evidencia y validación.
+-   No inventar valores de tablas, propiedades físicas o límites
+    críticos.
+-   Incluir fórmulas, variables, unidades y supuestos en los cálculos.
+-   Indicar incertidumbre y fuentes de datos.
+-   Para equipos a presión, procesos térmicos críticos o instalaciones
+    industriales, requerir revisión de profesionales competentes.
+-   Separar bibliografía técnica de requisitos legales obligatorios.
+
+============================================================ 12. PRÓXIMO
+LOTE SUGERIDO
+============================================================
+
+LOTE 06 — INGENIERÍA INDUSTRIAL Y SEGURIDAD OCUPACIONAL: - Lean
+Manufacturing y 5S. - Estudio de tiempos y movimientos. - Gestión de
+calidad y mejora continua. - Mantenimiento preventivo. - Ergonomía y
+seguridad ocupacional. - Análisis de riesgos de proceso. - Indicadores
+de productividad y eficiencia.
+
+FIN DEL LOTE 05

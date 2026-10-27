@@ -1,0 +1,255 @@
+BIBLIOTECA TÉCNICA PARA IA — LOTE 04 HACCP/APPCC, ISO 22000, BPM, POES,
+TRAZABILIDAD Y AUDITORÍAS
+
+Versión: 1.0 Fecha de compilación: 22 de octubre de 2026 Idioma
+principal: español Tipo: catálogo de fuentes oficiales y guía de
+ingestión documental.
+
+IMPORTANTE Este lote reúne fuentes oficiales y referencias para
+organizar una biblioteca técnica. No contiene el texto íntegro de todas
+las normas citadas ni implica que se hayan descargado todos los
+documentos. Las normas ISO completas suelen estar protegidas por
+derechos de autor y pueden requerir compra o acceso autorizado. Antes de
+aplicar requisitos, verificar la edición vigente, el alcance y la
+legislación aplicable en Nicaragua.
+
+============================================================ 1. CODEX
+ALIMENTARIUS — PRINCIPIOS GENERALES DE HIGIENE Y HACCP
+============================================================
+
+Organismos: FAO / OMS — Comisión del Codex Alimentarius Página oficial:
+https://www.fao.org/fao-who-codexalimentarius/codex-texts/codes-of-practice/en/
+
+Referencia de texto: https://www.fao.org/4/w6419e/w6419e03.htm
+
+Documento clave: CXC 1-1969, Principios generales de higiene de los
+alimentos. La revisión actualizada se debe consultar desde la página
+oficial de Codex.
+
+Temas a indexar: - Buenas prácticas de higiene y programas
+prerrequisito. - Compromiso de la dirección y responsabilidades. -
+Identificación y evaluación de peligros. - Aplicación del sistema
+HACCP/APPCC. - Vigilancia, acciones correctivas, verificación y
+documentación. - Formación, higiene personal, instalaciones, limpieza y
+control de contaminación.
+
+Los siete principios clásicos de HACCP: 1. Realizar un análisis de
+peligros. 2. Determinar los puntos críticos de control (PCC). 3.
+Establecer límites críticos validados. 4. Establecer un sistema de
+vigilancia de los PCC. 5. Establecer acciones correctivas. 6. Establecer
+procedimientos de verificación. 7. Establecer documentación y registros.
+
+Precaución: Antes de diseñar un plan HACCP, establecer y verificar los
+programas prerrequisito apropiados para la instalación y el sector.
+
+============================================================ 2. ISO
+22000:2018 — SISTEMA DE GESTIÓN DE INOCUIDAD ALIMENTARIA
+============================================================
+
+Organismo: International Organization for Standardization (ISO) Página
+oficial en español:
+https://www.iso.org/es/contents/data/standard/06/54/65464.html
+
+Página del comité ISO: https://committee.iso.org/standard/65464.html
+
+Descripción: ISO 22000 establece requisitos para un sistema de gestión
+de inocuidad alimentaria aplicable a organizaciones de la cadena
+alimentaria. Integra comunicación, gestión del sistema, programas
+prerrequisito y principios HACCP.
+
+Temas para indexar: - Contexto y alcance del sistema de gestión. -
+Liderazgo, responsabilidades y política de inocuidad. - Competencia,
+comunicación y control de la información documentada. - Operación y
+planificación de controles de peligros. - Evaluación del desempeño,
+auditoría interna y mejora. - Gestión de no conformidades y acciones
+correctivas.
+
+Estado de edición: La página oficial consultada indica que ISO
+22000:2018 fue revisada y confirmada en 2023; revisar la ficha oficial
+para posibles enmiendas o proyectos de revisión antes de citarla como
+edición vigente.
+
+Nota legal: La norma completa es una publicación protegida y puede
+requerir compra. No reemplazarla con resúmenes no oficiales cuando se
+necesite demostrar conformidad cláusula por cláusula.
+
+============================================================ 3.
+PROGRAMAS PRERREQUISITO — FAMILIA ISO 22002
+============================================================
+
+Página de referencia sobre ISO 22000 e ISO 22002:
+https://www.iso.org/insights/iso-22000-explained
+
+Temas: - Higiene de instalaciones y equipos. - Control de plagas. -
+Limpieza y desinfección. - Prevención de contaminación cruzada. -
+Control de proveedores, recepción, almacenamiento y transporte. -
+Gestión de residuos. - Servicios de agua, aire y energía cuando
+corresponda. - Higiene del personal, ropa de trabajo y servicios
+sanitarios. - Materiales de empaque y control de cuerpos extraños.
+
+La serie ISO 22002 tiene partes distintas según el sector. Verificar
+cuál parte y edición corresponde a manufactura alimentaria, envases u
+otra actividad. No asumir que una lista general sustituye el texto de la
+parte aplicable.
+
+============================================================ 4. BPM Y
+REQUISITOS NACIONALES — NICARAGUA / CENTROAMÉRICA
+============================================================
+
+MINSA Nicaragua — RTCA 67.01.33:06, industrias de alimentos y bebidas
+procesados: Buenas Prácticas de Manufactura, principios generales.
+Página oficial:
+https://www.minsa.gob.ni/publicaciones/direccion-general-de-regulacion-sanitaria/rtca-67013306-industrias-de-alimentos-y
+
+PDF oficial:
+https://www.minsa.gob.ni/sites/default/files/2022-10/RTCA%2067.01.33.06%20Industrias%20de%20Alimentos%20y%20Bebidas%20Procesados.%20Buena%20Pr%C3%A1ctica%20de%20Manufactura.%20Principios%20Generales.pdf
+
+Temas a indexar: - Condiciones del edificio y áreas de proceso. -
+Equipos, utensilios y mantenimiento. - Agua, limpieza, desinfección y
+manejo de residuos. - Higiene y capacitación del personal. -
+Almacenamiento, control de operaciones y registros. - Verificación de
+requisitos y acciones correctivas.
+
+Advertencia: Confirmar el estado vigente del RTCA, las reformas
+aplicables y los requisitos adicionales de MINSA/IPSA según el tipo de
+establecimiento y producto.
+
+============================================================ 5. POES —
+PROCEDIMIENTOS OPERATIVOS ESTANDARIZADOS DE SANEAMIENTO
+============================================================
+
+Fuente de referencia internacional: Codex Alimentarius — CXC 1-1969
+https://www.fao.org/fao-who-codexalimentarius/codex-texts/codes-of-practice/en/
+
+Un POES debe adaptarse al establecimiento, producto, equipo, riesgo y
+químicos autorizados. Como estructura operativa de trabajo,
+documentar: - Objetivo y alcance. - Responsable de ejecución y
+responsable de verificación. - Área, equipo o superficie. - Frecuencia y
+momento de ejecución. - Productos químicos, concentración, tiempo de
+contacto y condiciones de uso conforme a etiqueta/ficha técnica. - Pasos
+de limpieza y, cuando aplique, desinfección. - Enjuague y control de
+residuos químicos cuando corresponda. - Inspección visual y otros
+métodos de verificación. - Registros, desviaciones y acciones
+correctivas.
+
+No inventar concentraciones universales. Deben respetarse la etiqueta,
+ficha de seguridad, autorización del producto, material de superficie y
+requisitos regulatorios.
+
+============================================================ 6.
+TRAZABILIDAD, RETIRO Y RECUPERACIÓN DE PRODUCTOS
+============================================================
+
+Codex — textos oficiales:
+https://www.fao.org/fao-who-codexalimentarius/codex-texts/all-standards/en/
+
+Temas para buscar e indexar: - Identificación de lotes y materias
+primas. - Relación proveedor–materia prima–proceso–producto
+terminado–cliente. - Registros de recepción, producción, empaque,
+despacho y distribución. - Simulacros de trazabilidad. - Procedimiento
+de retiro/recuperación de producto. - Comunicación con autoridades,
+clientes y proveedores. - Investigación de causa raíz y evaluación
+posterior al incidente.
+
+Buenas prácticas para el sistema: - Registrar código de lote, fechas,
+cantidades y responsables. - Definir quién puede activar el retiro y
+quién comunica. - Mantener datos de contacto y registros accesibles. -
+Probar periódicamente la capacidad de rastrear hacia atrás y hacia
+adelante. - Documentar el balance de cantidades y las decisiones
+tomadas.
+
+La obligación legal concreta depende de la jurisdicción, la categoría
+del alimento y las disposiciones aplicables.
+
+============================================================ 7.
+AUDITORÍAS INTERNAS Y ACCIONES CORRECTIVAS
+============================================================
+
+Fuentes generales: - ISO 22000, ficha oficial:
+https://www.iso.org/es/contents/data/standard/06/54/65464.html - Codex
+Alimentarius:
+https://www.fao.org/fao-who-codexalimentarius/codex-texts/codes-of-practice/en/
+
+Estructura recomendada para un programa de auditoría: - Alcance,
+criterios y objetivos. - Programa basado en riesgo y resultados
+anteriores. - Competencia e imparcialidad del auditor. - Plan de
+auditoría y revisión de evidencias. - Hallazgos trazables a criterios
+específicos. - Corrección inmediata cuando sea necesaria. - Análisis de
+causa raíz y acción correctiva. - Responsable, plazo y verificación de
+eficacia. - Cierre y conservación de registros.
+
+Diferencias útiles: - Corrección: resuelve el problema detectado. -
+Acción correctiva: aborda la causa para evitar recurrencia. -
+Verificación de eficacia: comprueba que la medida funcionó.
+
+No clasificar un hallazgo como incumplimiento de ISO si no se ha
+consultado el requisito y la edición aplicables.
+
+============================================================ 8.
+ESTRUCTURA DE DOCUMENTOS Y REGISTROS A CREAR EN LA IA
+============================================================
+
+Modelos de documentos que la IA puede ayudar a redactar: - Política y
+objetivos de inocuidad. - Descripción de productos y uso previsto. -
+Diagrama de flujo y confirmación en planta. - Análisis de peligros. -
+Determinación justificada de PCC y límites críticos. - Plan de
+vigilancia y acciones correctivas. - Plan maestro de limpieza y
+desinfección. - POES y registros de saneamiento. - Programa de control
+de plagas. - Control de proveedores y recepción. - Trazabilidad y
+procedimiento de retiro. - Plan de formación del personal. - Programa y
+listas de verificación de auditoría. - Registro de no conformidades y
+acciones correctivas. - Verificación, validación y revisión del sistema.
+
+La IA debe marcar como “borrador para revisión” cualquier plan que
+requiera datos reales de planta, validación técnica o aprobación de un
+profesional responsable.
+
+============================================================ 9.
+METADATOS PARA LA INGESTIÓN
+============================================================
+
+Registrar para cada archivo: - id_documento - título original -
+organismo emisor - número de norma y edición - fecha de publicación y de
+consulta - país o jurisdicción - sector y alcance - URL oficial - estado
+de vigencia por verificar - capítulos y páginas - tipo de requisito:
+legal, normativo, guía o procedimiento interno - temas, palabras clave y
+versión del archivo - restricciones de acceso o derechos de autor
+
+Proceso recomendado: 1. Obtener el documento de fuente oficial o acceso
+autorizado. 2. Guardar el archivo original sin alterarlo. 3. Extraer
+texto, tablas, encabezados y páginas. 4. Dividir por cláusula o sección
+conservando la referencia. 5. Indexar fragmentos con metadatos y
+embeddings. 6. Recuperar fuentes pertinentes antes de responder. 7.
+Citar documento, edición, cláusula y página. 8. Diferenciar el resumen
+de la cita literal. 9. Verificar actualizaciones y retirar versiones
+obsoletas del índice activo.
+
+============================================================ 10. REGLAS
+PARA RESPUESTAS DE LA IA
+============================================================
+
+-   No afirmar que una empresa cumple ISO 22000 solo por tener
+    documentos.
+-   No confundir BPM, POES, HACCP e ISO 22000: son herramientas
+    relacionadas, pero no equivalentes.
+-   No inventar límites críticos; deben estar justificados y validados.
+-   No proponer PCC sin análisis de peligros específico del proceso.
+-   Separar requisitos legales de recomendaciones voluntarias.
+-   Indicar cuándo falta información del producto, proceso o
+    establecimiento.
+-   Citar fuentes oficiales y distinguir la edición consultada.
+-   No reproducir extensamente normas protegidas por derechos de autor.
+-   Recomendar revisión por el equipo de inocuidad y personal competente
+    antes de implementar.
+
+============================================================ 11. PRÓXIMO
+LOTE SUGERIDO
+============================================================
+
+LOTE 05 — INGENIERÍA DE ALIMENTOS Y OPERACIONES UNITARIAS: -
+Transferencia de calor y tratamiento térmico. - Refrigeración y
+congelación. - Secado, concentración y evaporación. - Pasteurización y
+esterilización comercial. - Balance de materia y energía. - Equipos de
+proceso y control de parámetros. - Envasado y vida útil.
+
+FIN DEL LOTE 04

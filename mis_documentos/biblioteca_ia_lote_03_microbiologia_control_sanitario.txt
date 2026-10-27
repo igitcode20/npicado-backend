@@ -1,0 +1,257 @@
+BIBLIOTECA TÉCNICA PARA IA — LOTE 03 MICROBIOLOGÍA DE ALIMENTOS,
+MUESTREO Y CONTROL SANITARIO
+
+Versión: 1.0 Fecha de compilación: 22 de octubre de 2026 Idioma
+principal: español Tipo de recurso: catálogo de fuentes oficiales y guía
+de ingestión documental Alcance: microbiología de alimentos, patógenos,
+análisis microbiológico, muestreo ambiental, agua potable, limpieza y
+desinfección.
+
+IMPORTANTE Este archivo es un índice curado de fuentes y una guía para
+incorporarlas a una biblioteca RAG. No contiene el texto íntegro de
+todos los manuales enlazados ni significa que se hayan descargado todos
+los PDF. Antes de usar una norma para tomar decisiones legales o liberar
+un lote de producto, verificar la edición vigente, el ámbito de
+aplicación y los requisitos nacionales aplicables.
+
+============================================================ 1. MANUAL
+DE ANÁLISIS BACTERIOLÓGICO DE ALIMENTOS — FDA BAM
+============================================================
+
+Institución: U.S. Food and Drug Administration (FDA) URL:
+https://www.fda.gov/food/laboratory-methods-food/bacteriological-analytical-manual-bam
+
+Descripción: Manual público con procedimientos de laboratorio para
+análisis microbiológicos de alimentos y productos relacionados. Incluye
+preparación de muestras, recuento en placa, métodos para microorganismos
+específicos, toxinas microbianas y anexos metodológicos. La página
+muestra las revisiones y actualizaciones por capítulo.
+
+Usos en la IA: - Identificar qué método analítico describe cada
+capítulo. - Consultar preparación y homogeneización de muestras. -
+Orientar búsquedas sobre recuento aerobio y detección de patógenos. -
+Comparar el propósito y las limitaciones de métodos de análisis.
+
+Precaución: Los métodos deben aplicarse por personal competente, con
+equipos, medios, controles de calidad y procedimientos validados. No
+sustituir un método reglamentario nacional o contractual por uno
+diferente sin verificar su aceptación.
+
+============================================================ 2. MUESTREO
+AMBIENTAL EN INSTALACIONES ALIMENTARIAS — FDA
+============================================================
+
+Institución: FDA URL:
+https://www.fda.gov/food/sampling-protect-food-supply/environmental-sampling
+
+Descripción: Resumen sobre toma de muestras ambientales en plantas de
+alimentos y cocinas comerciales, incluidas superficies que contactan
+alimentos y superficies que no contactan alimentos. Explica por qué el
+ambiente puede contribuir a la contaminación del producto.
+
+Temas para indexar: - Hisopos y esponjas estériles. - Superficies de
+contacto y no contacto. - Investigación de Salmonella spp. y Listeria
+monocytogenes. - Verificación de limpieza y controles sanitarios. -
+Acciones correctivas, registros y seguimiento de resultados.
+
+Precaución: Un plan de muestreo debe diseñarse según el producto, el
+proceso, el riesgo y la normativa aplicable. Un resultado negativo no
+demuestra por sí solo que toda la instalación esté libre de patógenos.
+
+============================================================ 3.
+PRINCIPIOS GENERALES DE HIGIENE DE LOS ALIMENTOS — CODEX CXC 1-1969
+============================================================
+
+Institución: Comisión del Codex Alimentarius (FAO/OMS) Página de códigos
+de prácticas:
+https://www.fao.org/fao-who-codexalimentarius/codex-texts/codes-of-practice/en/
+
+Texto de referencia disponible:
+https://www.fao.org/4/w6419e/w6419e03.htm
+
+Descripción: Código internacional que aborda higiene de alimentos,
+contaminación, limpieza, desinfección, agua, instalaciones, prácticas
+del personal y principios del sistema HACCP. La página de Codex
+identifica CXC 1-1969 como Principios Generales de Higiene de los
+Alimentos y señala la revisión de 2022.
+
+Temas para indexar: - Peligros biológicos, químicos y físicos. -
+Contaminación cruzada entre alimentos crudos y listos para consumo. -
+Higiene del personal y diseño higiénico. - Limpieza y desinfección. -
+Programas prerrequisito y sistema HACCP. - Verificación, vigilancia y
+registros.
+
+Precaución: Codex es una referencia internacional. La obligatoriedad
+legal depende de cómo las normas nacionales o regionales adopten o
+incorporen sus disposiciones.
+
+============================================================ 4.
+CRITERIOS MICROBIOLÓGICOS Y SU APLICACIÓN — CODEX CXG 21-1997
+============================================================
+
+Institución: Comisión del Codex Alimentarius (FAO/OMS) Página oficial de
+estándares y directrices:
+https://www.fao.org/fao-who-codexalimentarius/codex-texts/all-standards/en/
+
+Referencia: CXG 21-1997 — Principles and Guidelines for the
+Establishment and Application of Microbiological Criteria Related to
+Foods.
+
+Uso: - Comprender el propósito de un criterio microbiológico. -
+Distinguir criterios para aceptación de producto, proceso o higiene. -
+Interpretar la relación entre microorganismo, alimento, plan de muestreo
+y método analítico. - Evitar interpretar un resultado aislado sin
+conocer el plan de muestreo y el límite aplicable.
+
+Precaución: No asumir límites universales. Los valores y planes de
+muestreo dependen de la categoría del alimento, el uso previsto, la
+legislación vigente y las especificaciones del cliente.
+
+============================================================ 5. AGUA
+POTABLE Y CONTROL SANITARIO — ORGANIZACIÓN MUNDIAL DE LA SALUD
+============================================================
+
+Publicaciones de la OMS sobre agua potable:
+https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/water-safety-and-quality/publications
+
+Paquetes de inspección sanitaria para pequeños suministros de agua
+(2024): https://www.who.int/publications/i/item/9789240089006
+
+Descripción: Recursos sobre calidad del agua, inspección sanitaria y
+riesgos que pueden afectar fuentes y sistemas pequeños de
+abastecimiento. La inspección sanitaria ayuda a reconocer factores de
+riesgo en el sitio y puede apoyar planes de seguridad del agua.
+
+Temas para indexar: - Riesgos de contaminación de fuentes y
+almacenamiento. - Inspección sanitaria con listas de comprobación. -
+Planificación de seguridad del agua. - Muestreo, transporte y
+conservación de muestras. - Diferencia entre inspección sanitaria y
+análisis de laboratorio.
+
+Precaución: Los criterios legales de agua potable deben verificarse en
+la normativa nacional vigente. La toma y el transporte de muestras deben
+seguir el protocolo del laboratorio y del método correspondiente.
+
+============================================================ 6. AGUA EN
+ESTABLECIMIENTOS ALIMENTARIOS — FDA FOOD CODE
+============================================================
+
+Documento de referencia:
+https://www.fda.gov/media/164194/download?lang=en
+
+Descripción: El Food Code contiene disposiciones modelo para
+establecimientos alimentarios, incluidas secciones sobre agua, plomería,
+residuos y condiciones sanitarias. Es útil como referencia técnica
+comparativa, pero no debe presentarse automáticamente como ley aplicable
+en Nicaragua.
+
+Temas para indexar: - Abastecimiento de agua de fuente segura. -
+Prevención de conexiones cruzadas entre agua potable y no potable. -
+Desinfección de sistemas tras reparaciones o incidentes. - Muestreo y
+documentación de resultados de agua. - Gestión sanitaria de residuos y
+drenajes.
+
+============================================================ 7. CONTROL
+DE E. COLI PRODUCTORA DE TOXINA SHIGA (STEC) — CODEX CXG 99-2023
+============================================================
+
+Página oficial de textos Codex:
+https://www.fao.org/fao-who-codexalimentarius/codex-texts/all-standards/en/
+
+Referencia: CXG 99-2023 — Guidelines for the Control of Shiga
+Toxin-Producing E. coli (STEC) in Raw Beef, Fresh Leafy Vegetables, Raw
+Milk and Raw Milk Cheeses, and Sprouts.
+
+Uso: - Reconocer que determinados alimentos pueden requerir controles
+específicos frente a STEC. - Buscar medidas de prevención a lo largo de
+la cadena alimentaria. - Relacionar peligros microbiológicos con materia
+prima, proceso y uso previsto.
+
+Precaución: No extrapolar una recomendación específica a todos los
+alimentos. Consultar el texto oficial y la regulación pertinente antes
+de diseñar controles.
+
+============================================================ 8. USO Y
+REUTILIZACIÓN SEGURA DEL AGUA EN LA PRODUCCIÓN DE ALIMENTOS — CODEX CXG
+100-2023 ============================================================
+
+Página oficial:
+https://www.fao.org/fao-who-codexalimentarius/codex-texts/all-standards/en/
+
+Referencia: CXG 100-2023 — Guidelines for the Safe Use and Reuse of
+Water in Food Production and Processing.
+
+Uso: - Investigar evaluación de riesgos asociados al agua en producción
+y procesamiento. - Distinguir usos del agua según el punto del proceso y
+el riesgo. - Vincular calidad del agua, medidas de control y uso
+previsto.
+
+Precaución: Confirmar en el documento oficial las condiciones,
+definiciones y medidas aplicables a cada uso del agua.
+
+============================================================ 9. ESQUEMA
+DE INGESTIÓN PARA LA BIBLIOTECA DE LA IA
+============================================================
+
+Para cada recurso descargado, registrar:
+
+-   id_documento: identificador único.
+-   título_original: nombre tal como aparece en la fuente.
+-   institución: FDA, OMS, FAO/OMS-Codex u organismo nacional.
+-   tipo: manual, norma, guía, artículo técnico o procedimiento.
+-   idioma: idioma del documento.
+-   edición_fecha: edición, revisión o fecha de publicación.
+-   url_oficial: enlace original.
+-   fecha_consulta: fecha en que se verificó la fuente.
+-   jurisdicción: internacional, Estados Unidos, Nicaragua u otra.
+-   alcance: productos, procesos o instalaciones cubiertos.
+-   temas: microorganismos, muestreo, agua, limpieza, HACCP, etc.
+-   método: método analítico citado, si corresponde.
+-   limitaciones: restricciones y advertencias del documento.
+-   estado_verificación: por revisar, verificado o sustituido.
+
+Flujo recomendado: 1. Descargar desde la página oficial cuando exista
+acceso permitido. 2. Conservar el archivo original y registrar su URL y
+edición. 3. Extraer texto y tablas; aplicar OCR solo si el documento es
+escaneado. 4. Dividir por capítulos o secciones, manteniendo títulos y
+números de página. 5. Generar embeddings por fragmento y guardar
+metadatos. 6. Recuperar fragmentos relevantes mediante búsqueda híbrida
+(texto + vector). 7. Responder con citas al documento, capítulo y página
+cuando estén disponibles. 8. Separar claramente los requisitos legales
+de las recomendaciones técnicas. 9. Revisar periódicamente si la fuente
+fue actualizada o sustituida.
+
+============================================================ 10. REGLAS
+DE RESPUESTA PARA LA IA
+============================================================
+
+-   No inventar resultados de laboratorio, límites microbiológicos ni
+    referencias.
+-   Diferenciar detección, recuento, ausencia en una cantidad
+    determinada y cumplimiento legal.
+-   No declarar un alimento “seguro” basándose únicamente en una prueba
+    aislada.
+-   Si falta la categoría del alimento, el plan de muestreo o la norma
+    aplicable, pedir esos datos.
+-   Si las fuentes discrepan, mostrar la discrepancia y priorizar la
+    norma obligatoria vigente para la jurisdicción correspondiente.
+-   Citar el título, organismo, edición/fecha, capítulo o sección y
+    enlace consultado.
+-   Indicar cuándo una fuente es una guía extranjera de referencia y no
+    una norma nacional.
+-   Para decisiones de liberación de lotes, investigación de brotes o
+    cumplimiento reglamentario, recomendar evaluación por personal
+    competente y laboratorio autorizado cuando corresponda.
+
+============================================================ 11. PRÓXIMO
+LOTE SUGERIDO
+============================================================
+
+LOTE 04 — SISTEMAS DE GESTIÓN DE INOCUIDAD: - HACCP: análisis de
+peligros y puntos críticos de control. - ISO 22000: sistema de gestión
+de inocuidad alimentaria. - Programas prerrequisito (PPR). -
+Trazabilidad, retiro/recuperación de producto y gestión de incidentes. -
+Auditorías internas, acciones correctivas y verificación. -
+Documentación de BPM, POES y registros.
+
+FIN DEL LOTE 03

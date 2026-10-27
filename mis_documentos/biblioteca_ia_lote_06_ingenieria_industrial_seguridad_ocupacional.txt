@@ -1,0 +1,273 @@
+BIBLIOTECA TÉCNICA PARA IA — LOTE 06 INGENIERÍA INDUSTRIAL, MEJORA
+CONTINUA Y SEGURIDAD OCUPACIONAL
+
+Versión: 1.0 Fecha de compilación: 22 de octubre de 2026 Idioma: español
+Tipo: catálogo técnico, fundamentos y guía de ingestión documental.
+
+IMPORTANTE Este lote es material introductorio y una colección de
+fuentes de referencia. No sustituye las normas legales vigentes de
+Nicaragua, evaluaciones profesionales de riesgos ni manuales técnicos
+completos. Las referencias OSHA/NIOSH son recursos técnicos de Estados
+Unidos y no deben presentarse automáticamente como legislación
+nicaragüense.
+
+============================================================ 1. MEJORA
+CONTINUA Y ESTADÍSTICA PARA INGENIERÍA
+============================================================
+
+NIST/SEMATECH e-Handbook of Statistical Methods:
+https://www.itl.nist.gov/div898/handbook/
+
+Página institucional:
+https://www.nist.gov/programs-projects/nistsematech-engineering-statistics-handbook
+
+Contenido: - Análisis exploratorio de datos. - Caracterización de
+procesos y sistemas de medición. - Diseño de experimentos. - Modelado de
+procesos. - Comparación de procesos y productos. - Monitoreo y control
+estadístico. - Evaluación de confiabilidad.
+
+Aplicaciones para la IA: - Ayudar a seleccionar un análisis estadístico
+apropiado. - Explicar supuestos, tamaños de muestra e incertidumbre. -
+Diferenciar correlación de causalidad. - Apoyar el análisis de datos de
+calidad y productividad. - Señalar cuándo se necesita asesoría
+estadística especializada.
+
+============================================================ 2. LEAN
+MANUFACTURING Y ELIMINACIÓN DE DESPERDICIOS
+============================================================
+
+Referencia de introducción: Lean Enterprise Institute — What is Lean?
+https://www.lean.org/explore-lean/what-is-lean/
+
+Conceptos a indexar: - Valor desde la perspectiva del cliente. - Mapeo
+del flujo de valor. - Flujo continuo. - Sistema pull y producción según
+demanda. - Mejora continua (kaizen). - Trabajo estandarizado. -
+Resolución estructurada de problemas.
+
+Desperdicios frecuentemente analizados: - Sobreproducción. - Esperas. -
+Transporte innecesario. - Sobreprocesamiento. - Inventario excesivo. -
+Movimientos innecesarios. - Defectos y retrabajos. - Talento y
+conocimientos del personal no aprovechados.
+
+La clasificación exacta puede variar según el marco utilizado. Antes de
+recomendar una mejora, definir el proceso, recopilar datos y validar que
+la acción no comprometa calidad, inocuidad o seguridad.
+
+============================================================ 3. 5S Y
+ORGANIZACIÓN DEL PUESTO DE TRABAJO
+============================================================
+
+Las 5S suelen describirse como: 1. Seiri: clasificar y retirar lo
+innecesario. 2. Seiton: ordenar e identificar lo necesario. 3. Seiso:
+limpiar e inspeccionar. 4. Seiketsu: estandarizar. 5. Shitsuke: sostener
+la práctica y disciplina.
+
+Aplicación: - Definir el área y el equipo responsable. - Tomar una línea
+base con fotografías y una lista de comprobación. - Establecer
+ubicaciones, etiquetas y criterios visuales. - Asignar responsables y
+frecuencias. - Medir resultados con auditorías periódicas. - Investigar
+obstáculos y corregir el sistema, no limitarse a regañar al personal.
+
+En industrias alimentarias, 5S debe ser compatible con BPM, POES,
+control de alérgenos y prevención de contaminación cruzada.
+
+============================================================ 4. ESTUDIO
+DE TIEMPOS Y MOVIMIENTOS
+============================================================
+
+Objetivo: Entender cómo se realiza una tarea, identificar actividades
+que no agregan valor y estimar tiempos de trabajo con un método
+documentado.
+
+Secuencia sugerida: - Definir tarea, alcance y propósito del estudio. -
+Descomponer la tarea en elementos observables. - Elegir un método de
+medición consistente. - Registrar suficientes observaciones
+representativas. - Documentar condiciones, pausas, variabilidad y
+restricciones. - Analizar cuellos de botella y movimientos
+innecesarios. - Proponer cambios seguros y probarlos. - Comparar el
+resultado con la línea base.
+
+Precauciones: - No utilizar una sola observación como si representara
+todo el proceso. - Considerar fatiga, ergonomía, aprendizaje,
+variabilidad y descansos. - No usar el estudio para fijar metas
+inseguras o eliminar pausas necesarias. - Conservar privacidad y aplicar
+los requisitos laborales pertinentes.
+
+============================================================ 5.
+INDICADORES DE PRODUCTIVIDAD Y EFICIENCIA
+============================================================
+
+Indicadores básicos:
+
+Productividad laboral = unidades producidas / horas de trabajo.
+
+Rendimiento de primera pasada = unidades conformes sin retrabajo /
+unidades procesadas × 100%.
+
+Tasa de defectos = unidades defectuosas / unidades inspeccionadas ×
+100%.
+
+Cumplimiento del plan = producción real / producción planificada × 100%.
+
+Disponibilidad = tiempo operativo / tiempo planificado de producción ×
+100%.
+
+Eficiencia global de los equipos (OEE): OEE = disponibilidad ×
+rendimiento × calidad.
+
+Para el OEE, los tres componentes se expresan como proporciones entre 0
+y 1 durante el cálculo; multiplicar por 100 al final para obtener
+porcentaje. Definir con claridad qué tiempos se consideran planificados
+y cómo se contabilizan paradas, velocidad y unidades defectuosas.
+
+Toda métrica necesita: - Fórmula explícita. - Unidades y periodo. -
+Fuente de datos. - Responsable de registro. - Línea base y objetivo
+razonable. - Reglas consistentes para comparar periodos.
+
+No comparar indicadores entre plantas sin confirmar que las definiciones
+y métodos de medición son equivalentes.
+
+============================================================ 6.
+MANTENIMIENTO PREVENTIVO Y CONFIABILIDAD
+============================================================
+
+Temas para indexar: - Mantenimiento correctivo, preventivo y
+predictivo. - Inventario y criticidad de activos. - Planes de inspección
+y lubricación. - Historial de fallas. - Repuestos críticos. - Análisis
+de causa raíz. - Disponibilidad, mantenibilidad y confiabilidad. -
+Seguridad al intervenir equipos.
+
+Indicadores: - MTBF: tiempo medio entre fallas, con definición apropiada
+para el tipo de activo. - MTTR: tiempo medio de reparación, definiendo
+qué etapas del tiempo incluye. - Cumplimiento del mantenimiento
+preventivo. - Porcentaje de mantenimiento planificado. - Reincidencia de
+fallas.
+
+Las fórmulas y criterios de registro deben quedar documentados. No
+intervenir máquinas sin procedimientos de aislamiento de energía,
+permisos y personal autorizado cuando correspondan.
+
+============================================================ 7.
+SEGURIDAD Y SALUD OCUPACIONAL — OSHA
+============================================================
+
+OSHA — Recommended Practices for Safety and Health Programs:
+https://www.osha.gov/safety-management/
+
+Material en español:
+https://www.osha.gov/safety-management/download-recommended-practices
+
+Temas: - Liderazgo y participación de los trabajadores. - Identificación
+y evaluación de peligros. - Prevención y control de riesgos. - Formación
+y comunicación. - Preparación ante emergencias. - Investigación de
+incidentes. - Evaluación del programa y mejora continua.
+
+La guía OSHA es una referencia técnica; la obligación legal en Nicaragua
+debe comprobarse en la legislación nacional vigente y en los requisitos
+sectoriales aplicables.
+
+============================================================ 8.
+JERARQUÍA DE CONTROLES DE RIESGOS — NIOSH
+============================================================
+
+CDC/NIOSH:
+https://www.cdc.gov/niosh/hierarchy-of-controls/about/index.html
+
+Orden general de preferencia: 1. Eliminación del peligro. 2. Sustitución
+por una alternativa menos peligrosa. 3. Controles de ingeniería para
+aislar a las personas del peligro. 4. Controles administrativos y
+prácticas de trabajo. 5. Equipo de protección personal (EPP).
+
+Principio: Priorizar, cuando sea viable, la eliminación, sustitución y
+los controles de ingeniería antes de depender únicamente de
+procedimientos o EPP. Puede ser necesario combinar varias medidas.
+
+La selección debe considerar el peligro, la exposición, la viabilidad,
+los riesgos nuevos que pueda introducir una medida y la eficacia
+comprobada.
+
+============================================================ 9.
+ERGONOMÍA Y MANIPULACIÓN MANUAL
+============================================================
+
+CDC/NIOSH — Ergonomics programs:
+https://www.cdc.gov/niosh/ergonomics/ergo-programs/implement.html
+
+Temas: - Posturas forzadas. - Repetición y fuerza. - Alcance y altura de
+trabajo. - Empuje y arrastre. - Manipulación manual de cargas. - Diseño
+de herramientas y estaciones. - Ayudas mecánicas, rediseño y rotación de
+tareas. - Pausas y evaluación de factores de riesgo.
+
+La capacidad segura de levantamiento no se determina por un único peso
+universal. Depende de postura, distancia, frecuencia, agarre, altura,
+torsión, condiciones del piso y características de la tarea. En caso de
+duda, realizar una evaluación ergonómica competente.
+
+============================================================ 10.
+ANÁLISIS DE RIESGOS Y ACCIONES CORRECTIVAS
+============================================================
+
+Herramientas de uso frecuente: - Matriz de identificación de peligros y
+evaluación de riesgos. - Diagrama de causa y efecto (Ishikawa). -
+Técnica de los cinco porqués. - Análisis modal de fallos y efectos
+(AMFE/FMEA). - Pareto para priorizar causas frecuentes. - Investigación
+de incidentes y casi accidentes.
+
+Cada método tiene límites. La puntuación de riesgo de una matriz no
+reemplaza el juicio técnico ni las obligaciones legales. Para riesgos
+graves o complejos, utilizar personal competente y métodos adecuados al
+sector.
+
+Formato mínimo de un registro: - Descripción del peligro o problema. -
+Actividad y personas potencialmente expuestas. - Consecuencias
+posibles. - Controles existentes. - Probabilidad y severidad según
+método definido. - Medidas adicionales, responsable y plazo. - Evidencia
+de ejecución. - Verificación de eficacia y fecha de cierre.
+
+============================================================ 11.
+INGESTIÓN DOCUMENTAL PARA LA IA
+============================================================
+
+Metadatos recomendados: - id_documento - título y autor/institución -
+país y jurisdicción - edición y fecha - tipo de fuente: norma, guía,
+manual, artículo o procedimiento - URL oficial y fecha de consulta -
+tema y subtema - páginas, capítulos y tablas - fórmulas, variables y
+unidades - supuestos y límites - estado de vigencia y verificación
+
+Proceso: 1. Obtener documentos de fuentes oficiales o con acceso
+autorizado. 2. Preservar el original y registrar su procedencia. 3.
+Extraer texto, tablas y fórmulas manteniendo páginas. 4. Dividir por
+sección y crear fragmentos recuperables. 5. Indexar con búsqueda textual
+y vectorial. 6. Recuperar evidencia antes de responder. 7. Citar título,
+edición, sección y página. 8. Distinguir recomendaciones técnicas de
+obligaciones legales. 9. Marcar los documentos antiguos o reemplazados
+para que no se presenten como vigentes.
+
+============================================================ 12. REGLAS
+PARA RESPUESTAS DE LA IA
+============================================================
+
+-   Mostrar fórmulas, unidades y supuestos al hacer cálculos.
+-   No inventar datos ni resultados de medición.
+-   Distinguir un ejemplo hipotético de un cálculo basado en datos
+    reales.
+-   No recomendar prácticas que pongan en peligro al personal.
+-   Explicar la incertidumbre y pedir los datos faltantes que cambien el
+    resultado.
+-   No presentar guías de otros países como legislación nicaragüense.
+-   Citar las fuentes consultadas y su fecha/edición.
+-   En incidentes graves, riesgos de maquinaria o instalaciones
+    críticas, recomendar evaluación por personal competente.
+
+============================================================ 13. PRÓXIMO
+LOTE SUGERIDO
+============================================================
+
+LOTE 07 — INGENIERÍA CIVIL, MATERIALES Y CONSTRUCCIÓN: - Mecánica de
+suelos y cimentaciones. - Concreto, acero y materiales. - Lectura de
+planos y especificaciones. - Hidráulica básica. - Estimación de
+cantidades y presupuestos. - Control de calidad de obra y seguridad de
+construcción. - Fuentes normativas oficiales y manuales técnicos de
+acceso autorizado.
+
+FIN DEL LOTE 06
